@@ -13356,6 +13356,29 @@
 									"cookie": [],
 									"responseTime": null,
 									"body": "{\n    \"code\": \"validation-error\",\n    \"message\": {\n        \"id\": [\n            \"The selected id is invalid.\"\n        ]\n    }\n}"
+								},
+								{
+									"id": "0ed640d9-9f7f-4246-9b20-fc6867d99138",
+									"name": "delete-country",
+									"originalRequest": {
+										"method": "DELETE",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{Host}}/api/admin/countries/1"
+									},
+									"_postman_previewlanguage": null,
+									"header": null,
+									"cookie": [],
+									"responseTime": null,
+									"body": null
 								}
 							]
 						}
@@ -41245,7 +41268,7 @@
 	],
 	"variable": [
 		{
-			"id": "0fafa11f-ceff-4990-8d22-d2ee23913167",
+			"id": "23f973c5-82f5-4c15-8627-84e34609875b",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
