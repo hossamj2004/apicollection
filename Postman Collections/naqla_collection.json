@@ -2569,16 +2569,16 @@
 										{
 											"key": "image",
 											"type": "file",
-											"src": "/home/mfathy/Desktop/other.png"
+											"src": "mW2zcFXYQ/IMG_20230416_035101.jpg"
 										},
 										{
 											"key": "name_en",
-											"value": "load-typed",
+											"value": "مبردد",
 											"type": "text"
 										},
 										{
 											"key": "name_ar",
-											"value": "نوع الحمولةd",
+											"value": "chillingg",
 											"type": "text"
 										},
 										{
@@ -40337,7 +40337,7 @@
 	],
 	"variable": [
 		{
-			"id": "58d42a92-da77-4988-a0ae-7f3fae3b612b",
+			"id": "a3dc471f-ab66-4c7a-9ece-38ea4fa67bcd",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
