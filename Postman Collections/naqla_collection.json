@@ -13029,7 +13029,12 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n    \"title_en\": \"test\"\n}"
+									"raw": "{\n    \"title_en\": \"test\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
 								},
 								"url": "{{Host}}/api/admin/sliders/1"
 							},
@@ -41268,7 +41273,7 @@
 	],
 	"variable": [
 		{
-			"id": "9a32a486-e064-46c6-9c67-f1cd63ad536f",
+			"id": "39813b8b-aa6c-4c6a-8ebd-b1dc3d395a76",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
