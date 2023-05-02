@@ -13191,7 +13191,7 @@
 							]
 						},
 						{
-							"name": "delete-country",
+							"name": "delete-slider",
 							"id": "e8f6b658-c199-4cc3-9680-6f126d4ce3e4",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
@@ -41268,7 +41268,7 @@
 	],
 	"variable": [
 		{
-			"id": "23f973c5-82f5-4c15-8627-84e34609875b",
+			"id": "512dae84-7f08-485c-b25a-c21be54a5c2b",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
