@@ -13028,10 +13028,16 @@
 								"method": "PUT",
 								"header": [],
 								"body": {
-									"mode": "raw",
-									"raw": ""
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "title_en",
+											"value": "slider",
+											"type": "text"
+										}
+									]
 								},
-								"url": "{{Host}}/api/admin/countries/1"
+								"url": "{{Host}}/api/admin/sliders/1"
 							},
 							"response": [
 								{
@@ -41268,7 +41274,7 @@
 	],
 	"variable": [
 		{
-			"id": "0f5ab181-30c0-45ac-93df-b0b5cbe7ddb7",
+			"id": "7c7fc81d-51e6-47f2-a9b5-b442eba3ec09",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
