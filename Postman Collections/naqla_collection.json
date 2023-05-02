@@ -12650,7 +12650,7 @@
 					"name": "Sliders",
 					"item": [
 						{
-							"name": "list-countries",
+							"name": "list-sliders",
 							"id": "135e6aad-892d-4264-b777-6bb07bd5c9fc",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
@@ -41245,7 +41245,7 @@
 	],
 	"variable": [
 		{
-			"id": "77b8fd24-21bb-408b-aef0-acd1221c8f51",
+			"id": "51386fc6-a5ec-4e04-ae31-9ac59434f266",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
