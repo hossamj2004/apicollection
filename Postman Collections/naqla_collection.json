@@ -13013,7 +13013,7 @@
 							]
 						},
 						{
-							"name": "update-country",
+							"name": "update-slider",
 							"id": "8abdfeed-bca0-4819-a5ac-425d6931eb49",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
@@ -41245,7 +41245,7 @@
 	],
 	"variable": [
 		{
-			"id": "eaace836-5560-429f-88dd-978b4a700aef",
+			"id": "0fafa11f-ceff-4990-8d22-d2ee23913167",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
