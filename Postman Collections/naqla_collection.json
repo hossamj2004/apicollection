@@ -13344,7 +13344,70 @@
 								},
 								"url": "{{Host}}/api/admin/sliders/1"
 							},
-							"response": []
+							"response": [
+								{
+									"id": "7019949e-4980-459f-adc1-515a51dccae5",
+									"name": "success-response",
+									"originalRequest": {
+										"method": "DELETE",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{Host}}/api/admin/sliders/1"
+									},
+									"status": "No Content",
+									"code": 204,
+									"_postman_previewlanguage": "plain",
+									"header": [
+										{
+											"key": "Host",
+											"value": "localhost:3000"
+										},
+										{
+											"key": "Date",
+											"value": "Wed, 03 May 2023 09:35:06 GMT"
+										},
+										{
+											"key": "Date",
+											"value": "Wed, 03 May 2023 09:35:06 GMT"
+										},
+										{
+											"key": "Connection",
+											"value": "close"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/8.1.13"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "59"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": null
+								}
+							]
 						}
 					],
 					"id": "ba909113-b9ab-42ac-bdde-8341b34caa44"
@@ -41232,7 +41295,7 @@
 	],
 	"variable": [
 		{
-			"id": "3f0dc9c2-dbd8-4c49-bb0f-58d4fa5c4078",
+			"id": "0decb9cb-e1f2-471e-a79b-c8e7d1c71908",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
