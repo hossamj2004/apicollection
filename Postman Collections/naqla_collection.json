@@ -13188,83 +13188,6 @@
 									"cookie": [],
 									"responseTime": null,
 									"body": "{\n       \"id\": 1,  \n       \"name_ar\": \"مصر\",  \n       \"name_en\": \"Egypt\"   \n    \n}"
-								},
-								{
-									"id": "afa84d79-5c94-4795-a811-ece3c735f079",
-									"name": "validation-error",
-									"originalRequest": {
-										"method": "POST",
-										"header": [],
-										"body": {
-											"mode": "formdata",
-											"formdata": [
-												{
-													"key": "_method",
-													"value": "put",
-													"type": "text"
-												},
-												{
-													"key": "name_ar",
-													"value": "آروبا",
-													"type": "text"
-												},
-												{
-													"key": "name_en",
-													"value": "Aruba",
-													"type": "text"
-												}
-											]
-										},
-										"url": "{{Host}}/api/admin/countries/290"
-									},
-									"status": "Bad Request",
-									"code": 400,
-									"_postman_previewlanguage": "json",
-									"header": [
-										{
-											"key": "Host",
-											"value": "localhost:3000"
-										},
-										{
-											"key": "Date",
-											"value": "Mon, 13 Mar 2023 18:30:44 GMT"
-										},
-										{
-											"key": "Date",
-											"value": "Mon, 13 Mar 2023 18:30:44 GMT"
-										},
-										{
-											"key": "Connection",
-											"value": "close"
-										},
-										{
-											"key": "X-Powered-By",
-											"value": "PHP/8.1.13"
-										},
-										{
-											"key": "Cache-Control",
-											"value": "no-cache, private"
-										},
-										{
-											"key": "Content-Type",
-											"value": "application/json"
-										},
-										{
-											"key": "X-RateLimit-Limit",
-											"value": "60"
-										},
-										{
-											"key": "X-RateLimit-Remaining",
-											"value": "59"
-										},
-										{
-											"key": "Access-Control-Allow-Origin",
-											"value": "*"
-										}
-									],
-									"cookie": [],
-									"responseTime": null,
-									"body": "{\n    \"code\": \"validation-error\",\n    \"message\": {\n        \"id\": [\n            \"The selected id is invalid.\"\n        ]\n    }\n}"
 								}
 							]
 						},
@@ -41346,7 +41269,7 @@
 	],
 	"variable": [
 		{
-			"id": "b1889024-2dab-4502-acdc-4060f96047f4",
+			"id": "79bc6cfa-5d3f-4e4a-a7f8-68f9e9cd1fce",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
