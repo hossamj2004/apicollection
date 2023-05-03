@@ -18591,7 +18591,74 @@
 								},
 								"url": "{{Host}}/api/admin/orders"
 							},
-							"response": []
+							"response": [
+								{
+									"id": "044ee17a-f4f6-4d3e-b6a1-f960cf081b03",
+									"name": "create-export-order-raw",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"job_type_id\": \"2\",\n    \"client_id\": 1,\n    \"shipper_id\": 1,\n    \"ops_expanses\": 10.55,\n    \"customs_procedure\": \"shahada\",\n    \"customs_broker_name\": \"fathy\",\n    \"customs_broker_phone\": \"1008292985\",\n    \"customs_clearance_gate\": 2,\n    \"reference\": \"reference\",\n    \"special_cases\": \"special_cases\",\n    \"load_weight_unit\": \"kg\",\n    \"load_weight\": 100,\n    \"cost\": 50.99,\n    \"price\": 100.10,\n    \"number_of_jobs\": 1,\n    \"container_count\": 2,\n    \"container_type_id\": 2,\n    \"truck_type_id\": [\n        1,\n        2\n    ],\n    \"commodity_id\": [\n        1,\n        2\n    ],\n    \"prices\": [\n        {\n            \"model_type\": \"Accessory\",\n            \"model_id\": 1,\n            \"cost\": 100.99,\n            \"price\": 110.66,\n            \"type\": \"facilitated_by_naqla\",\n            \"vendor_id\": 1,\n            \"quantity\": 4,\n            \"currency\": \"EGP\",\n            \"rate\": 1\n        }\n    ],\n    \"job_locations\": [\n        {\n            \"ordering\": 1,\n            \"lng\": 30.22,\n            \"lat\": 29.22,\n            \"address\": \"address\",\n            \"job_location_status\": \"ready\",\n            \"gate_id\": 1,\n            \"description\": \"test description\",\n            \"location_type_id\": 5,\n            \"time\": \"2025-05-14 22:03:42\",\n            \"contact_number\": \"1008292985\",\n            \"contact_name\": \"Mohamed Fathy\"\n        },\n        {\n            \"ordering\": 2,\n            \"lng\": 30.22,\n            \"lat\": 29.22,\n            \"address\": \"address\",\n            \"job_location_status\": \"ready\",\n            \"gate_id\": null,\n            \"description\": \"test description\",\n            \"location_type_id\": 6,\n            \"time\": \"2025-05-14 22:03:42\",\n            \"contact_number\": \"1008292985\",\n            \"contact_name\": \"Mohamed Fathy\"\n        },\n        {\n            \"ordering\": 3,\n            \"lng\": 30.22,\n            \"lat\": 29.22,\n            \"address\": \"address\",\n            \"job_location_status\": \"ready\",\n            \"gate_id\": 2,\n            \"description\": \"test description\",\n            \"location_type_id\": 3,\n            \"time\": \"2025-05-14 22:03:42\",\n            \"contact_number\": \"1008292985\",\n            \"contact_name\": \"Mohamed Fathy\"\n        }\n    ],\n    \"job_containers\": [\n        {\n            \"shipping_line_id\": 1,\n            \"booking_code\": \"mh234341\",\n            \"container_number\": \"msd215st1\",\n            \"container_port_code\": \"ADCAN\"\n        },\n        {\n            \"shipping_line_id\": 2,\n            \"booking_code\": \"mh234342\",\n            \"container_number\": \"msd215st2\",\n            \"container_port_code\": \"ADALV\"\n        }\n    ],\n    \"attached_files\": [\n        {\n            \"description\": \"booking\",\n            \"file\": \"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPAAAADwCAMAAAAJixmgAAAAolBMVEX///8AAABGWYPk5+2DhYmOlaWkp62Rm69QWGrIzddVYHgsM0FtdIN/j7LGytKGipJKUFzh4+anq7Sfn5/M0uDl6O/BwsR7iKY5RmJgcZXg4eNFSE4/UHOZpsImKTDg4OGvuMqio6ZobXfEx83j5uustMMdLEwsQnIHCxMOFiYWITkkN18zTYWEl77O1eWdrMvm6vK1wNhsgrFTbaT///87WZh419MaAAAAAnRSTlN+fnCSxXsAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAWESURBVHic7Z17e5s2HIWza7dmvW1rsjbtLk1m7MQSApnv/9UGQhJXYeSpm3163j8S4Cc4ei1ZJvbzOFfVF8bV/92B/xoKo0NhdCiMDoXRoTA6FEaHwuhQGB0Ko0NhdCiMDoXRoTA6FEaHwuhQGB0Ko0NhdCiMDoXRoTA6FEaHwuhQGB0Ko0NhdCiMDoXRoTA6FEaHwuhQGB0Ko0NhdCiMDoXRoTA6FEaHwuhQGB0Ko0NhdCiMDoXRoTA6FEaHwuhQGB0Ko0NhdCiMDoXn0GVZ6s/ajc+f4DgqXBbq0KLyfpdyqfpIcbQQmZAuYMAR4VIe+uS+MDzeqwULkQnJAqKE8/G1pS3oSepBLRciE5IFRAnPXNw+mmUoNliITEgVECc8c/GDDlXkciEyIVVAnHDlH8Pu6qEBUKFHQi2uvqGEZAFxwuLglk6/thT9WFV67BnBQmRCsoA44UoLfz3Vnz8udnJCsBCZkC5gxPo7reJfCotc+LlX5vnMPCyQhLUZvvYeQctuO5RwBsJ2wg0WLVWPVVH0hi5YsK+3xlIGutxPiA5ILuxWx3Kw5xZXqUfNxgV3g6H9QB4WE6IDkgurwVSavjiI5YLvp1mXG4rFhOiA1MLyWOxIbFJw4+ouNHn1lOuuEyykFfbdrYLCwTske3M2uukfv3yOEk4ISCmcjy89F1ssFuw67RiPyjjhhICEwr43fljsTb8qhMi9yGJh2NVxFycJpwQkE/a96Q1LMwNV3m37zgYLlV+uprf7MwmnBCQSFtPe1JTdLWE1qAcLXf/GT7rZhFMCVnBceN53gAw1GBa6P36HM/p4wsqANRwVXuG7sj/9VavfNN0juoZjwqHeaNEdcCNXLhaGr0vdrAwknBCwimNv4rne5Npik1SzctjbTDdyi4XuCWxQkxe4YcIJAUmEB6+dbU/9Umn2pPRN5GLBDaR/S3Y5IT4gibA4TFHz3bTzKlTw99La9bhYTIgOSCM8eRO1oZlz0zeHrUCo4I6Xg81wQnRAGuG5x98ITwtF6Iy2YHeaGwbd/7s3lBAdkEZ45m1j++QTo6nl3/0PFFSvb3Z6i8WE2IA0wt066On+EvcfCY0+dZotlP2xMH0ujiXEBSQSXkaXIs/FzMd+MwU9+HiwXPfeTEzASvj5MDoURofC6FAYHQqjQ2F0KIwOhdGhMDoURofC6FAYHQqjQ2F0KIwOhdGhMDoURofC6FAYHQqjQ2F0KIwOhdGhMDoURofC6FAYHQqjQ2F0KIwOhdGhMDoURofC6FAYHQqjQ2F0KIwOhdGhMDoXKnz0myyDDc5fePZ77+S75RZaZea3mnxN79kLi2I/c1S+zhZb6Lfb9vf2aVQ5f+G/H2eODoRnWjjhavJYnLuwVA/3UldCKmmelnbDCOtCqULbFoX5QtVmBovmqBVuvvbSn2s4d+Hq01/b3e6j/LC7e/+u+Qdx7YYRli8et3c/7U2LvfyhHkzx7Klpsr27t8Ly+d6dYjl7YTNh1W+7fXV7k/kNI6yu6ydo9tROaXNEPNtUV6bJeyv8OvPntlyEsFbbevj0w85vGL385oWu3HPYCWv1lWnihL92p9jrXYawmaD1T7/RLlrPX/34thwLuybm7Fp4sH8hwtVV093y163fsKt0tvl0k/WE82ZKmyZeOPPntpy9cPlQ6xS/1Fvyduc3ilfNeFbN47EzLar8+6ye+t9tbJNvtlXzVb21sD+35eyFqz//kKL6+Y1U+a5eo+yGfvNSVMWDlPLDY9tCv7yX8uO3G9NElvWipW73Ztz9uYbzF64ef697W//Ybuxes7FvD17XL0i2xf663tls2ia7rJ7CzV3WLqu6cxsuQNjeLu0He+7g3M70/qq3fxHCKaEwOhRGh8LofHHC/wD/l2F0zWdapgAAAABJRU5ErkJggg==\"\n        }\n    ]\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{Host}}/api/admin/orders"
+									},
+									"status": "Created",
+									"code": 201,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Host",
+											"value": "localhost:3000"
+										},
+										{
+											"key": "Date",
+											"value": "Wed, 03 May 2023 21:39:00 GMT"
+										},
+										{
+											"key": "Date",
+											"value": "Wed, 03 May 2023 21:39:00 GMT"
+										},
+										{
+											"key": "Connection",
+											"value": "close"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/8.1.13"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "58"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"id\": 75,\n    \"client\": {\n        \"id\": 1,\n        \"name_en\": \"Elsewedy Electric\",\n        \"name_ar\": \"السويدي اليكتريك\"\n    },\n    \"shipper\": {\n        \"id\": 1,\n        \"name_en\": \"Elsewedy Electric\",\n        \"name_ar\": \"السويدي اليكتريك\"\n    },\n    \"order_status\": {\n        \"id\": 1,\n        \"name_en\": \"pending pricing\",\n        \"name_ar\": \"بانتظار التسعير\"\n    },\n    \"number_of_jobs\": 1,\n    \"created_at\": \"2023-05-03T21:38:59.000000Z\",\n    \"updated_at\": \"2023-05-03T21:38:59.000000Z\",\n    \"jobs\": [\n        {\n            \"id\": 124,\n            \"job_type\": {\n                \"id\": 2,\n                \"name_en\": \"EXP\",\n                \"name_ar\": \"صادر\"\n            },\n            \"client_id\": 1,\n            \"load_type\": {\n                \"id\": 2,\n                \"name_en\": \"chilled\",\n                \"name_ar\": \"مبرد\"\n            },\n            \"unit_quantity\": null,\n            \"reference\": \"reference\",\n            \"special_cases\": \"special_cases\",\n            \"cost\": \"50.99\",\n            \"selling\": \"100.10\",\n            \"ops_expanses\": \"10.55\",\n            \"price_per\": null,\n            \"load_weight\": \"100\",\n            \"customs_procedure\": \"shahada\",\n            \"customs_broker_name\": \"fathy\",\n            \"customs_broker_phone\": \"1008292985\",\n            \"job_status\": {\n                \"id\": 11,\n                \"name_en\": \"Pending Pricing\",\n                \"name_ar\": \"بانتظار التسعير من الادارة\"\n            },\n            \"driver\": null,\n            \"truck\": null,\n            \"tail\": null,\n            \"vendor\": null,\n            \"prices\": [\n                {\n                    \"id\": 185,\n                    \"model_type\": \"Job\",\n                    \"model_id\": 0,\n                    \"cost\": \"50.99\",\n                    \"price\": \"100.10\",\n                    \"vendor\": null,\n                    \"accessory\": null,\n                    \"quantity\": 1,\n                    \"order_id\": 75,\n                    \"currency\": \"EGP\",\n                    \"rate\": \"1.00\"\n                },\n                {\n                    \"id\": 186,\n                    \"model_type\": \"Accessory\",\n                    \"model_id\": 1,\n                    \"cost\": \"100.99\",\n                    \"price\": \"110.66\",\n                    \"vendor\": {\n                        \"id\": 1,\n                        \"name_en\": \"ترانسلاند\",\n                        \"name_ar\": \"IACC Transland\"\n                    },\n                    \"accessory\": {\n                        \"id\": 1,\n                        \"name_en\": \"Trapulin\",\n                        \"name_ar\": \"مشمع\"\n                    },\n                    \"quantity\": 4,\n                    \"order_id\": 75,\n                    \"currency\": \"EGP\",\n                    \"rate\": \"1.00\"\n                }\n            ],\n            \"locations\": [\n                {\n                    \"id\": 364,\n                    \"ordering\": 1,\n                    \"lng\": \"30.220000\",\n                    \"lat\": \"29.220000\",\n                    \"address\": \"address\",\n                    \"description\": \"test description\",\n                    \"job_location_status\": \"ready\",\n                    \"gate\": {\n                        \"id\": 1,\n                        \"name_en\": \"Adabeya\",\n                        \"name_ar\": \"ميناء الأدبية\"\n                    },\n                    \"location_type\": {\n                        \"id\": 5,\n                        \"name_en\": \"gateout\",\n                        \"name_ar\": \"ميناء تحميل الحاويات\"\n                    },\n                    \"time\": \"2025-05-14 22:03:42\",\n                    \"contact_number\": \"1008292985\",\n                    \"contact_name\": \"Mohamed Fathy\"\n                },\n                {\n                    \"id\": 365,\n                    \"ordering\": 2,\n                    \"lng\": \"30.220000\",\n                    \"lat\": \"29.220000\",\n                    \"address\": \"address\",\n                    \"description\": \"test description\",\n                    \"job_location_status\": \"ready\",\n                    \"gate\": null,\n                    \"location_type\": {\n                        \"id\": 6,\n                        \"name_en\": \"export destination\",\n                        \"name_ar\": \"عنوان العميل\"\n                    },\n                    \"time\": \"2025-05-14 22:03:42\",\n                    \"contact_number\": \"1008292985\",\n                    \"contact_name\": \"Mohamed Fathy\"\n                },\n                {\n                    \"id\": 366,\n                    \"ordering\": 3,\n                    \"lng\": \"30.220000\",\n                    \"lat\": \"29.220000\",\n                    \"address\": \"address\",\n                    \"description\": \"test description\",\n                    \"job_location_status\": \"ready\",\n                    \"gate\": {\n                        \"id\": 2,\n                        \"name_en\": \"PSDW\",\n                        \"name_ar\": \"ميناء غرب بورسعيد\"\n                    },\n                    \"location_type\": {\n                        \"id\": 3,\n                        \"name_en\": \"gatein\",\n                        \"name_ar\": \"ميناء تعتيق الحاويات\"\n                    },\n                    \"time\": \"2025-05-14 22:03:42\",\n                    \"contact_number\": \"1008292985\",\n                    \"contact_name\": \"Mohamed Fathy\"\n                }\n            ],\n            \"containers\": [\n                {\n                    \"id\": 186,\n                    \"container_type\": {\n                        \"id\": 2,\n                        \"name_en\": \"5\",\n                        \"name_ar\": \"10\"\n                    },\n                    \"shipping_line\": {\n                        \"id\": 1,\n                        \"name_en\": \"Maersk\",\n                        \"name_ar\": \"ميرسك\"\n                    },\n                    \"shipping_line_id\": 1,\n                    \"booking_code\": \"mh234341\",\n                    \"container_number\": \"msd215st1\",\n                    \"container_port_code\": \"ADCAN\"\n                },\n                {\n                    \"id\": 187,\n                    \"container_type\": {\n                        \"id\": 2,\n                        \"name_en\": \"5\",\n                        \"name_ar\": \"10\"\n                    },\n                    \"shipping_line\": {\n                        \"id\": 2,\n                        \"name_en\": \"hapag-lloyd\",\n                        \"name_ar\": \"هاباغ لويد\"\n                    },\n                    \"shipping_line_id\": 2,\n                    \"booking_code\": \"mh234342\",\n                    \"container_number\": \"msd215st2\",\n                    \"container_port_code\": \"ADALV\"\n                }\n            ],\n            \"commodities\": [\n                {\n                    \"id\": 1,\n                    \"name_en\": \"Textiles\",\n                    \"name_ar\": \"منسوجات\"\n                },\n                {\n                    \"id\": 2,\n                    \"name_en\": \"Stone\",\n                    \"name_ar\": \"أحجار\"\n                }\n            ],\n            \"truck_types\": [\n                {\n                    \"id\": 1,\n                    \"name_en\": \"Farsh\",\n                    \"name_ar\": \"فرش\"\n                },\n                {\n                    \"id\": 2,\n                    \"name_en\": \"Sides\",\n                    \"name_ar\": \"جوانب\"\n                }\n            ]\n        }\n    ],\n    \"attached_files\": [\n        {\n            \"id\": 43,\n            \"name\": \"media-libraryliWFIv\",\n            \"original_url\": \"https://vtwodevelopment.fra1.digitaloceanspaces.com/2023/orders/05/1683149939.png\",\n            \"custom_properties\": {\n                \"description\": \"booking\"\n            },\n            \"size\": 1678\n        }\n    ]\n}"
+								}
+							]
 						},
 						{
 							"name": "create-empties-order",
@@ -41344,7 +41411,7 @@
 	],
 	"variable": [
 		{
-			"id": "6e3683c8-79d2-46f4-885b-2d82f9ab4782",
+			"id": "fdd5fa0f-76e1-4ab8-90ed-dfcf7a6e3c68",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
