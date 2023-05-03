@@ -37338,6 +37338,246 @@
 							"id": "e8c9c76a-d597-475f-8c31-b6ce2e1793d0"
 						},
 						{
+							"name": "Sliders",
+							"item": [
+								{
+									"name": "list-truck-types",
+									"id": "2ec59eba-ce43-424a-bf8a-a477c3eaa567",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"auth": {
+											"type": "bearer",
+											"bearer": {
+												"token": "{{Client-Token}}"
+											}
+										},
+										"method": "GET",
+										"header": [
+											{
+												"key": "x-device-id",
+												"value": "00000000-54b3-e7c7-0000-000046bffd98",
+												"type": "text"
+											},
+											{
+												"key": "x-lang",
+												"value": "en",
+												"type": "text"
+											},
+											{
+												"key": "x-os-system",
+												"value": "Android",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "formdata",
+											"formdata": []
+										},
+										"url": {
+											"raw": "{{Host}}/api/apps/client/truck-types?filter[frequent]=1",
+											"host": [
+												"{{Host}}"
+											],
+											"path": [
+												"api",
+												"apps",
+												"client",
+												"truck-types"
+											],
+											"query": [
+												{
+													"key": "filter[frequent]",
+													"value": "1"
+												}
+											]
+										}
+									},
+									"response": [
+										{
+											"id": "22064acf-23ce-466c-ade7-aaa9d14b3fae",
+											"name": "list-truck-types",
+											"originalRequest": {
+												"method": "GET",
+												"header": [
+													{
+														"key": "x-device-id",
+														"value": "00000000-54b3-e7c7-0000-000046bffd98",
+														"type": "text"
+													},
+													{
+														"key": "x-lang",
+														"value": "en",
+														"type": "text"
+													},
+													{
+														"key": "x-os-system",
+														"value": "Android",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": "{{Host}}/api/apps/client/truck-types"
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Host",
+													"value": "localhost:3000"
+												},
+												{
+													"key": "Date",
+													"value": "Tue, 14 Mar 2023 11:40:24 GMT"
+												},
+												{
+													"key": "Date",
+													"value": "Tue, 14 Mar 2023 11:40:24 GMT"
+												},
+												{
+													"key": "Connection",
+													"value": "close"
+												},
+												{
+													"key": "X-Powered-By",
+													"value": "PHP/8.1.13"
+												},
+												{
+													"key": "Cache-Control",
+													"value": "no-cache, private"
+												},
+												{
+													"key": "Content-Type",
+													"value": "application/json"
+												},
+												{
+													"key": "X-RateLimit-Limit",
+													"value": "60"
+												},
+												{
+													"key": "X-RateLimit-Remaining",
+													"value": "59"
+												},
+												{
+													"key": "Access-Control-Allow-Origin",
+													"value": "*"
+												}
+											],
+											"cookie": [],
+											"responseTime": null,
+											"body": "{\n    \"code\": 200,\n    \"data\": {\n        \"TruckTypes\": [\n            {\n                \"id\": 1,\n                \"name\": \"فرش\",\n                \"name_en\": \"Farsh\",\n                \"name_ar\": \"فرش\",\n                \"image\": \"https://fra1.digitaloceanspaces.com/vtwodevelopment/truck-types/1678468385.png\",\n                \"status\": 1,\n                \"minimum_load\": 1000,\n                \"maximum_load\": 2000,\n                \"dimensions_en\": \"https://fra1.digitaloceanspaces.com/vtwodevelopment/truck-types/1678468421.png\",\n                \"dimensions_ar\": \"https://fra1.digitaloceanspaces.com/vtwodevelopment/truck-types/1678468421.png\",\n                \"truck_category\": {\n                    \"id\": 1,\n                    \"name_en\": \"Trella\",\n                    \"name_ar\": \"تريلا\",\n                    \"size\": \"heavy\"\n                }\n            },\n            {\n                \"id\": 2,\n                \"name\": \"جوانب\",\n                \"name_en\": \"Sides\",\n                \"name_ar\": \"جوانب\",\n                \"image\": \"https://fra1.digitaloceanspaces.com/vtwodevelopment/truck-types/1678468385.png\",\n                \"status\": 1,\n                \"minimum_load\": 1000,\n                \"maximum_load\": 2000,\n                \"dimensions_en\": \"https://fra1.digitaloceanspaces.com/vtwodevelopment/truck-types/1678468421.png\",\n                \"dimensions_ar\": \"https://fra1.digitaloceanspaces.com/vtwodevelopment/truck-types/1678468421.png\",\n                \"truck_category\": {\n                    \"id\": 1,\n                    \"name_en\": \"Trella\",\n                    \"name_ar\": \"تريلا\",\n                    \"size\": \"heavy\"\n                }\n            },\n            {\n                \"id\": 3,\n                \"name\": \"صندوق-جاف\",\n                \"name_en\": \"Box-Dry\",\n                \"name_ar\": \"صندوق-جاف\",\n                \"image\": \"https://fra1.digitaloceanspaces.com/vtwodevelopment/truck-types/1678468385.png\",\n                \"status\": 1,\n                \"minimum_load\": 1000,\n                \"maximum_load\": 2000,\n                \"dimensions_en\": \"https://fra1.digitaloceanspaces.com/vtwodevelopment/truck-types/1678468421.png\",\n                \"dimensions_ar\": \"https://fra1.digitaloceanspaces.com/vtwodevelopment/truck-types/1678468421.png\",\n                \"truck_category\": {\n                    \"id\": 1,\n                    \"name_en\": \"Trella\",\n                    \"name_ar\": \"تريلا\",\n                    \"size\": \"heavy\"\n                }\n            },\n            {\n                \"id\": 4,\n                \"name\": \"صندوق-مبرد\",\n                \"name_en\": \"Box-Child\",\n                \"name_ar\": \"صندوق-مبرد\",\n                \"image\": \"https://fra1.digitaloceanspaces.com/vtwodevelopment/truck-types/1678468385.png\",\n                \"status\": 1,\n                \"minimum_load\": 1000,\n                \"maximum_load\": 2000,\n                \"dimensions_en\": \"https://fra1.digitaloceanspaces.com/vtwodevelopment/truck-types/1678468421.png\",\n                \"dimensions_ar\": \"https://fra1.digitaloceanspaces.com/vtwodevelopment/truck-types/1678468421.png\",\n                \"truck_category\": {\n                    \"id\": 1,\n                    \"name_en\": \"Trella\",\n                    \"name_ar\": \"تريلا\",\n                    \"size\": \"heavy\"\n                }\n            },\n            {\n                \"id\": 5,\n                \"name\": \"اتنين صندوق\",\n                \"name_en\": \"Two Boxes\",\n                \"name_ar\": \"اتنين صندوق\",\n                \"image\": \"https://fra1.digitaloceanspaces.com/vtwodevelopment/truck-types/1678468385.png\",\n                \"status\": 1,\n                \"minimum_load\": 1000,\n                \"maximum_load\": 2000,\n                \"dimensions_en\": \"https://fra1.digitaloceanspaces.com/vtwodevelopment/truck-types/1678468421.png\",\n                \"dimensions_ar\": \"https://fra1.digitaloceanspaces.com/vtwodevelopment/truck-types/1678468421.png\",\n                \"truck_category\": {\n                    \"id\": 1,\n                    \"name_en\": \"Trella\",\n                    \"name_ar\": \"تريلا\",\n                    \"size\": \"heavy\"\n                }\n            },\n            {\n                \"id\": 6,\n                \"name\": \"كاسحة\",\n                \"name_en\": \"Kasha\",\n                \"name_ar\": \"كاسحة\",\n                \"image\": \"https://fra1.digitaloceanspaces.com/vtwodevelopment/truck-types/1678468385.png\",\n                \"status\": 1,\n                \"minimum_load\": 1000,\n                \"maximum_load\": 2000,\n                \"dimensions_en\": \"https://fra1.digitaloceanspaces.com/vtwodevelopment/truck-types/1678468421.png\",\n                \"dimensions_ar\": \"https://fra1.digitaloceanspaces.com/vtwodevelopment/truck-types/1678468421.png\",\n                \"truck_category\": {\n                    \"id\": 1,\n                    \"name_en\": \"Trella\",\n                    \"name_ar\": \"تريلا\",\n                    \"size\": \"heavy\"\n                }\n            },\n            {\n                \"id\": 7,\n                \"name\": \"اسمنت\",\n                \"name_en\": \"Cement\",\n                \"name_ar\": \"اسمنت\",\n                \"image\": \"https://fra1.digitaloceanspaces.com/vtwodevelopment/truck-types/1678468385.png\",\n                \"status\": 1,\n                \"minimum_load\": 1000,\n                \"maximum_load\": 2000,\n                \"dimensions_en\": \"https://fra1.digitaloceanspaces.com/vtwodevelopment/truck-types/1678468421.png\",\n                \"dimensions_ar\": \"https://fra1.digitaloceanspaces.com/vtwodevelopment/truck-types/1678468421.png\",\n                \"truck_category\": {\n                    \"id\": 1,\n                    \"name_en\": \"Trella\",\n                    \"name_ar\": \"تريلا\",\n                    \"size\": \"heavy\"\n                }\n            },\n            {\n                \"id\": 8,\n                \"name\": \"خزان\",\n                \"name_en\": \"Tank\",\n                \"name_ar\": \"خزان\",\n                \"image\": \"https://fra1.digitaloceanspaces.com/vtwodevelopment/truck-types/1678468385.png\",\n                \"status\": 1,\n                \"minimum_load\": 1000,\n                \"maximum_load\": 2000,\n                \"dimensions_en\": \"https://fra1.digitaloceanspaces.com/vtwodevelopment/truck-types/1678468421.png\",\n                \"dimensions_ar\": \"https://fra1.digitaloceanspaces.com/vtwodevelopment/truck-types/1678468421.png\",\n                \"truck_category\": {\n                    \"id\": 1,\n                    \"name_en\": \"Trella\",\n                    \"name_ar\": \"تريلا\",\n                    \"size\": \"heavy\"\n                }\n            },\n            {\n                \"id\": 9,\n                \"name\": \"ستارة\",\n                \"name_en\": \"Setara\",\n                \"name_ar\": \"ستارة\",\n                \"image\": \"https://fra1.digitaloceanspaces.com/vtwodevelopment/truck-types/1678468385.png\",\n                \"status\": 1,\n                \"minimum_load\": 1000,\n                \"maximum_load\": 2000,\n                \"dimensions_en\": \"https://fra1.digitaloceanspaces.com/vtwodevelopment/truck-types/1678468421.png\",\n                \"dimensions_ar\": \"https://fra1.digitaloceanspaces.com/vtwodevelopment/truck-types/1678468421.png\",\n                \"truck_category\": {\n                    \"id\": 1,\n                    \"name_en\": \"Trella\",\n                    \"name_ar\": \"تريلا\",\n                    \"size\": \"heavy\"\n                }\n            },\n            {\n                \"id\": 10,\n                \"name\": \"فرش\",\n                \"name_en\": \"Farsh\",\n                \"name_ar\": \"فرش\",\n                \"image\": \"https://fra1.digitaloceanspaces.com/vtwodevelopment/truck-types/1678468385.png\",\n                \"status\": 1,\n                \"minimum_load\": 1000,\n                \"maximum_load\": 2000,\n                \"dimensions_en\": \"https://fra1.digitaloceanspaces.com/vtwodevelopment/truck-types/1678468421.png\",\n                \"dimensions_ar\": \"https://fra1.digitaloceanspaces.com/vtwodevelopment/truck-types/1678468421.png\",\n                \"truck_category\": {\n                    \"id\": 2,\n                    \"name_en\": \"Garar\",\n                    \"name_ar\": \"جرار\",\n                    \"size\": \"heavy\"\n                }\n            }\n        ]\n    }\n}"
+										},
+										{
+											"id": "b7a11930-6d84-46b3-9757-8a1959341f62",
+											"name": "empty-response",
+											"originalRequest": {
+												"method": "GET",
+												"header": [
+													{
+														"key": "x-device-id",
+														"value": "00000000-54b3-e7c7-0000-000046bffd98",
+														"type": "text"
+													},
+													{
+														"key": "x-lang",
+														"value": "en",
+														"type": "text"
+													},
+													{
+														"key": "x-os-system",
+														"value": "Android",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{Host}}/api/apps/client/truck-types?page=100",
+													"host": [
+														"{{Host}}"
+													],
+													"path": [
+														"api",
+														"apps",
+														"client",
+														"truck-types"
+													],
+													"query": [
+														{
+															"key": "page",
+															"value": "100"
+														}
+													]
+												}
+											},
+											"status": "No Content",
+											"code": 204,
+											"_postman_previewlanguage": "plain",
+											"header": [
+												{
+													"key": "Host",
+													"value": "localhost:3000"
+												},
+												{
+													"key": "Date",
+													"value": "Tue, 14 Mar 2023 11:43:36 GMT"
+												},
+												{
+													"key": "Date",
+													"value": "Tue, 14 Mar 2023 11:43:36 GMT"
+												},
+												{
+													"key": "Connection",
+													"value": "close"
+												},
+												{
+													"key": "X-Powered-By",
+													"value": "PHP/8.1.13"
+												},
+												{
+													"key": "Cache-Control",
+													"value": "no-cache, private"
+												},
+												{
+													"key": "X-RateLimit-Limit",
+													"value": "60"
+												},
+												{
+													"key": "X-RateLimit-Remaining",
+													"value": "59"
+												},
+												{
+													"key": "Access-Control-Allow-Origin",
+													"value": "*"
+												}
+											],
+											"cookie": [],
+											"responseTime": null,
+											"body": null
+										}
+									]
+								}
+							],
+							"id": "44937d02-bb00-42ae-8db2-a30b4e5c3d4a"
+						},
+						{
 							"name": "Notifications",
 							"item": [
 								{
@@ -41429,7 +41669,7 @@
 	],
 	"variable": [
 		{
-			"id": "870e78d9-967e-4483-a41b-34aeb6a0c380",
+			"id": "43ac1cf7-f087-44c7-9daa-15dbc6343403",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
