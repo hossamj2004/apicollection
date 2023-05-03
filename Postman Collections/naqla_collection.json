@@ -12699,86 +12699,6 @@
 							},
 							"response": [
 								{
-									"id": "fe37a8ba-0db8-41f0-b856-1fd7fff8a4e7",
-									"name": "success-response",
-									"originalRequest": {
-										"method": "GET",
-										"header": [
-											{
-												"key": "Authorization",
-												"value": "Bearer {{Token}}",
-												"type": "text"
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": "{\n    \"page\": 1\n}",
-											"options": {
-												"raw": {
-													"language": "json"
-												}
-											}
-										},
-										"url": "{{Host}}/api/admin/countries"
-									},
-									"status": "OK",
-									"code": 200,
-									"_postman_previewlanguage": "json",
-									"header": [
-										{
-											"key": "Date",
-											"value": "Fri, 03 Feb 2023 07:40:36 GMT"
-										},
-										{
-											"key": "Server",
-											"value": "Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/8.2.0"
-										},
-										{
-											"key": "Vary",
-											"value": "Authorization"
-										},
-										{
-											"key": "X-Powered-By",
-											"value": "PHP/8.2.0"
-										},
-										{
-											"key": "Cache-Control",
-											"value": "no-cache, private"
-										},
-										{
-											"key": "X-RateLimit-Limit",
-											"value": "60"
-										},
-										{
-											"key": "X-RateLimit-Remaining",
-											"value": "59"
-										},
-										{
-											"key": "Access-Control-Allow-Origin",
-											"value": "*"
-										},
-										{
-											"key": "Keep-Alive",
-											"value": "timeout=5, max=100"
-										},
-										{
-											"key": "Connection",
-											"value": "Keep-Alive"
-										},
-										{
-											"key": "Transfer-Encoding",
-											"value": "chunked"
-										},
-										{
-											"key": "Content-Type",
-											"value": "application/json"
-										}
-									],
-									"cookie": [],
-									"responseTime": null,
-									"body": "{\n    \"data\": [\n        {\n            \"id\": 1,\n            \"name_ar\": \"آروبا\",\n            \"name_en\": \"Aruba\"\n        },\n        {\n            \"id\": 2,\n            \"name_ar\": \"أذربيجان\",\n            \"name_en\": \"Azerbaijan\"\n        },\n        {\n            \"id\": 3,\n            \"name_ar\": \"أرمينيا\",\n            \"name_en\": \"Armenia\"\n        },\n        {\n            \"id\": 4,\n            \"name_ar\": \"أسبانيا\",\n            \"name_en\": \"Spain\"\n        },\n        {\n            \"id\": 5,\n            \"name_ar\": \"أستراليا\",\n            \"name_en\": \"Australia\"\n        },\n        {\n            \"id\": 6,\n            \"name_ar\": \"أفغانستان\",\n            \"name_en\": \"Afghanistan\"\n        },\n        {\n            \"id\": 7,\n            \"name_ar\": \"ألبانيا\",\n            \"name_en\": \"Albania\"\n        },\n        {\n            \"id\": 8,\n            \"name_ar\": \"ألمانيا\",\n            \"name_en\": \"Germany\"\n        },\n        {\n            \"id\": 9,\n            \"name_ar\": \"أنتيجوا وبربودا\",\n            \"name_en\": \"Antigua and Barbuda\"\n        },\n        {\n            \"id\": 10,\n            \"name_ar\": \"أنجولا\",\n            \"name_en\": \"Angola\"\n        }\n    ],\n    \"count\": 246\n}"
-								},
-								{
 									"id": "ca0d6e67-4e68-4620-bf06-32595394b763",
 									"name": "empty-response",
 									"originalRequest": {
@@ -41340,7 +41260,7 @@
 	],
 	"variable": [
 		{
-			"id": "7b1e98f0-fbdd-4e62-a96c-e7b982aadf57",
+			"id": "d4290931-786b-46af-8ac3-abb38018e62f",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
