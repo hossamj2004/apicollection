@@ -13028,49 +13028,8 @@
 								"method": "POST",
 								"header": [],
 								"body": {
-									"mode": "formdata",
-									"formdata": [
-										{
-											"key": "title_en",
-											"value": "Mohamed",
-											"type": "text"
-										},
-										{
-											"key": "title_ar",
-											"value": "sfsdfsd",
-											"type": "text"
-										},
-										{
-											"key": "description_en",
-											"value": "sfdsf",
-											"type": "text"
-										},
-										{
-											"key": "description_ar",
-											"value": "sfsdfsdf",
-											"type": "text"
-										},
-										{
-											"key": "image",
-											"type": "file",
-											"src": "/home/mfathy/Desktop/image.png"
-										},
-										{
-											"key": "link",
-											"value": "https://st4.depositphotos.com/5943922/40270/i/1600/depositphotos_402703556-stock-photo-ling-watercolor-isolated-illustration-of.jpg",
-											"type": "text"
-										},
-										{
-											"key": "status",
-											"value": "0",
-											"type": "text"
-										},
-										{
-											"key": "_method",
-											"value": "put",
-											"type": "text"
-										}
-									]
+									"mode": "raw",
+									"raw": ""
 								},
 								"url": "{{Host}}/api/admin/sliders/1"
 							},
@@ -41309,7 +41268,7 @@
 	],
 	"variable": [
 		{
-			"id": "114860d2-0022-4d36-868f-31e22b98841c",
+			"id": "c6a89faf-cd87-497a-80c9-2e1b54415fb6",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
