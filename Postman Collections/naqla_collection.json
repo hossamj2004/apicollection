@@ -13111,85 +13111,7 @@
 								},
 								"url": "{{Host}}/api/admin/sliders/1"
 							},
-							"response": [
-								{
-									"id": "02adcd16-23c8-4333-9925-de5b83a40eba",
-									"name": "success-response",
-									"originalRequest": {
-										"method": "POST",
-										"header": [],
-										"body": {
-											"mode": "formdata",
-											"formdata": [
-												{
-													"key": "_method",
-													"value": "put",
-													"type": "text"
-												},
-												{
-													"key": "name_ar",
-													"value": "Uriah Bechtelar",
-													"type": "text"
-												},
-												{
-													"key": "name_en",
-													"value": "Miss Megane Cole",
-													"type": "text"
-												}
-											]
-										},
-										"url": "{{Host}}/api/admin/countries/1"
-									},
-									"status": "OK",
-									"code": 200,
-									"_postman_previewlanguage": "json",
-									"header": [
-										{
-											"key": "Host",
-											"value": "127.0.0.1:8002"
-										},
-										{
-											"key": "Date",
-											"value": "Sun, 22 Jan 2023 13:08:21 GMT"
-										},
-										{
-											"key": "Date",
-											"value": "Sun, 22 Jan 2023 13:08:21 GMT"
-										},
-										{
-											"key": "Connection",
-											"value": "close"
-										},
-										{
-											"key": "X-Powered-By",
-											"value": "PHP/8.1.13"
-										},
-										{
-											"key": "Cache-Control",
-											"value": "no-cache, private"
-										},
-										{
-											"key": "Content-Type",
-											"value": "application/json"
-										},
-										{
-											"key": "X-RateLimit-Limit",
-											"value": "60"
-										},
-										{
-											"key": "X-RateLimit-Remaining",
-											"value": "57"
-										},
-										{
-											"key": "Access-Control-Allow-Origin",
-											"value": "*"
-										}
-									],
-									"cookie": [],
-									"responseTime": null,
-									"body": "{\n       \"id\": 1,  \n       \"name_ar\": \"مصر\",  \n       \"name_en\": \"Egypt\"   \n    \n}"
-								}
-							]
+							"response": []
 						},
 						{
 							"name": "delete-slider",
@@ -41269,7 +41191,7 @@
 	],
 	"variable": [
 		{
-			"id": "79bc6cfa-5d3f-4e4a-a7f8-68f9e9cd1fce",
+			"id": "1dbb0c6c-df2f-4432-b92c-ac5b3ea9ee13",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
