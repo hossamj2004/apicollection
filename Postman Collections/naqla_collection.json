@@ -13029,7 +13029,7 @@
 								},
 								{
 									"id": "0f847c4e-9b5e-4922-829c-9e50d1139dc9",
-									"name": "create-slider",
+									"name": "success-responsse",
 									"originalRequest": {
 										"method": "POST",
 										"header": [],
@@ -41387,7 +41387,7 @@
 	],
 	"variable": [
 		{
-			"id": "52c7c9e0-af35-4851-a6b1-857dbb7055f4",
+			"id": "cd42f2ac-cb9d-478b-a532-d4d4bc28b2a2",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
