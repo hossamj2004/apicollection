@@ -22187,7 +22187,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n    \"page\":1\n}",
+									"raw": "{\n    \"page\":100\n    \n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -38241,14 +38241,14 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\n    \"lat\" : 31.33 , \n    \"address\" : \"Ramsis\" , \n    \"description\" :  \"Home\" \n}",
+											"raw": "{\n    \"lng\" : 32.23 , \n    \"lat\" : 31.33 , \n    \"address\" : \"Ramsis\" , \n    \"description\" :  \"Home\" \n}",
 											"options": {
 												"raw": {
 													"language": "json"
 												}
 											}
 										},
-										"url": "{{Host}}/api/apps/client/locations"
+										"url": "{{Host}}/api/apps/client/locations/create"
 									},
 									"response": [
 										{
@@ -41429,7 +41429,7 @@
 	],
 	"variable": [
 		{
-			"id": "cf3f6d33-e1b0-41b0-8123-b631e8d9d4c2",
+			"id": "e747d045-3287-4228-a4e9-733aec784ae9",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
