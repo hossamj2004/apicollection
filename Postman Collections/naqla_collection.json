@@ -12699,65 +12699,6 @@
 							},
 							"response": [
 								{
-									"id": "ca0d6e67-4e68-4620-bf06-32595394b763",
-									"name": "empty-response",
-									"originalRequest": {
-										"method": "GET",
-										"header": [
-											{
-												"key": "Authorization",
-												"value": "Bearer {{Token}}",
-												"type": "text"
-											}
-										],
-										"url": "{{Host}}/api/admin/countries"
-									},
-									"status": "No Content",
-									"code": 204,
-									"_postman_previewlanguage": "plain",
-									"header": [
-										{
-											"key": "Host",
-											"value": "127.0.0.1:8002"
-										},
-										{
-											"key": "Date",
-											"value": "Sun, 22 Jan 2023 13:01:57 GMT"
-										},
-										{
-											"key": "Date",
-											"value": "Sun, 22 Jan 2023 13:01:57 GMT"
-										},
-										{
-											"key": "Connection",
-											"value": "close"
-										},
-										{
-											"key": "X-Powered-By",
-											"value": "PHP/8.1.13"
-										},
-										{
-											"key": "Cache-Control",
-											"value": "no-cache, private"
-										},
-										{
-											"key": "X-RateLimit-Limit",
-											"value": "60"
-										},
-										{
-											"key": "X-RateLimit-Remaining",
-											"value": "58"
-										},
-										{
-											"key": "Access-Control-Allow-Origin",
-											"value": "*"
-										}
-									],
-									"cookie": [],
-									"responseTime": null,
-									"body": ""
-								},
-								{
 									"id": "1acc4f1e-dd20-487b-8551-c3e3f3b3f0c3",
 									"name": "success-response",
 									"originalRequest": {
@@ -41260,7 +41201,7 @@
 	],
 	"variable": [
 		{
-			"id": "d4290931-786b-46af-8ac3-abb38018e62f",
+			"id": "857da1bf-009b-4139-8366-802d0c7610b3",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
