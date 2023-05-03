@@ -13347,7 +13347,7 @@
 							"response": [
 								{
 									"id": "7019949e-4980-459f-adc1-515a51dccae5",
-									"name": "success-response",
+									"name": "delete-slider",
 									"originalRequest": {
 										"method": "DELETE",
 										"header": [],
@@ -41295,7 +41295,7 @@
 	],
 	"variable": [
 		{
-			"id": "0decb9cb-e1f2-471e-a79b-c8e7d1c71908",
+			"id": "d1645fd3-e767-43c5-bd88-321370b9be29",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
