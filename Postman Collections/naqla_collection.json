@@ -13114,7 +13114,7 @@
 							"response": [
 								{
 									"id": "583bcd14-85e8-4957-945e-d8ce6de54f42",
-									"name": "update-slider",
+									"name": "success-response",
 									"originalRequest": {
 										"method": "POST",
 										"header": [],
@@ -41294,7 +41294,7 @@
 	],
 	"variable": [
 		{
-			"id": "4b5a6be0-3b9c-47e1-b3c7-17424f992549",
+			"id": "17fb2c8a-778f-436a-87f0-811de753e5c7",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
