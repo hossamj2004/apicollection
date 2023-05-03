@@ -37325,7 +37325,7 @@
 							"name": "Sliders",
 							"item": [
 								{
-									"name": "show-home",
+									"name": "list-home",
 									"id": "2ec59eba-ce43-424a-bf8a-a477c3eaa567",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
@@ -41458,7 +41458,7 @@
 	],
 	"variable": [
 		{
-			"id": "73408230-e099-400d-b465-d2076a7cbde6",
+			"id": "2b03fed6-afd0-4013-9e90-d5bc73f6fdc7",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
