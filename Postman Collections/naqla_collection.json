@@ -37341,7 +37341,7 @@
 							"name": "Sliders",
 							"item": [
 								{
-									"name": "list-truck-types",
+									"name": "list-sliders",
 									"id": "2ec59eba-ce43-424a-bf8a-a477c3eaa567",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
@@ -41669,7 +41669,7 @@
 	],
 	"variable": [
 		{
-			"id": "43ac1cf7-f087-44c7-9daa-15dbc6343403",
+			"id": "431b7228-a983-4581-866f-33b7a88a7a85",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
