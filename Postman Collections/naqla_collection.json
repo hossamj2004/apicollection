@@ -12769,6 +12769,90 @@
 									"cookie": [],
 									"responseTime": null,
 									"body": "{\n    \"data\": [\n        {\n            \"id\": 1,\n            \"title\": \"sdfdsfsdf\",\n            \"title_en\": \"sdfsdf\",\n            \"title_ar\": \"sdfdsfsdf\",\n            \"description_en\": \"sdfsdf\",\n            \"description_ar\": \"sdfsdf\",\n            \"image\": \"https://st4.depositphotos.com/5943922/40270/i/1600/depositphotos_402703556-stock-photo-ling-watercolor-isolated-illustration-of.jpg\",\n            \"link\": \"https://st4.depositphotos.com/5943922/40270/i/1600/depositphotos_402703556-stock-photo-ling-watercolor-isolated-illustration-of.jpg\",\n            \"status\": 1\n        },\n        {\n            \"id\": 2,\n            \"title\": \"العنوان2\",\n            \"title_en\": \"title2\",\n            \"title_ar\": \"العنوان2\",\n            \"description_en\": \"description2\",\n            \"description_ar\": \"الوصف2\",\n            \"image\": \"https://st4.depositphotos.com/5943922/40270/i/1600/depositphotos_402703556-stock-photo-ling-watercolor-isolated-illustration-of.jpg\",\n            \"link\": \"https://st4.depositphotos.com/5943922/40270/i/1600/depositphotos_402703556-stock-photo-ling-watercolor-isolated-illustration-of.jpg\",\n            \"status\": 1\n        },\n        {\n            \"id\": 3,\n            \"title\": \"name_ar\",\n            \"title_en\": \"name_en\",\n            \"title_ar\": \"name_ar\",\n            \"description_en\": \"description_en\",\n            \"description_ar\": \"descritpion_ar\",\n            \"image\": \"sliders/1683038128.png\",\n            \"link\": \"\",\n            \"status\": 1\n        },\n        {\n            \"id\": 5,\n            \"title\": \"name_ar\",\n            \"title_en\": \"name_en\",\n            \"title_ar\": \"name_ar\",\n            \"description_en\": \"description_en\",\n            \"description_ar\": \"descritpion_ar\",\n            \"image\": \"sliders/1683038439.png\",\n            \"link\": \"https://st4.depositphotos.com/5943922/40270/i/1600/depositphotos_402703556-stock-photo-ling-watercolor-isolated-illustration-of.jpg\",\n            \"status\": 1\n        }\n    ],\n    \"count\": 4\n}"
+								},
+								{
+									"id": "e1587bac-9688-42de-8801-7f48ad5e0c29",
+									"name": "list-sliders",
+									"originalRequest": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Authorization",
+												"value": "Bearer {{Token}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{Host}}/api/admin/sliders?page=100",
+											"host": [
+												"{{Host}}"
+											],
+											"path": [
+												"api",
+												"admin",
+												"sliders"
+											],
+											"query": [
+												{
+													"key": "page",
+													"value": "100"
+												}
+											]
+										}
+									},
+									"status": "No Content",
+									"code": 204,
+									"_postman_previewlanguage": "plain",
+									"header": [
+										{
+											"key": "Host",
+											"value": "localhost:3000"
+										},
+										{
+											"key": "Date",
+											"value": "Wed, 03 May 2023 09:32:03 GMT"
+										},
+										{
+											"key": "Date",
+											"value": "Wed, 03 May 2023 09:32:03 GMT"
+										},
+										{
+											"key": "Connection",
+											"value": "close"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/8.1.13"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "59"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": null
 								}
 							]
 						},
@@ -41201,7 +41285,7 @@
 	],
 	"variable": [
 		{
-			"id": "857da1bf-009b-4139-8366-802d0c7610b3",
+			"id": "9274891c-f7e0-4240-afcd-81b7a50f3b2f",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
