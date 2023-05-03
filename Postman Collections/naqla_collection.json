@@ -19188,11 +19188,6 @@
 											"disabled": true
 										},
 										{
-											"key": "customs_clearance_gate",
-											"value": "2",
-											"type": "text"
-										},
-										{
 											"key": "prices[0][type]",
 											"value": "fafafd",
 											"type": "text"
@@ -41434,7 +41429,7 @@
 	],
 	"variable": [
 		{
-			"id": "75ea464c-9daa-4eef-af4e-d313d57b2845",
+			"id": "4d1b1fb0-3168-4662-989b-7a659656a7eb",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
