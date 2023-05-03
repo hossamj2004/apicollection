@@ -37375,24 +37375,7 @@
 											"mode": "formdata",
 											"formdata": []
 										},
-										"url": {
-											"raw": "{{Host}}/api/apps/client/truck-types?filter[frequent]=1",
-											"host": [
-												"{{Host}}"
-											],
-											"path": [
-												"api",
-												"apps",
-												"client",
-												"truck-types"
-											],
-											"query": [
-												{
-													"key": "filter[frequent]",
-													"value": "1"
-												}
-											]
-										}
+										"url": "{{Host}}/api/apps/client/sliders"
 									},
 									"response": []
 								}
@@ -41491,7 +41474,7 @@
 	],
 	"variable": [
 		{
-			"id": "3bfc25f9-8392-4a5c-877d-27e9e1f6c4ff",
+			"id": "6f83a2aa-71e2-4c25-af5d-c2f2e18ceeb6",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
