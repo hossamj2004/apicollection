@@ -13342,12 +13342,12 @@
 										}
 									}
 								},
-								"url": "{{Host}}/api/admin/sliders/1"
+								"url": "{{Host}}/api/admin/sliders/1000"
 							},
 							"response": [
 								{
 									"id": "7019949e-4980-459f-adc1-515a51dccae5",
-									"name": "delete-slider",
+									"name": "success-response",
 									"originalRequest": {
 										"method": "DELETE",
 										"header": [],
@@ -41295,7 +41295,7 @@
 	],
 	"variable": [
 		{
-			"id": "d1645fd3-e767-43c5-bd88-321370b9be29",
+			"id": "28314be1-be1f-43fb-be55-7fa8e1742870",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
