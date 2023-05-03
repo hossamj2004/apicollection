@@ -19973,7 +19973,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n    \"deleted_job_locations\": [177]\n}",
+									"raw": "{\n    \"truck_type_id\": [\n        2\n    ],\n    \"commodity_id\": [\n       1\n    ],\n    \"load_type_id\": 1,\n    \"client_id\": 2,\n    \"prices\": [\n        {\n            \"id\":\"22\",\n            \"model_type\": \"Accessory\",\n            \"model_id\": 0,\n            \"cost\": 1339,\n            \"price\": 110.66,\n            \"vendor_id\": 1,\n            \"quantity\": 4,\n            \"currency\": \"EGP\",\n            \"rate\": 35.20\n        }\n    ],\n    \"job_locations\": [\n        {\n            \"ordering\": 1,\n            \"lng\": 30.22,\n            \"lat\": 29.22,\n            \"address\": \"address\",\n            \"job_location_status\": \"ready\",\n            \"gate_id\": 1,\n            \"description\": \"test description\",\n            \"location_type_id\": 1,\n            \"time\": \"2023-03-14 22:03:42\",\n            \"contact_number\": \"1008292985\",\n            \"contact_name\": \"Mohamed Fathy\"\n        },\n        {\n            \"ordering\": 2,\n            \"lng\": 30.22,\n            \"lat\": 29.22,\n            \"address\": \"address\",\n            \"job_location_status\": \"ready\",\n            \"gate_id\": null,\n            \"description\": \"test description\",\n            \"location_type_id\": 2,\n            \"time\": \"2023-03-14 22:03:42\",\n            \"contact_number\": \"1008292985\",\n            \"contact_name\": \"Mohamed Fathy\"\n        }\n    ],\n    \"number_of_jobs\": 1,\n    \"reference\": \"reference\",\n    \"special_cases\": \"special_cases\",\n    \"ops_expanses\": 100.55,\n    \"price_per\": \"naqla\",\n    \"load_weight\": 100,\n    \"cost\": 50.99,\n    \"price\": 100.10\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -36665,7 +36665,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\n    \"country_code\": \"20\",\n    \"phone\": \"1008292985\"\n}",
+											"raw": "{\n    \"country_code\": \"20\",\n    \"phone\": \"1008292999\",\n    \"name\": \"محمد فتحي\"\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -39573,7 +39573,7 @@
 												}
 											}
 										},
-										"url": "{{Host}}/api/apps/client/orders/63"
+										"url": "{{Host}}/api/apps/client/orders/100"
 									},
 									"response": [
 										{
@@ -40853,7 +40853,7 @@
 												}
 											}
 										},
-										"url": "{{Host}}/api/apps/client/pages/1"
+										"url": "{{Host}}/api/apps/client/pages/3"
 									},
 									"response": [
 										{
@@ -41429,7 +41429,7 @@
 	],
 	"variable": [
 		{
-			"id": "7b796ba2-bbb8-431c-bedb-a084b4af41f3",
+			"id": "870e78d9-967e-4483-a41b-34aeb6a0c380",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
