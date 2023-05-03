@@ -13025,16 +13025,52 @@
 										"token": "{{Token}}"
 									}
 								},
-								"method": "PUT",
+								"method": "POST",
 								"header": [],
 								"body": {
-									"mode": "raw",
-									"raw": "{\n    \"title_en\": \"test\"\n}",
-									"options": {
-										"raw": {
-											"language": "json"
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "title_en",
+											"value": "slider",
+											"type": "text"
+										},
+										{
+											"key": "title_ar",
+											"value": "sfsdfsd",
+											"type": "text"
+										},
+										{
+											"key": "description_en",
+											"value": "sfdsf",
+											"type": "text"
+										},
+										{
+											"key": "description_ar",
+											"value": "sfsdfsdf",
+											"type": "text"
+										},
+										{
+											"key": "image",
+											"type": "file",
+											"src": "/home/mfathy/Desktop/image.png"
+										},
+										{
+											"key": "link",
+											"value": "https://st4.depositphotos.com/5943922/40270/i/1600/depositphotos_402703556-stock-photo-ling-watercolor-isolated-illustration-of.jpg",
+											"type": "text"
+										},
+										{
+											"key": "status",
+											"value": "0",
+											"type": "text"
+										},
+										{
+											"key": "_method",
+											"value": "put",
+											"type": "text"
 										}
-									}
+									]
 								},
 								"url": "{{Host}}/api/admin/sliders/1"
 							},
@@ -41273,7 +41309,7 @@
 	],
 	"variable": [
 		{
-			"id": "056a1a45-43c6-49c6-8581-819c7cbe8b4c",
+			"id": "328ba04f-2652-4d7b-8c4a-bb7b99220842",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
