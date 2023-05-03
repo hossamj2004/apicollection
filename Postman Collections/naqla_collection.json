@@ -12839,7 +12839,7 @@
 								},
 								{
 									"id": "1acc4f1e-dd20-487b-8551-c3e3f3b3f0c3",
-									"name": "list-sliders",
+									"name": "success-response",
 									"originalRequest": {
 										"method": "GET",
 										"header": [
@@ -41340,7 +41340,7 @@
 	],
 	"variable": [
 		{
-			"id": "2d0c3db7-f2ca-4936-8562-c020c051a456",
+			"id": "7b1e98f0-fbdd-4e62-a96c-e7b982aadf57",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
