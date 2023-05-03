@@ -12872,15 +12872,47 @@
 								"method": "POST",
 								"header": [],
 								"body": {
-									"mode": "raw",
-									"raw": "{\n    \"name_en\": \"Egypt\",\n    \"name_ar\": \"مصر\"\n}",
-									"options": {
-										"raw": {
-											"language": "json"
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "title_en",
+											"value": "name_en",
+											"type": "text"
+										},
+										{
+											"key": "title_ar",
+											"value": "name_ar",
+											"type": "text"
+										},
+										{
+											"key": "description_en",
+											"value": "description_en",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "description_ar",
+											"value": "descritpion_ar",
+											"type": "text"
+										},
+										{
+											"key": "image",
+											"type": "file",
+											"src": "/home/mfathy/Desktop/image.png"
+										},
+										{
+											"key": "link",
+											"value": "https://st4.depositphotos.com/5943922/40270/i/1600/depositphotos_402703556-stock-photo-ling-watercolor-isolated-illustration-of.jpg",
+											"type": "text"
+										},
+										{
+											"key": "status",
+											"value": "1",
+											"type": "text"
 										}
-									}
+									]
 								},
-								"url": "{{Host}}/api/admin/countries"
+								"url": "{{Host}}/api/admin/sliders"
 							},
 							"response": [
 								{
@@ -41402,7 +41434,7 @@
 	],
 	"variable": [
 		{
-			"id": "9d3fe374-5c11-484d-a2ce-f66cadf119c1",
+			"id": "90f20f54-d288-4120-9c6e-43854b67c4a9",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
