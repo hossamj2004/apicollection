@@ -12884,78 +12884,6 @@
 							},
 							"response": [
 								{
-									"id": "fddfe030-b34b-4eb9-ba67-f12aeb5d51d5",
-									"name": "success-response",
-									"originalRequest": {
-										"method": "POST",
-										"header": [],
-										"body": {
-											"mode": "formdata",
-											"formdata": [
-												{
-													"key": "name_ar",
-													"value": "Uriah Bechtelar",
-													"type": "text"
-												},
-												{
-													"key": "name_en",
-													"value": "Miss Megane Cole",
-													"type": "text"
-												}
-											]
-										},
-										"url": "{{Host}}/api/admin/countries"
-									},
-									"status": "Created",
-									"code": 201,
-									"_postman_previewlanguage": "json",
-									"header": [
-										{
-											"key": "Host",
-											"value": "127.0.0.1:8002"
-										},
-										{
-											"key": "Date",
-											"value": "Sun, 22 Jan 2023 13:03:46 GMT"
-										},
-										{
-											"key": "Date",
-											"value": "Sun, 22 Jan 2023 13:03:46 GMT"
-										},
-										{
-											"key": "Connection",
-											"value": "close"
-										},
-										{
-											"key": "X-Powered-By",
-											"value": "PHP/8.1.13"
-										},
-										{
-											"key": "Cache-Control",
-											"value": "no-cache, private"
-										},
-										{
-											"key": "Content-Type",
-											"value": "application/json"
-										},
-										{
-											"key": "X-RateLimit-Limit",
-											"value": "60"
-										},
-										{
-											"key": "X-RateLimit-Remaining",
-											"value": "58"
-										},
-										{
-											"key": "Access-Control-Allow-Origin",
-											"value": "*"
-										}
-									],
-									"cookie": [],
-									"responseTime": null,
-									"body": "{\n       \"id\": 1,  \n       \"name_ar\": \"مصر\",  \n       \"name_en\": \"Egypt\"   \n}"
-								},
-								{
 									"id": "0f847c4e-9b5e-4922-829c-9e50d1139dc9",
 									"name": "success-responsse",
 									"originalRequest": {
@@ -41315,7 +41243,7 @@
 	],
 	"variable": [
 		{
-			"id": "13ce50d4-6380-462c-9a76-99d50cb52fee",
+			"id": "b5d97f00-6c4b-44d5-af22-31c82ec58c00",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
