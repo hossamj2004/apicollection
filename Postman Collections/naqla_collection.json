@@ -37394,103 +37394,7 @@
 											]
 										}
 									},
-									"response": [
-										{
-											"id": "b7a11930-6d84-46b3-9757-8a1959341f62",
-											"name": "empty-response",
-											"originalRequest": {
-												"method": "GET",
-												"header": [
-													{
-														"key": "x-device-id",
-														"value": "00000000-54b3-e7c7-0000-000046bffd98",
-														"type": "text"
-													},
-													{
-														"key": "x-lang",
-														"value": "en",
-														"type": "text"
-													},
-													{
-														"key": "x-os-system",
-														"value": "Android",
-														"type": "text"
-													}
-												],
-												"body": {
-													"mode": "raw",
-													"raw": "",
-													"options": {
-														"raw": {
-															"language": "json"
-														}
-													}
-												},
-												"url": {
-													"raw": "{{Host}}/api/apps/client/truck-types?page=100",
-													"host": [
-														"{{Host}}"
-													],
-													"path": [
-														"api",
-														"apps",
-														"client",
-														"truck-types"
-													],
-													"query": [
-														{
-															"key": "page",
-															"value": "100"
-														}
-													]
-												}
-											},
-											"status": "No Content",
-											"code": 204,
-											"_postman_previewlanguage": "plain",
-											"header": [
-												{
-													"key": "Host",
-													"value": "localhost:3000"
-												},
-												{
-													"key": "Date",
-													"value": "Tue, 14 Mar 2023 11:43:36 GMT"
-												},
-												{
-													"key": "Date",
-													"value": "Tue, 14 Mar 2023 11:43:36 GMT"
-												},
-												{
-													"key": "Connection",
-													"value": "close"
-												},
-												{
-													"key": "X-Powered-By",
-													"value": "PHP/8.1.13"
-												},
-												{
-													"key": "Cache-Control",
-													"value": "no-cache, private"
-												},
-												{
-													"key": "X-RateLimit-Limit",
-													"value": "60"
-												},
-												{
-													"key": "X-RateLimit-Remaining",
-													"value": "59"
-												},
-												{
-													"key": "Access-Control-Allow-Origin",
-													"value": "*"
-												}
-											],
-											"cookie": [],
-											"responseTime": null,
-											"body": null
-										}
-									]
+									"response": []
 								}
 							],
 							"id": "44937d02-bb00-42ae-8db2-a30b4e5c3d4a"
@@ -41587,7 +41491,7 @@
 	],
 	"variable": [
 		{
-			"id": "116f6fdd-8906-4447-8580-d67a669c51be",
+			"id": "3bfc25f9-8392-4a5c-877d-27e9e1f6c4ff",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
