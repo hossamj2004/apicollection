@@ -13344,80 +13344,7 @@
 								},
 								"url": "{{Host}}/api/admin/sliders/1"
 							},
-							"response": [
-								{
-									"id": "b248fe05-dd98-4a6b-89d1-13dc50096799",
-									"name": "validation-error",
-									"originalRequest": {
-										"method": "DELETE",
-										"header": [
-											{
-												"key": "Auth",
-												"value": "",
-												"type": "text"
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": "{\n}",
-											"options": {
-												"raw": {
-													"language": "json"
-												}
-											}
-										},
-										"url": "{{Host}}/api/admin/countries/249"
-									},
-									"status": "Bad Request",
-									"code": 400,
-									"_postman_previewlanguage": "json",
-									"header": [
-										{
-											"key": "Host",
-											"value": "localhost:3000"
-										},
-										{
-											"key": "Date",
-											"value": "Mon, 13 Mar 2023 18:31:03 GMT"
-										},
-										{
-											"key": "Date",
-											"value": "Mon, 13 Mar 2023 18:31:03 GMT"
-										},
-										{
-											"key": "Connection",
-											"value": "close"
-										},
-										{
-											"key": "X-Powered-By",
-											"value": "PHP/8.1.13"
-										},
-										{
-											"key": "Cache-Control",
-											"value": "no-cache, private"
-										},
-										{
-											"key": "Content-Type",
-											"value": "application/json"
-										},
-										{
-											"key": "X-RateLimit-Limit",
-											"value": "60"
-										},
-										{
-											"key": "X-RateLimit-Remaining",
-											"value": "58"
-										},
-										{
-											"key": "Access-Control-Allow-Origin",
-											"value": "*"
-										}
-									],
-									"cookie": [],
-									"responseTime": null,
-									"body": "{\n    \"code\": \"validation-error\",\n    \"message\": {\n        \"id\": [\n            \"The selected id is invalid.\"\n        ]\n    }\n}"
-								}
-							]
+							"response": []
 						}
 					],
 					"id": "ba909113-b9ab-42ac-bdde-8341b34caa44"
@@ -41305,7 +41232,7 @@
 	],
 	"variable": [
 		{
-			"id": "9f2f4d77-2611-42d9-b30a-96206b0f7b3f",
+			"id": "b2dcdca9-5147-4403-b7f9-e21d62a43776",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
