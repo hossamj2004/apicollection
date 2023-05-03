@@ -12956,78 +12956,6 @@
 									"body": "{\n       \"id\": 1,  \n       \"name_ar\": \"مصر\",  \n       \"name_en\": \"Egypt\"   \n}"
 								},
 								{
-									"id": "7e35c680-1c42-471e-819b-618144454661",
-									"name": "validation-error",
-									"originalRequest": {
-										"method": "POST",
-										"header": [],
-										"body": {
-											"mode": "formdata",
-											"formdata": [
-												{
-													"key": "name_ar",
-													"value": "Uriah Bechtelar",
-													"type": "text"
-												},
-												{
-													"key": "name_en",
-													"value": "Miss Megane Cole",
-													"type": "text"
-												}
-											]
-										},
-										"url": "{{Host}}/api/admin/countries"
-									},
-									"status": "Bad Request",
-									"code": 400,
-									"_postman_previewlanguage": "json",
-									"header": [
-										{
-											"key": "Host",
-											"value": "127.0.0.1:8002"
-										},
-										{
-											"key": "Date",
-											"value": "Sun, 22 Jan 2023 13:04:30 GMT"
-										},
-										{
-											"key": "Date",
-											"value": "Sun, 22 Jan 2023 13:04:30 GMT"
-										},
-										{
-											"key": "Connection",
-											"value": "close"
-										},
-										{
-											"key": "X-Powered-By",
-											"value": "PHP/8.1.13"
-										},
-										{
-											"key": "Cache-Control",
-											"value": "no-cache, private"
-										},
-										{
-											"key": "Content-Type",
-											"value": "application/json"
-										},
-										{
-											"key": "X-RateLimit-Limit",
-											"value": "60"
-										},
-										{
-											"key": "X-RateLimit-Remaining",
-											"value": "59"
-										},
-										{
-											"key": "Access-Control-Allow-Origin",
-											"value": "*"
-										}
-									],
-									"cookie": [],
-									"responseTime": null,
-									"body": "{\n    \"code\": \"validation-error\",\n    \"message\": {\n           \"status\": [\n            \"The name_ar field is required.\"\n        ]\n    }\n}"
-								},
-								{
 									"id": "0f847c4e-9b5e-4922-829c-9e50d1139dc9",
 									"name": "success-responsse",
 									"originalRequest": {
@@ -41387,7 +41315,7 @@
 	],
 	"variable": [
 		{
-			"id": "cd42f2ac-cb9d-478b-a532-d4d4bc28b2a2",
+			"id": "13ce50d4-6380-462c-9a76-99d50cb52fee",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
