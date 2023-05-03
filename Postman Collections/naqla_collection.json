@@ -36665,7 +36665,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\n    \"country_code\": \"20\",\n    \"phone\": \"1008292999\",\n    \"name\": \"محمد فتحي\"\n}",
+											"raw": "{\n    \"country_code\": \"20\",\n    \"phone\": \"1008292985\"\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -38241,14 +38241,14 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\n    \"lng\" : 32.23 , \n    \"lat\" : 31.33 , \n    \"address\" : \"Ramsis\" , \n    \"description\" :  \"Home\" \n}",
+											"raw": "{\n    \"lat\" : 31.33 , \n    \"address\" : \"Ramsis\" , \n    \"description\" :  \"Home\" \n}",
 											"options": {
 												"raw": {
 													"language": "json"
 												}
 											}
 										},
-										"url": "{{Host}}/api/apps/client/locations/create"
+										"url": "{{Host}}/api/apps/client/locations"
 									},
 									"response": [
 										{
@@ -38874,7 +38874,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"page\": 1,\r\n    \"filter\":{\r\n        \"order_status\":\"pending\"\r\n    }\r\n}",
+											"raw": "{\r\n    \"page\": 1,\r\n    \"filter\":{\r\n        \"order_status\":\"working\"\r\n    }\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -39573,7 +39573,7 @@
 												}
 											}
 										},
-										"url": "{{Host}}/api/apps/client/orders/100"
+										"url": "{{Host}}/api/apps/client/orders/63"
 									},
 									"response": [
 										{
@@ -41429,7 +41429,7 @@
 	],
 	"variable": [
 		{
-			"id": "eabb8a8d-559e-4876-b55d-571faeac6deb",
+			"id": "1ed2faee-2ca0-4cb6-9ea8-280d9ec1f12b",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
