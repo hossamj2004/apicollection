@@ -12313,7 +12313,12 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n       \"id\": 1,  \n       \"name_ar\": \"مصر\",  \n       \"name_en\": \"Egypt\"   \n    \n}"
+									"raw": "{\n    \"id\": 1,\n    \"name_ar\": \"مصر\",\n    \"name_en\": \"Egypt\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
 								},
 								"url": "{{Host}}/api/admin/countries/1"
 							},
@@ -41477,7 +41482,7 @@
 	],
 	"variable": [
 		{
-			"id": "1ea593ce-7f97-4660-96d6-ff8b2800b445",
+			"id": "056c811d-dd9a-4a03-88aa-c43d777bcdc4",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
