@@ -19903,7 +19903,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n    \"client_id\": 2,\n    \"order_status_id\": 2,\n    \"load_type_id\": 2,\n    \"unit_quantity\": 2,\n    \"reference\": \"reference2\",\n    \"special_cases\": \"special_case2\",\n    \"ops_expanses\":10.22,\n    \"price_per\": \"ton\",\n    \"load_weight_unit\": \"kg\",\n    \"load_weight\":50,\n    \"job_status_id\":12,\n    \"driver_id\":1,\n    \"truck_id\":1,\n    \"tail_id\":1,\n    \"vendor_id\":1,\n    \"shipper_id\":1,\n    \"customs_procedure\": \"talib_ersall\"\n\n}",
+									"raw": "{\n    \"client_id\": 2,\n    \"order_status_id\": 2,\n    \"load_type_id\": 2,\n    \"unit_quantity\": 2,\n    \"reference\": \"reference2\",\n    \"special_cases\": \"special_case2\",\n    \"ops_expanses\":10.22,\n    \"price_per\": \"ton\",\n    \"load_weight_unit\": \"kg\",\n    \"load_weight\":50,\n    \"job_status_id\":12,\n    \"driver_id\":1,\n    \"truck_id\":1,\n    \"tail_id\":1,\n    \"vendor_id\":1,\n    \"shipper_id\":1,\n    \"customs_procedure\": \"bosla\"\n\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -41510,7 +41510,7 @@
 	],
 	"variable": [
 		{
-			"id": "6c3c3668-9820-4ea9-9723-ce9ce75df6d1",
+			"id": "bd881f94-8c48-4e06-b382-2ba28d292432",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
