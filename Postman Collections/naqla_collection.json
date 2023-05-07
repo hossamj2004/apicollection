@@ -39219,7 +39219,7 @@
 												},
 												{
 													"key": "job_locations[0][address]",
-													"value": "3 Nagib Mahfouz St Badr city , cairo ",
+													"value": "\"3 Nagib Mahfouz St Badr city , cairo\"",
 													"type": "text",
 													"description": "string"
 												},
@@ -39243,7 +39243,7 @@
 												},
 												{
 													"key": "job_locations[1][address]",
-													"value": "107 zahraa nasr city , cairo ",
+													"value": "\"107 zahraa nasr city , cairo\"",
 													"type": "text"
 												},
 												{
@@ -41482,7 +41482,7 @@
 	],
 	"variable": [
 		{
-			"id": "2ac17f58-6843-4e7b-a3f3-38b8c8350232",
+			"id": "4cbe406f-21b1-447b-a12c-1a696b712e5a",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
