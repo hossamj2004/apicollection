@@ -19903,7 +19903,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n        \"client_id\": 1,\n    \n}",
+									"raw": "{\n    \"client_id\": 1\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -41510,7 +41510,7 @@
 	],
 	"variable": [
 		{
-			"id": "0a73c5dc-3cd4-4bbb-b17e-ec7ba1884fe5",
+			"id": "58d72eb0-6013-4951-8a35-d0678b53847b",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
