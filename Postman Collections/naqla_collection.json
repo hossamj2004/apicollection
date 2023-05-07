@@ -19903,14 +19903,14 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n    \"truck_type_id\": [\n        4,\n        5\n    ],\n    \"commodity_id\": [\n       1\n    ],\n    \"load_type_id\": 2,\n    \"client_id\": 1,\n\n    \"number_of_jobs\": 2,\n    \"reference\": \"sssss\",\n    \"special_cases\": \"sfsdf\",\n    \"ops_expanses\": 100.33,\n    \"price_per\": \"ton\",\n    \"load_weight\": 100,\n    \"cost\": 50.99,\n    \"price\": 100.10\n}",
+									"raw": "{\n    \"truck_type_id\": [\n        1,\n        2\n    ],\n    \"commodity_id\": [\n       1\n    ],\n    \"load_type_id\": 2,\n    \"client_id\": 1,\n    \"number_of_jobs\": 2,\n    \"reference\": \"sssss\",\n    \"special_cases\": \"sfsdf\",\n    \"ops_expanses\": 100.33,\n    \"price_per\": \"ton\",\n    \"load_weight\": 100,\n    \"cost\": 50.99,\n    \"price\": 100.10\n}",
 									"options": {
 										"raw": {
 											"language": "json"
 										}
 									}
 								},
-								"url": "{{Host}}/api/admin/orders/39"
+								"url": "{{Host}}/api/admin/orders/55"
 							},
 							"response": [
 								{
@@ -41482,7 +41482,7 @@
 	],
 	"variable": [
 		{
-			"id": "ab7c3ff9-8f20-462a-badb-ebb33fc54d4c",
+			"id": "7ef72ec5-88a9-4b13-a84b-a0e1d08258ad",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
