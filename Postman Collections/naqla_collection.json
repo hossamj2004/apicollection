@@ -19903,7 +19903,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n    \"truck_type_id\": [\n        2\n    ],\n    \"commodity_id\": [\n       1\n    ],\n    \"load_type_id\": 2,\n    \"client_id\": 1,\n    \"prices\": [\n        {\n            \"id\": \"271\",\n            \"model_type\": \"Job\",\n            \"model_id\": 0,\n            \"cost\": 55.0,\n            \"price\": 66.66,\n            \"vendor_id\": 0,\n            \"quantity\": 1,\n            \"currency\": \"UDS\",\n            \"rate\": 38.20\n        }\n    ],\n    \"job_locations\": [\n        {\n            \"ordering\": 3,\n            \"lng\": 12.22,\n            \"lat\": 13.22,\n            \"address\": \"addressssx\",\n            \"job_location_status\": \"readyss\",\n            \"gate_id\": 1,\n            \"description\": \"test descriptiossns\",\n            \"location_type_id\": 1,\n            \"time\": \"2023-03-14 22:03:42\",\n            \"contact_number\": \"1008292987\",\n            \"contact_name\": \"Mohamed Fathysx\"\n        },\n        {\n            \"ordering\": 3,\n            \"lng\": 30.22,\n            \"lat\": 29.22,\n            \"address\": \"address\",\n            \"job_location_status\": \"ready\",\n            \"gate_id\": null,\n            \"description\": \"test description\",\n            \"location_type_id\": 2,\n            \"time\": \"2023-03-14 22:03:42\",\n            \"contact_number\": \"1008292985\",\n            \"contact_name\": \"Mohamed Fathy\"\n        }\n    ],\n    \"number_of_jobs\": 2,\n    \"reference\": \"sssss\",\n    \"special_cases\": \"sfsdf\",\n    \"ops_expanses\": 100.33,\n    \"price_per\": \"naqla\",\n    \"load_weight\": 100,\n    \"cost\": 50.99,\n    \"price\": 100.10\n}",
+									"raw": "{\n    \"truck_type_id\": [\n        2\n    ],\n    \"commodity_id\": [\n       1\n    ],\n    \"load_type_id\": 2,\n    \"client_id\": 1,\n    \"prices\": [\n        {\n            \"id\": \"271\",\n            \"model_type\": \"Job\",\n            \"model_id\": 0,\n            \"cost\": 55.0,\n            \"price\": 66.66,\n            \"vendor_id\": null,\n            \"quantity\": 1,\n            \"currency\": \"USD\",\n            \"rate\": 38.20\n        }\n    ],\n    \"job_locations\": [\n        {\n            \"ordering\": 3,\n            \"lng\": 12.22,\n            \"lat\": 13.22,\n            \"address\": \"addressssx\",\n            \"job_location_status\": \"readyss\",\n            \"gate_id\": 1,\n            \"description\": \"test descriptiossns\",\n            \"location_type_id\": 1,\n            \"time\": \"2023-03-14 22:03:42\",\n            \"contact_number\": \"1008292987\",\n            \"contact_name\": \"Mohamed Fathysx\"\n        },\n        {\n            \"ordering\": 3,\n            \"lng\": 30.22,\n            \"lat\": 29.22,\n            \"address\": \"address\",\n            \"job_location_status\": \"ready\",\n            \"gate_id\": null,\n            \"description\": \"test description\",\n            \"location_type_id\": 2,\n            \"time\": \"2023-03-14 22:03:42\",\n            \"contact_number\": \"1008292985\",\n            \"contact_name\": \"Mohamed Fathy\"\n        }\n    ],\n    \"number_of_jobs\": 2,\n    \"reference\": \"sssss\",\n    \"special_cases\": \"sfsdf\",\n    \"ops_expanses\": 100.33,\n    \"price_per\": \"naqla\",\n    \"load_weight\": 100,\n    \"cost\": 50.99,\n    \"price\": 100.10\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -19981,6 +19981,167 @@
 								},
 								{
 									"id": "8077ccaa-ddbc-43b1-93ec-b581453832c8",
+									"name": "validation-error",
+									"originalRequest": {
+										"method": "PUT",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"truck_type_id\": [\n        1,\n        100\n    ],\n    \"commodity_id\": [\n        1,\n        2\n    ],\n    \"load_type_id\": 1,\n    \"client_id\": 1,\n    \"prices\": [\n        {\n            \"model_type\": \"Job\",\n            \"model_id\": 0,\n            \"cost\": 100.99,\n            \"price\": 110.66,\n            \"vendor_id\": 1,\n            \"quantity\": 4,\n            \"currency\": \"EGP\",\n            \"rate\": 35.20\n        }\n    ],\n    \"job_locations\": [\n        {\n            \"ordering\": 1,\n            \"lng\": 30.22,\n            \"lat\": 29.22,\n            \"address\": \"address\",\n            \"job_location_status\": \"ready\",\n            \"gate_id\": null,\n            \"description\": \"test description\",\n            \"location_type_id\": 1,\n            \"time\": \"2023-03-14 22:03:42\",\n            \"contact_number\": \"1008292985\",\n            \"contact_name\": \"Mohamed Fathy\"\n        }\n    ],\n    \"number_of_jobs\": 1,\n    \"reference\": \"reference\",\n    \"special_cases\": \"special_cases\",\n    \"ops_expanses\": 100.55,\n    \"price_per\": \"naqla\",\n    \"load_weight\": 100,\n    \"cost\": 50.99,\n    \"price\": 100.10\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{Host}}/api/admin/orders/15"
+									},
+									"status": "Bad Request",
+									"code": 400,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Host",
+											"value": "localhost:3000"
+										},
+										{
+											"key": "Date",
+											"value": "Sat, 08 Apr 2023 03:01:07 GMT"
+										},
+										{
+											"key": "Date",
+											"value": "Sat, 08 Apr 2023 03:01:07 GMT"
+										},
+										{
+											"key": "Connection",
+											"value": "close"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/8.1.13"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "59"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"code\": 400,\n    \"error\": \"validation-error\",\n    \"message\": \"الحقل truck_type_id.1 لاغٍ\",\n    \"messages\": {\n        \"truck_type_id.1\": [\n            \"الحقل truck_type_id.1 لاغٍ\"\n        ]\n    },\n    \"file\": \"/home/mfathy/Desktop/core/vendor/laravel/framework/src/Illuminate/Foundation/Http/FormRequest.php\",\n    \"line\": 148\n}"
+								}
+							]
+						},
+						{
+							"name": "update-order Copy",
+							"id": "538a689a-fd7d-484f-a370-749a0fee74ff",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": {
+										"token": "{{Token}}"
+									}
+								},
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"truck_type_id\": [\n        2\n    ],\n    \"commodity_id\": [\n       1\n    ],\n    \"load_type_id\": 2,\n    \"client_id\": 1,\n    \"prices\": [\n        {\n            \"id\": \"271\",\n            \"model_type\": \"Job\",\n            \"model_id\": 0,\n            \"cost\": 55.0,\n            \"price\": 66.66,\n            \"vendor_id\": null,\n            \"quantity\": 1,\n            \"currency\": \"USD\",\n            \"rate\": 38.20\n        }\n    ],\n    \"job_locations\": [\n        {\n            \"ordering\": 3,\n            \"lng\": 12.22,\n            \"lat\": 13.22,\n            \"address\": \"addressssx\",\n            \"job_location_status\": \"readyss\",\n            \"gate_id\": 1,\n            \"description\": \"test descriptiossns\",\n            \"location_type_id\": 1,\n            \"time\": \"2023-03-14 22:03:42\",\n            \"contact_number\": \"1008292987\",\n            \"contact_name\": \"Mohamed Fathysx\"\n        },\n        {\n            \"ordering\": 3,\n            \"lng\": 30.22,\n            \"lat\": 29.22,\n            \"address\": \"address\",\n            \"job_location_status\": \"ready\",\n            \"gate_id\": null,\n            \"description\": \"test description\",\n            \"location_type_id\": 2,\n            \"time\": \"2023-03-14 22:03:42\",\n            \"contact_number\": \"1008292985\",\n            \"contact_name\": \"Mohamed Fathy\"\n        }\n    ],\n    \"number_of_jobs\": 2,\n    \"reference\": \"sssss\",\n    \"special_cases\": \"sfsdf\",\n    \"ops_expanses\": 100.33,\n    \"price_per\": \"naqla\",\n    \"load_weight\": 100,\n    \"cost\": 50.99,\n    \"price\": 100.10\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{Host}}/api/admin/orders/64"
+							},
+							"response": [
+								{
+									"id": "9745b62d-44c9-43a9-9961-e919608ddf0c",
+									"name": "success-response",
+									"originalRequest": {
+										"method": "PUT",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"truck_type_id\": [\n        1,\n        2\n    ],\n    \"commodity_id\": [\n        1,\n        2\n    ],\n    \"load_type_id\": 1,\n    \"client_id\": 1,\n    \"prices\": [\n        {\n            \"model_type\": \"Job\",\n            \"model_id\": 0,\n            \"cost\": 100.99,\n            \"price\": 110.66,\n            \"vendor_id\": 1,\n            \"quantity\": 4,\n            \"currency\": \"EGP\",\n            \"rate\": 35.20\n        }\n    ],\n    \"job_locations\": [\n        {\n            \"ordering\": 1,\n            \"lng\": 30.22,\n            \"lat\": 29.22,\n            \"address\": \"address\",\n            \"job_location_status\": \"ready\",\n            \"gate_id\": null,\n            \"description\": \"test description\",\n            \"location_type_id\": 1,\n            \"time\": \"2023-03-14 22:03:42\",\n            \"contact_number\": \"1008292985\",\n            \"contact_name\": \"Mohamed Fathy\"\n        }\n    ],\n    \"number_of_jobs\": 1,\n    \"reference\": \"reference\",\n    \"special_cases\": \"special_cases\",\n    \"ops_expanses\": 100.55,\n    \"price_per\": \"naqla\",\n    \"load_weight\": 100,\n    \"cost\": 50.99,\n    \"price\": 100.10\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{Host}}/api/admin/orders/15"
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Host",
+											"value": "localhost:3000"
+										},
+										{
+											"key": "Date",
+											"value": "Sat, 08 Apr 2023 02:56:15 GMT"
+										},
+										{
+											"key": "Date",
+											"value": "Sat, 08 Apr 2023 02:56:15 GMT"
+										},
+										{
+											"key": "Connection",
+											"value": "close"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/8.1.13"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "59"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"id\": 15,\n    \"client\": {\n        \"id\": 2,\n        \"name_en\": \"Samsung\",\n        \"name_ar\": \"سامسونج\"\n    },\n    \"order_status\": {\n        \"id\": 1,\n        \"name_en\": \"pending pricing\",\n        \"name_ar\": \"بانتظار التسعير\"\n    },\n    \"number_of_jobs\": 1,\n    \"jobs\": [\n        {\n            \"id\": 16,\n            \"client_id\": 2,\n            \"load_type\": {\n                \"id\": 2,\n                \"name_en\": \"chilled\",\n                \"name_ar\": \"مبرد\"\n            },\n            \"unit_quantity\": 1,\n            \"reference\": \"test edit reference\",\n            \"special_cases\": \"edit special cases\",\n            \"ops_expanses\": \"55.00\",\n            \"price_per\": \"unit\",\n            \"load_weight\": \"100\",\n            \"job_status\": {\n                \"id\": 1,\n                \"name_en\": \"pending driver\",\n                \"name_ar\": \"بانتظار التخصيص\"\n            },\n            \"driver\": {\n                \"id\": 1,\n                \"name_en\": \"Aymen\",\n                \"name_ar\": \"Aymen\"\n            },\n            \"truck\": {\n                \"id\": 1,\n                \"contractor\": {\n                    \"id\": 1,\n                    \"name\": \"Mohamed Osama\"\n                },\n                \"truck_brand\": {\n                    \"id\": 1,\n                    \"name_en\": \"ميرسيدس\",\n                    \"name_ar\": \"Mercedes\"\n                },\n                \"governorate\": {\n                    \"id\": 1,\n                    \"name_en\": \"Cairo Governorate\",\n                    \"name_ar\": \"محافظة القاهرة\"\n                },\n                \"truck_type\": {\n                    \"id\": 1,\n                    \"name_en\": \"Farsh\",\n                    \"name_ar\": \"فرش\"\n                },\n                \"plate_number\": \"2020kmh\",\n                \"license_date_of_issue\": \"2023-04-06\",\n                \"license_expire_date\": \"2023-04-06\",\n                \"traffic_unit\": \"Dokki\",\n                \"owner\": \"Mohamed Osama\",\n                \"brand\": \"Mercedes\",\n                \"chassis_number\": \"2020kmh\",\n                \"motor_number\": \"1000\",\n                \"color\": \"red\",\n                \"allowed_weight\": 1000,\n                \"cylinder_size\": 100,\n                \"status\": 1\n            },\n            \"tail\": {\n                \"id\": 1,\n                \"plate_number\": \"2050nhg\",\n                \"license_date_of_issue\": \"2023-04-06\",\n                \"license_expire_date\": \"2023-04-06\",\n                \"traffic_unit\": \"Salahya\",\n                \"owner\": \"Mohamed Osama\",\n                \"brand\": \"Salahya\",\n                \"chassis_number\": \"2050nhm\",\n                \"color\": \"red\",\n                \"allowed_weight\": 2000,\n                \"status\": 1\n            },\n            \"vendor\": {\n                \"id\": 1,\n                \"name_en\": \"ترانسلاند\",\n                \"name_ar\": \"IACC Transland\"\n            },\n            \"prices\": [\n                {\n                    \"id\": 14,\n                    \"cost\": \"5.00\",\n                    \"price\": \"5.00\",\n                    \"vendor\": {\n                        \"id\": 1,\n                        \"name_en\": \"ترانسلاند\",\n                        \"name_ar\": \"IACC Transland\"\n                    },\n                    \"quantity\": 4,\n                    \"order_id\": 15,\n                    \"currency\": \"EGP\",\n                    \"rate\": \"35.20\"\n                },\n                {\n                    \"id\": 15,\n                    \"cost\": \"110.99\",\n                    \"price\": \"120.66\",\n                    \"vendor\": {\n                        \"id\": 1,\n                        \"name_en\": \"ترانسلاند\",\n                        \"name_ar\": \"IACC Transland\"\n                    },\n                    \"quantity\": 3,\n                    \"order_id\": 15,\n                    \"currency\": \"USD\",\n                    \"rate\": \"20.00\"\n                },\n                {\n                    \"id\": 16,\n                    \"cost\": \"110.99\",\n                    \"price\": \"120.66\",\n                    \"vendor\": {\n                        \"id\": 1,\n                        \"name_en\": \"ترانسلاند\",\n                        \"name_ar\": \"IACC Transland\"\n                    },\n                    \"quantity\": 3,\n                    \"order_id\": 15,\n                    \"currency\": \"USD\",\n                    \"rate\": \"20.00\"\n                }\n            ],\n            \"locations\": [\n                {\n                    \"id\": 25,\n                    \"ordering\": 2,\n                    \"lng\": \"31.220000\",\n                    \"lat\": \"22.220000\",\n                    \"address\": \"addresdds\",\n                    \"description\": \"readescriptiondydd\",\n                    \"job_location_status\": \"pending\",\n                    \"gate\": {\n                        \"id\": 2,\n                        \"name_en\": \"PSDW\",\n                        \"name_ar\": \"ميناء غرب بورسعيد\"\n                    },\n                    \"location_type\": {\n                        \"id\": 2,\n                        \"name_en\": \"dropoff\",\n                        \"name_ar\": \"تعتيق\"\n                    },\n                    \"time\": \"2023-03-14 22:08:42\",\n                    \"contact_number\": \"1008292986\",\n                    \"contact_name\": \"Mohamed Fathi\"\n                },\n                {\n                    \"id\": 26,\n                    \"ordering\": 2,\n                    \"lng\": \"31.220000\",\n                    \"lat\": \"22.220000\",\n                    \"address\": \"addresdds\",\n                    \"description\": \"readescriptiondydd\",\n                    \"job_location_status\": \"pending\",\n                    \"gate\": {\n                        \"id\": 2,\n                        \"name_en\": \"PSDW\",\n                        \"name_ar\": \"ميناء غرب بورسعيد\"\n                    },\n                    \"location_type\": {\n                        \"id\": 2,\n                        \"name_en\": \"dropoff\",\n                        \"name_ar\": \"تعتيق\"\n                    },\n                    \"time\": \"2023-03-14 22:08:42\",\n                    \"contact_number\": \"1008292986\",\n                    \"contact_name\": \"Mohamed Fathi\"\n                }\n            ],\n            \"commodities\": [\n                {\n                    \"id\": 3,\n                    \"name_en\": \"Raw Hides and Skins\",\n                    \"name_ar\": \"جلود\"\n                },\n                {\n                    \"id\": 4,\n                    \"name_en\": \"Plastics and Rubbers\",\n                    \"name_ar\": \"مواد بلاستيكية ومطاطية\"\n                }\n            ],\n            \"truck_types\": [\n                {\n                    \"id\": 3,\n                    \"name_en\": \"Box-Dry\",\n                    \"name_ar\": \"صندوق-جاف\"\n                }\n            ]\n        }\n    ]\n}"
+								},
+								{
+									"id": "286e0ed0-b824-402e-8a12-5acb37ec6341",
 									"name": "validation-error",
 									"originalRequest": {
 										"method": "PUT",
@@ -41482,7 +41643,7 @@
 	],
 	"variable": [
 		{
-			"id": "a87d07b1-4a03-47ec-8f1d-ab3979c8baf4",
+			"id": "0b9e1db1-780d-428d-b8c1-a7e87c8a4547",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
