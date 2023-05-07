@@ -19903,7 +19903,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n    \"client_id\": 2,\n    \"order_status_id\": 2,\n    \"load_type_id\": 2,\n    \"unit_quantity\": 2,\n    \"reference\": \"reference2\",\n    \"special_cases\": \"special_case2\",\n    \"ops_expanses\":10.22,\n    \"price_per\": \"ton\",\n    \"load_weight_unit\": \"kg\",\n    \"load_weight\":50\n\n}",
+									"raw": "{\n    \"client_id\": 2,\n    \"order_status_id\": 2,\n    \"load_type_id\": 2,\n    \"unit_quantity\": 2,\n    \"reference\": \"reference2\",\n    \"special_cases\": \"special_case2\",\n    \"ops_expanses\":10.22,\n    \"price_per\": \"ton\",\n    \"load_weight_unit\": \"kg\",\n    \"load_weight\":50,\n    \"job_status_id\":12\n\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -41510,7 +41510,7 @@
 	],
 	"variable": [
 		{
-			"id": "121481b2-e361-4798-9790-2c7fe6ce2a48",
+			"id": "a705d981-8489-4d7d-84d0-94aa02f90c8c",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
