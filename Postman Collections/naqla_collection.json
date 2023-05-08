@@ -19931,14 +19931,14 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n    // \"truck_type_id\": [\n    //     2\n    // ],\n    // \"commodity_id\": [\n    //     1\n    // ],\n    // \"load_type_id\": 2,\n    // \"client_id\": 1,\n    // \"prices\": [\n    //     {\n    //         \"id\": \"271\",\n    //         \"model_type\": \"Accessory\",\n    //         \"model_id\": 0,\n    //         \"cost\": 55.0,\n    //         \"price\": 66.66,\n    //         \"vendor_id\": null,\n    //         \"quantity\": 1,\n    //         \"currency\": \"USD\",\n    //         \"rate\": 38.20\n    //     }\n    // ],\n    // \"job_locations\": [\n    //     {\n    //         \"ordering\": 3,\n    //         \"lng\": 12.22,\n    //         \"lat\": 13.22,\n    //         \"address\": \"addressssx\",\n    //         \"job_location_status\": \"readyss\",\n    //         \"gate_id\": 1,\n    //         \"description\": \"test descriptiossns\",\n    //         \"location_type_id\": 1,\n    //         \"time\": \"2023-03-14 22:03:42\",\n    //         \"contact_number\": \"1008292987\",\n    //         \"contact_name\": \"Mohamed Fathysx\"\n    //     },\n    //     {\n    //         \"ordering\": 3,\n    //         \"lng\": 30.22,\n    //         \"lat\": 29.22,\n    //         \"address\": \"address\",\n    //         \"job_location_status\": \"ready\",\n    //         \"gate_id\": null,\n    //         \"description\": \"test description\",\n    //         \"location_type_id\": 2,\n    //         \"time\": \"2023-03-14 22:03:42\",\n    //         \"contact_number\": \"1008292985\",\n    //         \"contact_name\": \"Mohamed Fathy\"\n    //     }\n    // ],\n    \"job_containers\": [\n        {\n            \"shipping_line_id\": 2,\n            \"container_type_id\": 2,\n            \"booking_code\": \"mh2343466\",\n            \"container_number\": \"msd215sxx\",\n            \"container_port_code\": \"ADALV\"\n        }\n    ],\n    // \"number_of_jobs\": 2,\n    // \"reference\": \"sssss\",\n    // \"special_cases\": \"sfsdf\",\n    // \"ops_expanses\": 100.33,\n    // \"price_per\": \"naqla\",\n    // \"load_weight\": 100,\n    // \"cost\": 50.99,\n    // \"price\": 100.10\n}",
+									"raw": "{\n    // \"truck_type_id\": [\n    //     2\n    // ],\n    // \"commodity_id\": [\n    //     1\n    // ],\n    // \"load_type_id\": 2,\n    // \"client_id\": 1,\n    // \"prices\": [\n    //     {\n    //         \"id\": \"271\",\n    //         \"model_type\": \"Accessory\",\n    //         \"model_id\": 0,\n    //         \"cost\": 55.0,\n    //         \"price\": 66.66,\n    //         \"vendor_id\": null,\n    //         \"quantity\": 1,\n    //         \"currency\": \"USD\",\n    //         \"rate\": 38.20\n    //     }\n    // ],\n    // \"job_locations\": [\n    //     {\n    //         \"ordering\": 3,\n    //         \"lng\": 12.22,\n    //         \"lat\": 13.22,\n    //         \"address\": \"addressssx\",\n    //         \"job_location_status\": \"readyss\",\n    //         \"gate_id\": 1,\n    //         \"description\": \"test descriptiossns\",\n    //         \"location_type_id\": 1,\n    //         \"time\": \"2023-03-14 22:03:42\",\n    //         \"contact_number\": \"1008292987\",\n    //         \"contact_name\": \"Mohamed Fathysx\"\n    //     },\n    //     {\n    //         \"ordering\": 3,\n    //         \"lng\": 30.22,\n    //         \"lat\": 29.22,\n    //         \"address\": \"address\",\n    //         \"job_location_status\": \"ready\",\n    //         \"gate_id\": null,\n    //         \"description\": \"test description\",\n    //         \"location_type_id\": 2,\n    //         \"time\": \"2023-03-14 22:03:42\",\n    //         \"contact_number\": \"1008292985\",\n    //         \"contact_name\": \"Mohamed Fathy\"\n    //     }\n    // ],\n    \"job_containers\": [\n        {\n            \"shipping_line_id\": 2,\n            \"container_type_id\": 2,\n            \"booking_code\": \"mh2343466\",\n            \"container_number\": \"msd215sxx\",\n            \"container_port_code\": \"ADALV\"\n        }\n    ]\n    // \"number_of_jobs\": 2,\n    // \"reference\": \"sssss\",\n    // \"special_cases\": \"sfsdf\",\n    // \"ops_expanses\": 100.33,\n    // \"price_per\": \"naqla\",\n    // \"load_weight\": 100,\n    // \"cost\": 50.99,\n    // \"price\": 100.10\n}",
 									"options": {
 										"raw": {
 											"language": "json"
 										}
 									}
 								},
-								"url": "{{Host}}/api/admin/orders/64"
+								"url": "{{Host}}/api/admin/orders/70"
 							},
 							"response": [
 								{
@@ -41510,7 +41510,7 @@
 	],
 	"variable": [
 		{
-			"id": "ea9c1113-ffb2-4bb5-bdb0-6f3df9561cde",
+			"id": "422f0fee-c7fd-4474-aa4e-df87226e7e41",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
