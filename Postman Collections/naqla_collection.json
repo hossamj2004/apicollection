@@ -18033,14 +18033,14 @@
 							},
 							"response": [
 								{
-									"id": "d0d0deda-c320-4232-b7cc-61607009cb91",
-									"name": "success-response",
+									"id": "87f0d0d5-4e88-42dc-956f-220e1099b16f",
+									"name": "create-distribution-order",
 									"originalRequest": {
 										"method": "POST",
 										"header": [],
 										"body": {
 											"mode": "raw",
-											"raw": "{\n    \"truck_type_id\": [\n        1,\n        2\n    ],\n    \"commodity_id\": [\n        1,\n        2\n    ],\n    \"load_type_id\": 1,\n    \"client_id\": 1,\n    \"prices\": [\n        {\n            \"model_type\": \"Job\",\n            \"model_id\": 0,\n            \"cost\": 100.99,\n            \"price\": 110.66,\n            \"vendor_id\": 1,\n            \"quantity\": 4,\n            \"currency\": \"EGP\",\n            \"rate\": 35.20\n        }\n    ],\n    \"job_locations\": [\n        {\n            \"ordering\": 1,\n            \"lng\": 30.22,\n            \"lat\": 29.22,\n            \"address\": \"address\",\n            \"job_location_status\": \"ready\",\n            \"gate_id\": null,\n            \"description\": \"test description\",\n            \"location_type_id\": 1,\n            \"time\": \"2023-03-14 22:03:42\",\n            \"contact_number\": \"1008292985\",\n            \"contact_name\": \"Mohamed Fathy\"\n        }\n    ],\n    \"number_of_jobs\": 1,\n    \"reference\": \"reference\",\n    \"special_cases\": \"special_cases\",\n    \"ops_expanses\": 100.55,\n    \"price_per\": \"naqla\",\n    \"load_weight\": 100,\n    \"cost\": 50.99,\n    \"price\": 100.10\n}",
+											"raw": "{\n    \"job_type_id\": \"3\",\n    \"truck_type_id\": [\n        1,\n        2\n    ],\n    \"commodity_id\": [\n        1\n    ],\n    \"order_status_id\":1,\n    \"load_type_id\": 1,\n    \"client_id\": 1,\n    \"prices\": [\n        {\n            \"id\":271,\n            \"model_type\": \"Accessory\",\n            \"model_id\":0,\n            \"cost\": 55,\n            \"price\": 66,\n            \"vendor_id\": 1,\n            \"quantity\": 4,\n            \"currency\": \"EGP\",\n            \"rate\": 1\n        }\n    ],\n    \"job_locations\": [\n        {\n            \"ordering\": 1,\n            \"lng\": 30.22,\n            \"lat\": 29.22,\n            \"address\": \"address\",\n            \"job_location_status\": \"ready\",\n            \"gate_id\": 1,\n            \"description\": \"test description\",\n            \"location_type_id\": 1,\n            \"time\": \"2023-05-14 22:03:42\",\n            \"contact_number\": \"1008292985\",\n            \"contact_name\": \"Mohamed Fathy\"\n        },\n        {\n            \"ordering\": 2,\n            \"lng\": 30.22,\n            \"lat\": 29.22,\n            \"address\": \"address\",\n            \"job_location_status\": \"ready\",\n            \"gate_id\": null,\n            \"description\": \"test description\",\n            \"location_type_id\": 2,\n            \"time\": \"2023-05-14 22:03:42\",\n            \"contact_number\": \"1008292985\",\n            \"contact_name\": \"Mohamed Fathy\"\n        }\n    ],\n    \"number_of_jobs\": 3,\n    \"reference\": \"reference\",\n    \"special_cases\": \"special_cases\",\n    \"ops_expanses\": 100.55,\n    \"price_per\": \"naqla\",\n    \"load_weight\": 100,\n    \"cost\": 50.99,\n    \"price\": 100.10\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -18054,32 +18054,28 @@
 									"_postman_previewlanguage": "json",
 									"header": [
 										{
-											"key": "Host",
-											"value": "localhost:3000"
+											"key": "Server",
+											"value": "nginx/1.18.0 (Ubuntu)"
 										},
 										{
-											"key": "Date",
-											"value": "Fri, 07 Apr 2023 01:28:47 GMT"
+											"key": "Content-Type",
+											"value": "application/json"
 										},
 										{
-											"key": "Date",
-											"value": "Fri, 07 Apr 2023 01:28:47 GMT"
+											"key": "Transfer-Encoding",
+											"value": "chunked"
 										},
 										{
 											"key": "Connection",
-											"value": "close"
-										},
-										{
-											"key": "X-Powered-By",
-											"value": "PHP/8.1.13"
+											"value": "keep-alive"
 										},
 										{
 											"key": "Cache-Control",
 											"value": "no-cache, private"
 										},
 										{
-											"key": "Content-Type",
-											"value": "application/json"
+											"key": "Date",
+											"value": "Tue, 09 May 2023 08:31:32 GMT"
 										},
 										{
 											"key": "X-RateLimit-Limit",
@@ -18092,77 +18088,23 @@
 										{
 											"key": "Access-Control-Allow-Origin",
 											"value": "*"
+										},
+										{
+											"key": "X-Frame-Options",
+											"value": "SAMEORIGIN"
+										},
+										{
+											"key": "X-XSS-Protection",
+											"value": "1; mode=block"
+										},
+										{
+											"key": "X-Content-Type-Options",
+											"value": "nosniff"
 										}
 									],
 									"cookie": [],
 									"responseTime": null,
-									"body": "{\n    \"id\": 14,\n    \"client\": {\n        \"id\": 1,\n        \"name_en\": \"Elsewedy Electric\",\n        \"name_ar\": \"السويدي اليكتريك\"\n    },\n    \"order_status\": {\n        \"id\": 1,\n        \"name_en\": \"pending pricing\",\n        \"name_ar\": \"بانتظار التسعير\"\n    },\n    \"number_of_jobs\": 1,\n    \"jobs\": [\n        {\n            \"id\": 14,\n            \"client_id\": 1,\n            \"load_type\": {\n                \"id\": 1,\n                \"name_en\": \"dry\",\n                \"name_ar\": \"جاف\"\n            },\n            \"unit_quantity\": null,\n            \"reference\": \"reference\",\n            \"special_cases\": \"special_cases\",\n            \"ops_expanses\": \"100.55\",\n            \"price_per\": \"naqla\",\n            \"load_weight\": \"100\",\n            \"job_status\": {\n                \"id\": 11,\n                \"name_en\": \"Pending Pricing\",\n                \"name_ar\": \"بانتظار التسعير من الادارة\"\n            },\n            \"driver\": null,\n            \"truck\": null,\n            \"tail\": null,\n            \"vendor\": null,\n            \"prices\": [\n                {\n                    \"id\": 12,\n                    \"cost\": \"100.99\",\n                    \"price\": \"110.66\",\n                    \"vendor\": {\n                        \"id\": 1,\n                        \"name_en\": \"ترانسلاند\",\n                        \"name_ar\": \"IACC Transland\"\n                    },\n                    \"quantity\": 4,\n                    \"order_id\": 14,\n                    \"currency\": \"EGP\",\n                    \"rate\": \"35.20\"\n                }\n            ],\n            \"locations\": [\n                {\n                    \"id\": 12,\n                    \"ordering\": 1,\n                    \"lng\": \"30.220000\",\n                    \"lat\": \"29.220000\",\n                    \"address\": \"address\",\n                    \"description\": \"test description\",\n                    \"job_location_status\": \"ready\",\n                    \"gate\": null,\n                    \"location_type\": {\n                        \"id\": 1,\n                        \"name_en\": \"pickup\",\n                        \"name_ar\": \"تحميل\"\n                    },\n                    \"time\": \"2023-03-14 22:03:42\",\n                    \"contact_number\": \"1008292985\",\n                    \"contact_name\": \"Mohamed Fathy\"\n                }\n            ],\n            \"commodities\": [\n                {\n                    \"id\": 1,\n                    \"name_en\": \"Textiles\",\n                    \"name_ar\": \"منسوجات\"\n                },\n                {\n                    \"id\": 2,\n                    \"name_en\": \"Stone\",\n                    \"name_ar\": \"أحجار\"\n                }\n            ],\n            \"truck_types\": [\n                {\n                    \"id\": 1,\n                    \"name_en\": \"Farsh\",\n                    \"name_ar\": \"فرش\"\n                },\n                {\n                    \"id\": 2,\n                    \"name_en\": \"Sides\",\n                    \"name_ar\": \"جوانب\"\n                }\n            ]\n        }\n    ]\n}"
-								},
-								{
-									"id": "6a920792-2c80-471a-865a-e9381065088b",
-									"name": "validation-error",
-									"originalRequest": {
-										"method": "POST",
-										"header": [],
-										"body": {
-											"mode": "raw",
-											"raw": "{\n    \"truck_type_id\": [\n        1,\n        2\n    ],\n    \"commodity_id\": [\n        1,\n        2\n    ],\n    \"load_type_id\": 1,\n\n    \"prices\": [\n        {\n            \"model_type\": \"Job\",\n            \"model_id\": 0,\n            \"cost\": 100.99,\n            \"price\": 110.66,\n            \"vendor_id\": 1,\n            \"quantity\": 4,\n            \"currency\": \"EGP\",\n            \"rate\": 35.20\n        }\n    ],\n    \"job_locations\": [\n        {\n            \"ordering\": 1,\n            \"lng\": 30.22,\n            \"lat\": 29.22,\n            \"address\": \"address\",\n            \"job_location_status\": \"ready\",\n            \"gate_id\": null,\n            \"description\": \"test description\",\n            \"location_type_id\": 1,\n            \"time\": \"2023-03-14 22:03:42\",\n            \"contact_number\": \"1008292985\",\n            \"contact_name\": \"Mohamed Fathy\"\n        }\n    ],\n    \"number_of_jobs\": 1,\n    \"reference\": \"reference\",\n    \"special_cases\": \"special_cases\",\n    \"ops_expanses\": 100.55,\n    \"price_per\": \"naqla\",\n    \"load_weight\": 100,\n    \"cost\": 50.99,\n    \"price\": 100.10\n}",
-											"options": {
-												"raw": {
-													"language": "json"
-												}
-											}
-										},
-										"url": "{{Host}}/api/admin/orders"
-									},
-									"status": "Bad Request",
-									"code": 400,
-									"_postman_previewlanguage": "json",
-									"header": [
-										{
-											"key": "Host",
-											"value": "localhost:3000"
-										},
-										{
-											"key": "Date",
-											"value": "Fri, 07 Apr 2023 01:32:56 GMT"
-										},
-										{
-											"key": "Date",
-											"value": "Fri, 07 Apr 2023 01:32:56 GMT"
-										},
-										{
-											"key": "Connection",
-											"value": "close"
-										},
-										{
-											"key": "X-Powered-By",
-											"value": "PHP/8.1.13"
-										},
-										{
-											"key": "Cache-Control",
-											"value": "no-cache, private"
-										},
-										{
-											"key": "Content-Type",
-											"value": "application/json"
-										},
-										{
-											"key": "X-RateLimit-Limit",
-											"value": "60"
-										},
-										{
-											"key": "X-RateLimit-Remaining",
-											"value": "57"
-										},
-										{
-											"key": "Access-Control-Allow-Origin",
-											"value": "*"
-										}
-									],
-									"cookie": [],
-									"responseTime": null,
-									"body": "{\n    \"code\": 400,\n    \"error\": \"validation-error\",\n    \"message\": \"الحقل client id مطلوب.\",\n    \"messages\": {\n        \"client_id\": [\n            \"الحقل client id مطلوب.\"\n        ]\n    },\n    \"file\": \"/home/mfathy/Desktop/core/vendor/laravel/framework/src/Illuminate/Foundation/Http/FormRequest.php\",\n    \"line\": 148\n}"
+									"body": "{\n    \"id\": 71,\n    \"client\": {\n        \"id\": 1,\n        \"name_en\": \"Elsewedy Electric\",\n        \"name_ar\": \"السويدي اليكتريك\"\n    },\n    \"shipper\": null,\n    \"order_status\": {\n        \"id\": 1,\n        \"name_en\": \"pending pricing\",\n        \"name_ar\": \"بانتظار التسعير\"\n    },\n    \"number_of_jobs\": 3,\n    \"order_prices\": [\n        {\n            \"id\": 204,\n            \"model_type\": \"Accessory\",\n            \"model_id\": 0,\n            \"cost\": \"55.00\",\n            \"price\": \"66.00\",\n            \"vendor\": {\n                \"id\": 1,\n                \"name_en\": \"ترانسلاند\",\n                \"name_ar\": \"IACC Transland\"\n            },\n            \"accessory\": null,\n            \"quantity\": 4,\n            \"order_id\": 71,\n            \"currency\": \"EGP\",\n            \"rate\": \"1.00\"\n        }\n    ],\n    \"created_at\": \"2023-05-09T08:31:31.000000Z\",\n    \"updated_at\": \"2023-05-09T08:31:31.000000Z\",\n    \"jobs\": [\n        {\n            \"id\": 107,\n            \"job_type\": {\n                \"id\": 3,\n                \"name_en\": \"Distribution\",\n                \"name_ar\": \"توزيع\"\n            },\n            \"client_id\": 1,\n            \"load_type\": {\n                \"id\": 1,\n                \"name_en\": \"dry\",\n                \"name_ar\": \"جاف\"\n            },\n            \"unit_quantity\": null,\n            \"reference\": \"reference\",\n            \"special_cases\": \"special_cases\",\n            \"cost\": \"50.99\",\n            \"selling\": \"100.10\",\n            \"ops_expanses\": \"100.55\",\n            \"price_per\": \"naqla\",\n            \"load_weight\": \"100\",\n            \"customs_procedure\": null,\n            \"customs_broker_name\": null,\n            \"customs_broker_phone\": null,\n            \"job_status\": {\n                \"id\": 11,\n                \"name_en\": \"Pending Pricing\",\n                \"name_ar\": \"بانتظار التسعير من الادارة\"\n            },\n            \"driver\": null,\n            \"truck\": null,\n            \"tail\": null,\n            \"vendor\": null,\n            \"prices\": [\n                {\n                    \"id\": 200,\n                    \"model_type\": \"Job\",\n                    \"model_id\": 0,\n                    \"cost\": \"50.99\",\n                    \"price\": \"100.10\",\n                    \"vendor\": null,\n                    \"accessory\": null,\n                    \"quantity\": 1,\n                    \"order_id\": 71,\n                    \"currency\": \"EGP\",\n                    \"rate\": \"1.00\"\n                }\n            ],\n            \"locations\": [\n                {\n                    \"id\": 232,\n                    \"ordering\": 1,\n                    \"lng\": \"30.220000\",\n                    \"lat\": \"29.220000\",\n                    \"address\": \"address\",\n                    \"description\": \"test description\",\n                    \"job_location_status\": \"ready\",\n                    \"gate\": {\n                        \"id\": 1,\n                        \"name_en\": \"Adabeya\",\n                        \"name_ar\": \"ميناء الأدبية\"\n                    },\n                    \"location_type\": {\n                        \"id\": 1,\n                        \"name_en\": \"pickup\",\n                        \"name_ar\": \"تحميل\"\n                    },\n                    \"time\": \"2023-05-14 22:03:42\",\n                    \"contact_number\": \"1008292985\",\n                    \"contact_name\": \"Mohamed Fathy\"\n                },\n                {\n                    \"id\": 233,\n                    \"ordering\": 2,\n                    \"lng\": \"30.220000\",\n                    \"lat\": \"29.220000\",\n                    \"address\": \"address\",\n                    \"description\": \"test description\",\n                    \"job_location_status\": \"ready\",\n                    \"gate\": null,\n                    \"location_type\": {\n                        \"id\": 2,\n                        \"name_en\": \"dropoff\",\n                        \"name_ar\": \"تعتيق\"\n                    },\n                    \"time\": \"2023-05-14 22:03:42\",\n                    \"contact_number\": \"1008292985\",\n                    \"contact_name\": \"Mohamed Fathy\"\n                }\n            ],\n            \"containers\": [],\n            \"commodities\": [\n                {\n                    \"id\": 1,\n                    \"name_en\": \"Textiles\",\n                    \"name_ar\": \"منسوجات\"\n                }\n            ],\n            \"truck_types\": [\n                {\n                    \"id\": 1,\n                    \"name_en\": \"Farsh\",\n                    \"name_ar\": \"فرش\"\n                },\n                {\n                    \"id\": 2,\n                    \"name_en\": \"Sides\",\n                    \"name_ar\": \"جوانب\"\n                }\n            ]\n        },\n        {\n            \"id\": 108,\n            \"job_type\": {\n                \"id\": 3,\n                \"name_en\": \"Distribution\",\n                \"name_ar\": \"توزيع\"\n            },\n            \"client_id\": 1,\n            \"load_type\": {\n                \"id\": 1,\n                \"name_en\": \"dry\",\n                \"name_ar\": \"جاف\"\n            },\n            \"unit_quantity\": null,\n            \"reference\": \"reference\",\n            \"special_cases\": \"special_cases\",\n            \"cost\": \"50.99\",\n            \"selling\": \"100.10\",\n            \"ops_expanses\": \"100.55\",\n            \"price_per\": \"naqla\",\n            \"load_weight\": \"100\",\n            \"customs_procedure\": null,\n            \"customs_broker_name\": null,\n            \"customs_broker_phone\": null,\n            \"job_status\": {\n                \"id\": 11,\n                \"name_en\": \"Pending Pricing\",\n                \"name_ar\": \"بانتظار التسعير من الادارة\"\n            },\n            \"driver\": null,\n            \"truck\": null,\n            \"tail\": null,\n            \"vendor\": null,\n            \"prices\": [\n                {\n                    \"id\": 201,\n                    \"model_type\": \"Job\",\n                    \"model_id\": 0,\n                    \"cost\": \"50.99\",\n                    \"price\": \"100.10\",\n                    \"vendor\": null,\n                    \"accessory\": null,\n                    \"quantity\": 1,\n                    \"order_id\": 71,\n                    \"currency\": \"EGP\",\n                    \"rate\": \"1.00\"\n                }\n            ],\n            \"locations\": [\n                {\n                    \"id\": 234,\n                    \"ordering\": 1,\n                    \"lng\": \"30.220000\",\n                    \"lat\": \"29.220000\",\n                    \"address\": \"address\",\n                    \"description\": \"test description\",\n                    \"job_location_status\": \"ready\",\n                    \"gate\": {\n                        \"id\": 1,\n                        \"name_en\": \"Adabeya\",\n                        \"name_ar\": \"ميناء الأدبية\"\n                    },\n                    \"location_type\": {\n                        \"id\": 1,\n                        \"name_en\": \"pickup\",\n                        \"name_ar\": \"تحميل\"\n                    },\n                    \"time\": \"2023-05-14 22:03:42\",\n                    \"contact_number\": \"1008292985\",\n                    \"contact_name\": \"Mohamed Fathy\"\n                },\n                {\n                    \"id\": 235,\n                    \"ordering\": 2,\n                    \"lng\": \"30.220000\",\n                    \"lat\": \"29.220000\",\n                    \"address\": \"address\",\n                    \"description\": \"test description\",\n                    \"job_location_status\": \"ready\",\n                    \"gate\": null,\n                    \"location_type\": {\n                        \"id\": 2,\n                        \"name_en\": \"dropoff\",\n                        \"name_ar\": \"تعتيق\"\n                    },\n                    \"time\": \"2023-05-14 22:03:42\",\n                    \"contact_number\": \"1008292985\",\n                    \"contact_name\": \"Mohamed Fathy\"\n                }\n            ],\n            \"containers\": [],\n            \"commodities\": [\n                {\n                    \"id\": 1,\n                    \"name_en\": \"Textiles\",\n                    \"name_ar\": \"منسوجات\"\n                }\n            ],\n            \"truck_types\": [\n                {\n                    \"id\": 1,\n                    \"name_en\": \"Farsh\",\n                    \"name_ar\": \"فرش\"\n                },\n                {\n                    \"id\": 2,\n                    \"name_en\": \"Sides\",\n                    \"name_ar\": \"جوانب\"\n                }\n            ]\n        },\n        {\n            \"id\": 109,\n            \"job_type\": {\n                \"id\": 3,\n                \"name_en\": \"Distribution\",\n                \"name_ar\": \"توزيع\"\n            },\n            \"client_id\": 1,\n            \"load_type\": {\n                \"id\": 1,\n                \"name_en\": \"dry\",\n                \"name_ar\": \"جاف\"\n            },\n            \"unit_quantity\": null,\n            \"reference\": \"reference\",\n            \"special_cases\": \"special_cases\",\n            \"cost\": \"50.99\",\n            \"selling\": \"100.10\",\n            \"ops_expanses\": \"100.55\",\n            \"price_per\": \"naqla\",\n            \"load_weight\": \"100\",\n            \"customs_procedure\": null,\n            \"customs_broker_name\": null,\n            \"customs_broker_phone\": null,\n            \"job_status\": {\n                \"id\": 11,\n                \"name_en\": \"Pending Pricing\",\n                \"name_ar\": \"بانتظار التسعير من الادارة\"\n            },\n            \"driver\": null,\n            \"truck\": null,\n            \"tail\": null,\n            \"vendor\": null,\n            \"prices\": [\n                {\n                    \"id\": 202,\n                    \"model_type\": \"Job\",\n                    \"model_id\": 0,\n                    \"cost\": \"50.99\",\n                    \"price\": \"100.10\",\n                    \"vendor\": null,\n                    \"accessory\": null,\n                    \"quantity\": 1,\n                    \"order_id\": 71,\n                    \"currency\": \"EGP\",\n                    \"rate\": \"1.00\"\n                }\n            ],\n            \"locations\": [\n                {\n                    \"id\": 236,\n                    \"ordering\": 1,\n                    \"lng\": \"30.220000\",\n                    \"lat\": \"29.220000\",\n                    \"address\": \"address\",\n                    \"description\": \"test description\",\n                    \"job_location_status\": \"ready\",\n                    \"gate\": {\n                        \"id\": 1,\n                        \"name_en\": \"Adabeya\",\n                        \"name_ar\": \"ميناء الأدبية\"\n                    },\n                    \"location_type\": {\n                        \"id\": 1,\n                        \"name_en\": \"pickup\",\n                        \"name_ar\": \"تحميل\"\n                    },\n                    \"time\": \"2023-05-14 22:03:42\",\n                    \"contact_number\": \"1008292985\",\n                    \"contact_name\": \"Mohamed Fathy\"\n                },\n                {\n                    \"id\": 237,\n                    \"ordering\": 2,\n                    \"lng\": \"30.220000\",\n                    \"lat\": \"29.220000\",\n                    \"address\": \"address\",\n                    \"description\": \"test description\",\n                    \"job_location_status\": \"ready\",\n                    \"gate\": null,\n                    \"location_type\": {\n                        \"id\": 2,\n                        \"name_en\": \"dropoff\",\n                        \"name_ar\": \"تعتيق\"\n                    },\n                    \"time\": \"2023-05-14 22:03:42\",\n                    \"contact_number\": \"1008292985\",\n                    \"contact_name\": \"Mohamed Fathy\"\n                }\n            ],\n            \"containers\": [],\n            \"commodities\": [\n                {\n                    \"id\": 1,\n                    \"name_en\": \"Textiles\",\n                    \"name_ar\": \"منسوجات\"\n                }\n            ],\n            \"truck_types\": [\n                {\n                    \"id\": 1,\n                    \"name_en\": \"Farsh\",\n                    \"name_ar\": \"فرش\"\n                },\n                {\n                    \"id\": 2,\n                    \"name_en\": \"Sides\",\n                    \"name_ar\": \"جوانب\"\n                }\n            ]\n        },\n        {\n            \"id\": 110,\n            \"job_type\": {\n                \"id\": 3,\n                \"name_en\": \"Distribution\",\n                \"name_ar\": \"توزيع\"\n            },\n            \"client_id\": 1,\n            \"load_type\": {\n                \"id\": 1,\n                \"name_en\": \"dry\",\n                \"name_ar\": \"جاف\"\n            },\n            \"unit_quantity\": null,\n            \"reference\": \"reference\",\n            \"special_cases\": \"special_cases\",\n            \"cost\": \"50.99\",\n            \"selling\": \"100.10\",\n            \"ops_expanses\": \"100.55\",\n            \"price_per\": \"naqla\",\n            \"load_weight\": \"100\",\n            \"customs_procedure\": null,\n            \"customs_broker_name\": null,\n            \"customs_broker_phone\": null,\n            \"job_status\": {\n                \"id\": 11,\n                \"name_en\": \"Pending Pricing\",\n                \"name_ar\": \"بانتظار التسعير من الادارة\"\n            },\n            \"driver\": null,\n            \"truck\": null,\n            \"tail\": null,\n            \"vendor\": null,\n            \"prices\": [\n                {\n                    \"id\": 203,\n                    \"model_type\": \"Job\",\n                    \"model_id\": 0,\n                    \"cost\": \"50.99\",\n                    \"price\": \"100.10\",\n                    \"vendor\": null,\n                    \"accessory\": null,\n                    \"quantity\": 1,\n                    \"order_id\": 71,\n                    \"currency\": \"EGP\",\n                    \"rate\": \"1.00\"\n                }\n            ],\n            \"locations\": [\n                {\n                    \"id\": 238,\n                    \"ordering\": 1,\n                    \"lng\": \"30.220000\",\n                    \"lat\": \"29.220000\",\n                    \"address\": \"address\",\n                    \"description\": \"test description\",\n                    \"job_location_status\": \"ready\",\n                    \"gate\": {\n                        \"id\": 1,\n                        \"name_en\": \"Adabeya\",\n                        \"name_ar\": \"ميناء الأدبية\"\n                    },\n                    \"location_type\": {\n                        \"id\": 1,\n                        \"name_en\": \"pickup\",\n                        \"name_ar\": \"تحميل\"\n                    },\n                    \"time\": \"2023-05-14 22:03:42\",\n                    \"contact_number\": \"1008292985\",\n                    \"contact_name\": \"Mohamed Fathy\"\n                },\n                {\n                    \"id\": 239,\n                    \"ordering\": 2,\n                    \"lng\": \"30.220000\",\n                    \"lat\": \"29.220000\",\n                    \"address\": \"address\",\n                    \"description\": \"test description\",\n                    \"job_location_status\": \"ready\",\n                    \"gate\": null,\n                    \"location_type\": {\n                        \"id\": 2,\n                        \"name_en\": \"dropoff\",\n                        \"name_ar\": \"تعتيق\"\n                    },\n                    \"time\": \"2023-05-14 22:03:42\",\n                    \"contact_number\": \"1008292985\",\n                    \"contact_name\": \"Mohamed Fathy\"\n                }\n            ],\n            \"containers\": [],\n            \"commodities\": [\n                {\n                    \"id\": 1,\n                    \"name_en\": \"Textiles\",\n                    \"name_ar\": \"منسوجات\"\n                }\n            ],\n            \"truck_types\": [\n                {\n                    \"id\": 1,\n                    \"name_en\": \"Farsh\",\n                    \"name_ar\": \"فرش\"\n                },\n                {\n                    \"id\": 2,\n                    \"name_en\": \"Sides\",\n                    \"name_ar\": \"جوانب\"\n                }\n            ]\n        }\n    ],\n    \"attached_files\": []\n}"
 								}
 							]
 						},
@@ -39902,7 +39844,7 @@
 	],
 	"variable": [
 		{
-			"id": "eec08177-4cc6-4e6f-a4bb-ed0b1ee91431",
+			"id": "4f94de4d-afe5-4598-8a12-12a6899262f6",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
