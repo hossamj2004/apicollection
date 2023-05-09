@@ -34651,7 +34651,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\n    \"country_code\": \"20\",\n    \"phone\": \"1008292985\",\n    \"code\": \"123456\"\n}",
+											"raw": "{\n    \"country_code\": \"20\",\n    \"phone\": \"1008292985\",\n    \"code\": \"123456\",\n    \"fcm_token\":\"\"\n\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -39844,7 +39844,7 @@
 	],
 	"variable": [
 		{
-			"id": "5b50e944-ca04-4db7-adaa-6b57307cdf0a",
+			"id": "76464aad-29c9-4c31-a64c-5f07e2e010ca",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
