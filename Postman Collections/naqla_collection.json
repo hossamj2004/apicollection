@@ -9838,114 +9838,13 @@
 								"method": "POST",
 								"header": [],
 								"body": {
-									"mode": "formdata",
-									"formdata": [
-										{
-											"key": "name_en",
-											"value": "Pepsi",
-											"type": "text"
-										},
-										{
-											"key": "name_ar",
-											"value": "بيبسي",
-											"type": "text"
-										},
-										{
-											"key": "contact",
-											"value": "01008292990",
-											"type": "text"
-										},
-										{
-											"key": "status",
-											"value": "1",
-											"type": "text"
-										},
-										{
-											"key": "address_ar",
-											"value": "الحي العاشر مدينة نصر",
-											"type": "text"
-										},
-										{
-											"key": "address_en",
-											"value": "The tenth district, Nasr City",
-											"type": "text"
-										},
-										{
-											"key": "client_type",
-											"value": "corporate",
-											"type": "text"
-										},
-										{
-											"key": "logo",
-											"type": "file",
-											"src": "/home/mfathy/Desktop/Notes/truck_type.png"
-										},
-										{
-											"key": "accounts[0][status]",
-											"value": "1",
-											"type": "text"
-										},
-										{
-											"key": "accounts[0][name_en]",
-											"value": "Osama Mohamed",
-											"type": "text"
-										},
-										{
-											"key": "accounts[0][name_ar]",
-											"value": "اسامة محمد",
-											"type": "text"
-										},
-										{
-											"key": "accounts[0][phone]",
-											"value": "01008292231",
-											"type": "text"
-										},
-										{
-											"key": "accounts[1][status]",
-											"value": "1",
-											"type": "text"
-										},
-										{
-											"key": "accounts[1][name_en]",
-											"value": "Islam Shaban",
-											"type": "text"
-										},
-										{
-											"key": "accounts[1][name_ar]",
-											"value": "اسلام شعبان",
-											"type": "text"
-										},
-										{
-											"key": "accounts[1][phone]",
-											"value": "01008294323",
-											"type": "text"
-										},
-										{
-											"key": "account_documents[0][file]",
-											"type": "file",
-											"src": "/home/mfathy/Desktop/Notes/truck_type.png"
-										},
-										{
-											"key": "account_documents[0][description]",
-											"type": "text",
-											"value": "national_id"
-										},
-										{
-											"key": "account_documents[1][file]",
-											"type": "file",
-											"src": "/home/mfathy/Desktop/Notes/truck_type.png"
-										},
-										{
-											"key": "account_documents[1][description]",
-											"value": "national_id",
-											"type": "text"
-										},
-										{
-											"key": "corporate_type",
-											"value": "direct_client",
-											"type": "text"
+									"mode": "raw",
+									"raw": "{\n    \"commercial_register_image\": \"data:image/png;base64,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\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
 										}
-									]
+									}
 								},
 								"url": "{{Host}}/api/admin/clients"
 							},
@@ -18257,7 +18156,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n    \"updated_job_locations\": [\n        {\n            \"id\":5,\n            \"ordering\": 1,\n            \"lng\": 12.22,\n            \"lat\": 13.22,\n            \"address\": \"addressssx\",\n            \"job_location_status\": \"readyss\",\n            \"gate_id\": 1,\n            \"description\": \"test descriptiossns\",\n            \"location_type_id\": 1,\n            \"time\": \"2023-03-14 22:03:42\",\n            \"contact_number\": \"1008292987\",\n            \"contact_name\": \"Mohamed Fathysx\"\n        },\n        {\n            \"id\":6,\n            \"ordering\": 3,\n            \"lng\": 10.22,\n            \"lat\": 11.22,\n            \"address\": \"address\",\n            \"job_location_status\": \"ready\",\n            \"gate_id\": null,\n            \"description\": \"test description\",\n            \"location_type_id\": 2,\n            \"time\": \"2023-03-14 22:03:42\",\n            \"contact_number\": \"1008292985\",\n            \"contact_name\": \"Mohamed Fathy\"\n        }\n    ]\n}",
+									"raw": "{\n    \"updated_job_locations\": [\n        {\n            \"id\":5,\n            \"ordering\": 2,\n            \"lng\": 33.3,\n            \"lat\": 44.5,\n            \"address\": \"addressssx\",\n            \"job_location_status\": \"readyss\",\n            \"gate_id\": 1,\n            \"description\": \"test descriptiossns\",\n            \"location_type_id\": 1,\n            \"time\": \"2023-03-14 22:03:42\",\n            \"contact_number\": \"1008292987\",\n            \"contact_name\": \"Mohamed Fathysx\"\n        },\n        {\n            \"id\":6,\n            \"ordering\": 3,\n            \"lng\": 10.22,\n            \"lat\": 11.22,\n            \"address\": \"address\",\n            \"job_location_status\": \"ready\",\n            \"gate_id\": null,\n            \"description\": \"test description\",\n            \"location_type_id\": 2,\n            \"time\": \"2023-03-14 22:03:42\",\n            \"contact_number\": \"1008292985\",\n            \"contact_name\": \"Mohamed Fathy\"\n        }\n    ]\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -39864,7 +39763,7 @@
 	],
 	"variable": [
 		{
-			"id": "4d33f222-56ca-4719-b343-5e501d709d87",
+			"id": "1f8c981c-c93c-4255-a783-ed2e65b806c3",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
