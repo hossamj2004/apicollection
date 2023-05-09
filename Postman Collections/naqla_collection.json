@@ -16803,7 +16803,7 @@
 								},
 								"method": "GET",
 								"header": [],
-								"url": "{{Host}}/api/admin/activity-logs/Notification/1",
+								"url": "{{Host}}/api/admin/activity-logs/Order/2",
 								"description": "This API is generic for all models that we will define to be `logged`\n\nYou can use it by the following:\n\n#### to get activity log of specific record:\n\n``` markdown\n{{Host}}/api/admin/activity/  + {model_name} + {model_id}\n\n```\n\n#### Take care of models like loadType .\n\n#### Care to send loadType not loadtype"
 							},
 							"response": [
@@ -39844,7 +39844,7 @@
 	],
 	"variable": [
 		{
-			"id": "8ffc5c9b-2317-446c-b404-f45d939b7cf2",
+			"id": "2ff059d9-144c-485d-8a54-ed85d62f4d7b",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
