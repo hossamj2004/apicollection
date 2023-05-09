@@ -12876,7 +12876,8 @@
 										{
 											"key": "description_en",
 											"value": "description_en",
-											"type": "text"
+											"type": "text",
+											"disabled": true
 										},
 										{
 											"key": "description_ar",
@@ -12891,8 +12892,7 @@
 										{
 											"key": "link",
 											"value": "https://st4.depositphotos.com/5943922/40270/i/1600/depositphotos_402703556-stock-photo-ling-watercolor-isolated-illustration-of.jpg",
-											"type": "text",
-											"disabled": true
+											"type": "text"
 										},
 										{
 											"key": "status",
@@ -17879,7 +17879,7 @@
 										}
 									}
 								},
-								"url": "{{Host}}/api/admin/orders/70"
+								"url": "{{Host}}/api/admin/orders/39"
 							},
 							"response": [
 								{
@@ -39880,7 +39880,7 @@
 	],
 	"variable": [
 		{
-			"id": "21be6450-fedd-443a-bdb7-b9860e41f2ac",
+			"id": "836ed485-27bd-45d0-b2b0-6ae8a593cd25",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
