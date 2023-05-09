@@ -17672,7 +17672,7 @@
 									}
 								},
 								"url": {
-									"raw": "{{Host}}/api/admin/orders?filter[Job][job_type_id]=1",
+									"raw": "{{Host}}/api/admin/orders?filter[Job][job_type_id]=3",
 									"host": [
 										"{{Host}}"
 									],
@@ -17684,7 +17684,7 @@
 									"query": [
 										{
 											"key": "filter[Job][job_type_id]",
-											"value": "1"
+											"value": "3"
 										}
 									]
 								}
@@ -39864,7 +39864,7 @@
 	],
 	"variable": [
 		{
-			"id": "f6c19fa5-4b88-41dd-bed5-f8954a3e5bbb",
+			"id": "13492831-0af2-4cf6-8148-867425a814a2",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
