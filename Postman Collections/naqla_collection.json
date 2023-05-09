@@ -18732,6 +18732,408 @@
 							]
 						},
 						{
+							"name": "create-empties-order",
+							"id": "7b3f4fae-0927-43db-86b4-28b551cd38e8",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": {
+										"token": "{{Token}}"
+									}
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "job_type_id",
+											"value": "4",
+											"type": "text"
+										},
+										{
+											"key": "client_id",
+											"value": "2",
+											"type": "text"
+										},
+										{
+											"key": "shipper_id",
+											"value": "1",
+											"type": "text"
+										},
+										{
+											"key": "ops_expanses",
+											"value": "0",
+											"type": "text"
+										},
+										{
+											"key": "container_count",
+											"value": "5",
+											"type": "text"
+										},
+										{
+											"key": "number_of_jobs",
+											"value": "1",
+											"type": "text"
+										},
+										{
+											"key": "customs_procedure",
+											"value": "shahada",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "customs_broker_name",
+											"value": "fathy",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "customs_broker_phone",
+											"value": "1008292985",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "truck_type_id[0]",
+											"value": "1",
+											"type": "text"
+										},
+										{
+											"key": "truck_type_id[1]",
+											"value": "2",
+											"type": "text"
+										},
+										{
+											"key": "commodity_id[0]",
+											"value": "1",
+											"type": "text"
+										},
+										{
+											"key": "commodity_id[1]",
+											"value": "2",
+											"type": "text"
+										},
+										{
+											"key": "load_type_id",
+											"value": "1",
+											"type": "text"
+										},
+										{
+											"key": "prices[0][model_type]",
+											"value": "Job",
+											"type": "text"
+										},
+										{
+											"key": "prices[0][model_id]",
+											"value": "0",
+											"type": "text"
+										},
+										{
+											"key": "prices[0][cost]",
+											"value": "100.99",
+											"type": "text"
+										},
+										{
+											"key": "prices[0][price]",
+											"value": "110.99",
+											"type": "text"
+										},
+										{
+											"key": "prices[0][vendor_id]",
+											"value": "1",
+											"type": "text"
+										},
+										{
+											"key": "prices[0][quantity]",
+											"value": "4",
+											"type": "text"
+										},
+										{
+											"key": "prices[0][currency]",
+											"value": "EGP",
+											"type": "text"
+										},
+										{
+											"key": "prices[0][rate]",
+											"value": "35.6",
+											"type": "text"
+										},
+										{
+											"key": "job_locations[0][ordering]",
+											"value": "1",
+											"type": "text"
+										},
+										{
+											"key": "job_locations[0][lat]",
+											"value": "25.66",
+											"type": "text"
+										},
+										{
+											"key": "job_locations[0][lng]",
+											"value": "33.10",
+											"type": "text"
+										},
+										{
+											"key": "job_locations[0][address]",
+											"value": "address",
+											"type": "text"
+										},
+										{
+											"key": "job_locations[0][job_location_status]",
+											"value": "ready",
+											"type": "text"
+										},
+										{
+											"key": "job_locations[0][gate_id]",
+											"value": "1",
+											"type": "text"
+										},
+										{
+											"key": "job_locations[0][location_type_id]",
+											"value": "5",
+											"type": "text"
+										},
+										{
+											"key": "job_locations[0][time]",
+											"value": "2023-05-14 22:03:42",
+											"type": "text"
+										},
+										{
+											"key": "job_locations[0][contact_number]",
+											"value": "1008292985",
+											"type": "text"
+										},
+										{
+											"key": "job_locations[0][contact_name]",
+											"value": "Mohamed Fathy",
+											"type": "text"
+										},
+										{
+											"key": "reference",
+											"value": "reference",
+											"type": "text"
+										},
+										{
+											"key": "special_cases",
+											"value": "special_cases",
+											"type": "text"
+										},
+										{
+											"key": "price_per",
+											"value": "naqla",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "load_weight_unit",
+											"value": "kg",
+											"type": "text"
+										},
+										{
+											"key": "load_weight",
+											"value": "100",
+											"type": "text"
+										},
+										{
+											"key": "cost",
+											"value": "50.99",
+											"type": "text"
+										},
+										{
+											"key": "price",
+											"value": "100",
+											"type": "text"
+										},
+										{
+											"key": "attached_files[0][file]",
+											"type": "file",
+											"src": "/home/mfathy/Desktop/other.md",
+											"disabled": true
+										},
+										{
+											"key": "job_locations[2][ordering]",
+											"value": "2",
+											"type": "text"
+										},
+										{
+											"key": "job_locations[2][lat]",
+											"value": "25.66",
+											"type": "text"
+										},
+										{
+											"key": "job_locations[2][lng]",
+											"value": "44.33",
+											"type": "text"
+										},
+										{
+											"key": "job_locations[2][address]",
+											"value": "address",
+											"type": "text"
+										},
+										{
+											"key": "job_locations[2][job_location_status]",
+											"value": "ready",
+											"type": "text"
+										},
+										{
+											"key": "job_locations[2][gate_id]",
+											"value": "2",
+											"type": "text"
+										},
+										{
+											"key": "job_locations[2][time]",
+											"value": "2023-05-14 22:03:42",
+											"type": "text"
+										},
+										{
+											"key": "job_locations[2][contact_number]",
+											"value": "1008292963",
+											"type": "text"
+										},
+										{
+											"key": "job_locations[2][contact_name]",
+											"value": "fathy",
+											"type": "text"
+										},
+										{
+											"key": "job_locations[2][location_type_id]",
+											"value": "3",
+											"type": "text"
+										},
+										{
+											"key": "job_containers[0][container_type_id]",
+											"value": "1",
+											"type": "text"
+										},
+										{
+											"key": "job_containers[0][shipping_line]",
+											"value": "1",
+											"type": "text"
+										},
+										{
+											"key": "job_containers[0][booking_code]",
+											"value": "yyyyyyy",
+											"type": "text"
+										},
+										{
+											"key": "job_containers[0][container_number]",
+											"value": "yyyyyyyy",
+											"type": "text"
+										},
+										{
+											"key": "job_containers[0][container_port_code]",
+											"value": "yyyyyyyy",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "job_containers[1][container_type_id]",
+											"value": "1",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "job_containers[1][shipping_line]",
+											"value": "1",
+											"type": "text"
+										},
+										{
+											"key": "job_containers[1][booking_code]",
+											"value": "ssssssssssss",
+											"type": "text"
+										},
+										{
+											"key": "job_containers[1][container_number]",
+											"value": "ssssssssssssss",
+											"type": "text"
+										},
+										{
+											"key": "job_containers[0][container_port_code]",
+											"value": "ssssssssssssssss",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "job_locations[1][ordering]",
+											"value": "1",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "job_locations[1][lat]",
+											"value": "44.33",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "job_locations[1][lng]",
+											"value": "44.33",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "job_locations[1][address]",
+											"value": "address",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "job_locations[1][job_location_status]",
+											"value": "ready",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "job_locations[1][gate_id]",
+											"value": "",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "job_locations[1][time]",
+											"value": "2023-05-14 22:03:42",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "job_locations[1][contact_number]",
+											"value": "1008292963",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "job_locations[1][contact_name]",
+											"value": "fathy",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "job_locations[1][location_type_id]",
+											"value": "4",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "prices[0][type]",
+											"value": "fafafd",
+											"type": "text"
+										},
+										{
+											"key": "container_type_id",
+											"value": "2",
+											"type": "text"
+										}
+									]
+								},
+								"url": "{{Host}}/api/admin/orders"
+							},
+							"response": []
+						},
+						{
 							"name": "create-empties-order-raw",
 							"id": "750bc2d2-14b2-4bd9-b4e0-ed7cf6be2a05",
 							"protocolProfileBehavior": {
@@ -40439,7 +40841,7 @@
 	],
 	"variable": [
 		{
-			"id": "2d6f5fb1-f96f-475c-bdcf-619228ae89be",
+			"id": "bcd80b16-2d6b-4d52-96b8-adeab0c9e053",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
