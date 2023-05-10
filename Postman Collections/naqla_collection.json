@@ -18023,7 +18023,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n    \"updated_job_prices\": [\n        {\n            \"id\":271,\n            \"model_type\": \"Accessoryss\",\n            \"model_id\":0,\n            \"cost\": 55,\n            \"price\": 66,\n            \"vendor_id\": 1,\n            \"quantity\": 4,\n            \"currency\": \"EGP\",\n            \"rate\": 1\n        }\n    ]\n}",
+									"raw": "{\n    \"updated_job_prices\": [\n        {\n            \"id\":8,\n            \"model_type\": \"Accessoryss\",\n            \"model_id\":0,\n            \"cost\": 55,\n            \"price\": 66,\n            \"vendor_id\": 1,\n            \"quantity\": 4,\n            \"currency\": \"EGP\",\n            \"rate\": 1\n        }\n    ]\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -39630,7 +39630,7 @@
 	],
 	"variable": [
 		{
-			"id": "777da5b2-f0b1-4a15-914d-652db497ae7a",
+			"id": "7fd77451-c557-407b-930c-b79a240981c3",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
