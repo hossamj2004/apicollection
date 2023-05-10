@@ -18023,7 +18023,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n    \"deleted_job_locations\": [\n        {\n            \"id\":8,\n            \"model_type\": \"Accessoryss\",\n            \"model_id\":1,\n            \"cost\": 552,\n            \"price\": 662,\n            \"vendor_id\": 1,\n            \"quantity\": 3,\n            \"currency\": \"USD\",\n            \"rate\": 40\n        }\n    ]\n}",
+									"raw": "{\n    \"deleted_job_locations\": [12,]\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -39630,7 +39630,7 @@
 	],
 	"variable": [
 		{
-			"id": "3475bbdf-b337-4bfd-a269-90ada6e83f10",
+			"id": "d673cf9c-f8fe-44fd-a2dc-98703a4715c6",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
