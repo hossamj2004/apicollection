@@ -18058,7 +18058,7 @@
 										}
 									}
 								},
-								"url": "{{Host}}/api/admin/orders/"
+								"url": "{{Host}}/api/admin/orders/11"
 							},
 							"response": [
 								{
@@ -39630,7 +39630,7 @@
 	],
 	"variable": [
 		{
-			"id": "5b61f081-7386-4883-953b-4723435ae97d",
+			"id": "08e2bce7-68d3-489e-a9bb-e97b5ac89216",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
