@@ -18023,7 +18023,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n    \"deleted_job_locations\": [\n        {\n            \"id\": 21\n        }\n    ]\n}",
+									"raw": "{\n    \"deleted_job_locations\": [\n        {\n            \"id\": 22\n        }\n    ]\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -39630,7 +39630,7 @@
 	],
 	"variable": [
 		{
-			"id": "4b1a907d-dfad-4054-adf2-10929835f5c2",
+			"id": "7316789b-f14d-490f-8bb5-fbca0f458e74",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
