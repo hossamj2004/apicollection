@@ -18966,7 +18966,7 @@
 							"response": [
 								{
 									"id": "aceeab59-8821-41c0-a82c-9e0b4ff07c07",
-									"name": "success-response Copy 2",
+									"name": "success-response",
 									"originalRequest": {
 										"method": "PUT",
 										"header": [],
@@ -40570,7 +40570,7 @@
 	],
 	"variable": [
 		{
-			"id": "b48c5a42-9b88-41c5-ae3d-969fa2122d3e",
+			"id": "061bae95-ad65-4ced-9c1f-07f1e94d7089",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
