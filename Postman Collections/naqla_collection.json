@@ -18331,7 +18331,7 @@
 							"response": [
 								{
 									"id": "df955372-9e7b-459a-af38-f17ac90fb9fa",
-									"name": "create-import-order",
+									"name": "success-response",
 									"originalRequest": {
 										"method": "POST",
 										"header": [],
@@ -40053,7 +40053,7 @@
 	],
 	"variable": [
 		{
-			"id": "53bff628-4fbb-4b20-acad-b7b07ffe0458",
+			"id": "14bf32b5-f62b-4416-b0fa-c2c17baac4dc",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
