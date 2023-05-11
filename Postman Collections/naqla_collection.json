@@ -18725,6 +18725,34 @@
 							"response": []
 						},
 						{
+							"name": "update-import-order",
+							"id": "55b58505-37b1-4720-b083-e5038ad34ade",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": {
+										"token": "{{Token}}"
+									}
+								},
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"truck_type_id\": [\n        2\n    ],\n    \"commodity_id\": [\n        1\n    ],\n    \"load_type_id\": 2,\n    \"client_id\": 1,\n    \"updated_job_prices\": [\n        {\n            \"id\": 34,\n            \"model_type\": \"Accessory\",\n            \"model_id\": 0,\n            \"cost\": 55.0,\n            \"price\": 66.66,\n            \"vendor_id\": null,\n            \"quantity\": 1,\n            \"currency\": \"USD\",\n            \"rate\": 38.20\n        }\n    ],\n    \"updated_job_locations\": [\n        {\n            \"id\": 55,\n            \"ordering\": 3,\n            \"lng\": 12.22,\n            \"lat\": 13.22,\n            \"address\": \"addressssx\",\n            \"job_location_status\": \"readyss\",\n            \"gate_id\": 1,\n            \"description\": \"test descriptiossns\",\n            \"location_type_id\": 2,\n            \"time\": \"2023-03-14 22:03:42\",\n            \"contact_number\": \"1008292987\",\n            \"contact_name\": \"Mohamed Fathysx\"\n        },\n        {\n            \"id\":56,\n            \"ordering\": 3,\n            \"lng\": 30.22,\n            \"lat\": 29.22,\n            \"address\": \"address\",\n            \"job_location_status\": \"ready\",\n            \"gate_id\": null,\n            \"description\": \"test description\",\n            \"location_type_id\": 2,\n            \"time\": \"2023-03-14 22:03:42\",\n            \"contact_number\": \"1008292985\",\n            \"contact_name\": \"Mohamed Fathy\"\n        }\n    ],\n    \"updated_job_containers\": [\n        {\n            \"id\":1,\n            \"shipping_line_id\": 1,\n            \"container_type_id\": 2,\n            \"booking_code\": \"mh2343466\",\n            \"container_number\": \"msd215sxx\",\n            \"container_port_code\": \"ADALV\"\n        }\n    ],\n    \"reference\": \"sssss\",\n    \"special_cases\": \"sfsdf\",\n    \"ops_expanses\": 100.33,\n    \"price_per\": \"naqla\",\n    \"load_weight\": 100,\n    \"cost\": 50.99,\n    \"price\": 100.10\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{Host}}/api/admin/orders/11"
+							},
+							"response": []
+						},
+						{
 							"name": "delete-order",
 							"id": "6ed2f6f1-7d5e-4a9a-8a02-0400820f86d1",
 							"protocolProfileBehavior": {
@@ -40159,7 +40187,7 @@
 	],
 	"variable": [
 		{
-			"id": "08f98c85-596e-445b-8f2f-23f38af9c67c",
+			"id": "816720a7-0835-4365-949c-2f9afe920a09",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
