@@ -18669,7 +18669,7 @@
 							"response": [
 								{
 									"id": "f46ac8fb-d3f8-427b-ad8c-d6ef415de535",
-									"name": "update-distribution-order",
+									"name": "success-response",
 									"originalRequest": {
 										"method": "PUT",
 										"header": [],
@@ -40286,7 +40286,7 @@
 	],
 	"variable": [
 		{
-			"id": "63f934fc-ba43-4a12-9f08-7cd40174e8fd",
+			"id": "26f1dbb4-bcd9-4cd2-a10e-add55c018c7b",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
