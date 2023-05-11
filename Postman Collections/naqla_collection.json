@@ -18830,109 +18830,6 @@
 							]
 						},
 						{
-							"name": "set-price",
-							"id": "7687abcb-24a7-4a2f-9345-3ef75fec7789",
-							"protocolProfileBehavior": {
-								"disableBodyPruning": true
-							},
-							"request": {
-								"auth": {
-									"type": "bearer",
-									"bearer": {
-										"token": "{{Token}}"
-									}
-								},
-								"method": "PUT",
-								"header": [],
-								"body": {
-									"mode": "raw",
-									"raw": "{\n    \"cost\": 1000,\n    \"price\": 1100,\n    \"packing_price\": 5000,\n    \"packing_cost\": 5500,\n    \"labor_price\": 2000,\n    \"labor_cost\": 2100,\n    \"labor_quantity\": 1\n}\n",
-									"options": {
-										"raw": {
-											"language": "json"
-										}
-									}
-								},
-								"url": "{{Host}}/api/admin/orders/set-price/28"
-							},
-							"response": [
-								{
-									"id": "2120e836-072b-4387-9753-7e57d1aea24e",
-									"name": "success-response",
-									"originalRequest": {
-										"method": "PUT",
-										"header": [],
-										"body": {
-											"mode": "raw",
-											"raw": "{\n    \"cost\": 50.00,\n    \"price\": 100.10,\n    \"packing_price\": 50.00,\n    \"packing_cost\": 50.00,\n    \"labor_price\": 50.00,\n    \"labor_cost\": 50.00,\n    \"labor_quantity\": 50.00\n}\n",
-											"options": {
-												"raw": {
-													"language": "json"
-												}
-											}
-										},
-										"url": "{{Host}}/api/admin/orders/set-price/4"
-									},
-									"status": "OK",
-									"code": 200,
-									"_postman_previewlanguage": "json",
-									"header": [
-										{
-											"key": "Date",
-											"value": "Mon, 27 Mar 2023 11:31:02 GMT"
-										},
-										{
-											"key": "Server",
-											"value": "Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/8.2.0"
-										},
-										{
-											"key": "Vary",
-											"value": "Authorization"
-										},
-										{
-											"key": "X-Powered-By",
-											"value": "PHP/8.2.0"
-										},
-										{
-											"key": "Cache-Control",
-											"value": "no-cache, private"
-										},
-										{
-											"key": "X-RateLimit-Limit",
-											"value": "60"
-										},
-										{
-											"key": "X-RateLimit-Remaining",
-											"value": "58"
-										},
-										{
-											"key": "Access-Control-Allow-Origin",
-											"value": "*"
-										},
-										{
-											"key": "Keep-Alive",
-											"value": "timeout=5, max=100"
-										},
-										{
-											"key": "Connection",
-											"value": "Keep-Alive"
-										},
-										{
-											"key": "Transfer-Encoding",
-											"value": "chunked"
-										},
-										{
-											"key": "Content-Type",
-											"value": "application/json"
-										}
-									],
-									"cookie": [],
-									"responseTime": null,
-									"body": "{\n    \"id\": 48,\n    \"client\": {\n        \"id\": 6,\n        \"name_en\": \"Osama Mohamed\",\n        \"name_ar\": \"اسامة محمد\",\n        \"client_type\": \"individual\",\n        \"corporate_type\": null,\n        \"contact\": null,\n        \"logo\": null,\n        \"address_ar\": null,\n        \"address_en\": null,\n        \"status\": 1,\n        \"created_by_model\": null,\n        \"created_by_id\": 0,\n        \"created_at\": \"2023-03-26T06:03:49.000000Z\",\n        \"updated_at\": \"2023-03-26T06:03:49.000000Z\"\n    },\n    \"order_status\": {\n        \"id\": 2,\n        \"name_en\": \"pending payment\",\n        \"name_ar\": \"بانتظار الدفع\",\n        \"namespace\": \"pending_payment\",\n        \"order_status_group\": \"pending\"\n    },\n    \"number_of_jobs\": 1,\n    \"jobs\": [\n        {\n            \"id\": 53,\n            \"client\": {\n                \"id\": 6,\n                \"name_en\": \"Osama Mohamed\",\n                \"name_ar\": \"اسامة محمد\",\n                \"client_type\": \"individual\",\n                \"corporate_type\": null,\n                \"contact\": null,\n                \"logo\": null,\n                \"address_ar\": null,\n                \"address_en\": null,\n                \"status\": 1,\n                \"created_by_model\": null,\n                \"created_by_id\": 0,\n                \"created_at\": \"2023-03-26T06:03:49.000000Z\",\n                \"updated_at\": \"2023-03-26T06:03:49.000000Z\"\n            },\n            \"load_type\": {\n                \"id\": 1,\n                \"name_ar\": \"جاف\",\n                \"name_en\": \"dry\",\n                \"image\": \"https://fra1.digitaloceanspaces.com/vtwodevelopment/load-types/1675183991.jpg\",\n                \"status\": 1\n            },\n            \"unit_quantity\": null,\n            \"reference\": null,\n            \"special_cases\": null,\n            \"price_per\": null,\n            \"load_weight\": null,\n            \"job_status\": {\n                \"id\": 12,\n                \"name_en\": \"Pending Payment\",\n                \"name_ar\": \"بانتظار الدفع من العميل\",\n                \"is_action\": 0,\n                \"can_assign_when\": \"in_order\",\n                \"cannot_assign_when\": \"\",\n                \"job_status_group\": \"not_released\",\n                \"namespace\": \"pending_payment\"\n            },\n            \"driver\": null,\n            \"truck\": null,\n            \"tail\": null,\n            \"vendor\": null,\n            \"job_prices\": [\n                {\n                    \"id\": 91,\n                    \"model_type\": \"Job\",\n                    \"model_id\": 0,\n                    \"cost\": \"50.00\",\n                    \"price\": \"100.10\",\n                    \"vendor_id\": null,\n                    \"quantity\": 1,\n                    \"job_id\": 53,\n                    \"order_id\": 48,\n                    \"currency\": \"\",\n                    \"rate\": \"0.00\"\n                }\n            ],\n            \"commodities\": [\n                {\n                    \"id\": 1,\n                    \"name_en\": \"chemical products\",\n                    \"name_ar\": \"منتجات كيماوية\",\n                    \"image\": \"https://fra1.digitaloceanspaces.com/vtwodevelopment/commodities/1678464018.jpg\",\n                    \"code\": \"ch-38\",\n                    \"frequent\": 1,\n                    \"status\": 1,\n                    \"parent_id\": null,\n                    \"pivot\": {\n                        \"job_id\": 53,\n                        \"commodity_id\": 1\n                    }\n                }\n            ],\n            \"truck_types\": [\n                {\n                    \"id\": 1,\n                    \"name_en\": \"Farsh\",\n                    \"name_ar\": \"فرش\",\n                    \"image\": \"https://fra1.digitaloceanspaces.com/vtwodevelopment/truck-types/1678468385.png\",\n                    \"dimensions_ar\": \"https://fra1.digitaloceanspaces.com/vtwodevelopment/truck-types/1678468421.png\",\n                    \"dimensions_en\": \"https://fra1.digitaloceanspaces.com/vtwodevelopment/truck-types/1678468421.png\",\n                    \"status\": 1,\n                    \"minimum_load\": 1000,\n                    \"maximum_load\": 2000,\n                    \"truck_category_id\": 1,\n                    \"created_at\": null,\n                    \"updated_at\": null,\n                    \"pivot\": {\n                        \"job_id\": 53,\n                        \"truck_type_id\": 1\n                    }\n                }\n            ],\n            \"job_locations\": [\n                {\n                    \"id\": 101,\n                    \"job_id\": 53,\n                    \"ordering\": 1,\n                    \"longitude\": \"30.215474\",\n                    \"latitude\": \"30.542790\",\n                    \"address\": \"3 Nagib Mahfouz St Badr city , cairo\",\n                    \"description\": \"\",\n                    \"job_location_status\": \"pending\",\n                    \"gate_id\": null,\n                    \"location_type_id\": 1,\n                    \"time\": \"2024-01-01 00:00:00\",\n                    \"contact_number\": \"\",\n                    \"contact_name\": \"\"\n                },\n                {\n                    \"id\": 102,\n                    \"job_id\": 53,\n                    \"ordering\": 2,\n                    \"longitude\": \"30.115474\",\n                    \"latitude\": \"31.172790\",\n                    \"address\": \"107 zahraa nasr city , cairo\",\n                    \"description\": \"\",\n                    \"job_location_status\": \"pending\",\n                    \"gate_id\": null,\n                    \"location_type_id\": 2,\n                    \"time\": \"2024-01-01 00:00:00\",\n                    \"contact_number\": \"\",\n                    \"contact_name\": \"\"\n                }\n            ],\n            \"created_by_model\": \"\",\n            \"created_by_id\": 0,\n            \"created_at\": \"2023-03-26T10:22:35.000000Z\"\n        }\n    ],\n    \"files\": [\n        {\n            \"id\": 16,\n            \"name\": \"335473316_590383986325488_20407952505311696_n\",\n            \"original_url\": \"http://localhost/storage/2023/default/03/1679826155.jpg\",\n            \"custom_properties\": {\n                \"description\": \"\"\n            },\n            \"size\": 379105\n        }\n    ],\n    \"created_by_model\": \"Client\",\n    \"created_by\": {\n        \"id\": 6,\n        \"name_en\": \"Osama Mohamed\",\n        \"name_ar\": \"اسامة محمد\",\n        \"client_type\": \"individual\",\n        \"corporate_type\": null,\n        \"contact\": null,\n        \"logo\": null,\n        \"address_ar\": null,\n        \"address_en\": null,\n        \"status\": 1,\n        \"created_by_model\": null,\n        \"created_by_id\": 0,\n        \"created_at\": \"2023-03-26T06:03:49.000000Z\",\n        \"updated_at\": \"2023-03-26T06:03:49.000000Z\"\n    },\n    \"created_at\": \"2023-03-26T10:22:35.000000Z\"\n}"
-								}
-							]
-						},
-						{
 							"name": "delete-order",
 							"id": "6ed2f6f1-7d5e-4a9a-8a02-0400820f86d1",
 							"protocolProfileBehavior": {
@@ -19092,6 +18989,109 @@
 									"cookie": [],
 									"responseTime": null,
 									"body": "{\n    \"code\": 400,\n    \"error\": \"validation-error\",\n    \"message\": \"الحقل id لاغٍ\",\n    \"messages\": {\n        \"id\": [\n            \"الحقل id لاغٍ\"\n        ]\n    },\n    \"file\": \"/home/mfathy/Desktop/core/vendor/laravel/framework/src/Illuminate/Support/helpers.php\",\n    \"line\": 327\n}"
+								}
+							]
+						},
+						{
+							"name": "set-price-",
+							"id": "7687abcb-24a7-4a2f-9345-3ef75fec7789",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": {
+										"token": "{{Token}}"
+									}
+								},
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"cost\": 1000,\n    \"price\": 1100,\n    \"packing_price\": 5000,\n    \"packing_cost\": 5500,\n    \"labor_price\": 2000,\n    \"labor_cost\": 2100,\n    \"labor_quantity\": 1\n}\n",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{Host}}/api/admin/orders/set-price/28"
+							},
+							"response": [
+								{
+									"id": "2120e836-072b-4387-9753-7e57d1aea24e",
+									"name": "success-response",
+									"originalRequest": {
+										"method": "PUT",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"cost\": 50.00,\n    \"price\": 100.10,\n    \"packing_price\": 50.00,\n    \"packing_cost\": 50.00,\n    \"labor_price\": 50.00,\n    \"labor_cost\": 50.00,\n    \"labor_quantity\": 50.00\n}\n",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{Host}}/api/admin/orders/set-price/4"
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Mon, 27 Mar 2023 11:31:02 GMT"
+										},
+										{
+											"key": "Server",
+											"value": "Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/8.2.0"
+										},
+										{
+											"key": "Vary",
+											"value": "Authorization"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/8.2.0"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "58"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										},
+										{
+											"key": "Keep-Alive",
+											"value": "timeout=5, max=100"
+										},
+										{
+											"key": "Connection",
+											"value": "Keep-Alive"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"id\": 48,\n    \"client\": {\n        \"id\": 6,\n        \"name_en\": \"Osama Mohamed\",\n        \"name_ar\": \"اسامة محمد\",\n        \"client_type\": \"individual\",\n        \"corporate_type\": null,\n        \"contact\": null,\n        \"logo\": null,\n        \"address_ar\": null,\n        \"address_en\": null,\n        \"status\": 1,\n        \"created_by_model\": null,\n        \"created_by_id\": 0,\n        \"created_at\": \"2023-03-26T06:03:49.000000Z\",\n        \"updated_at\": \"2023-03-26T06:03:49.000000Z\"\n    },\n    \"order_status\": {\n        \"id\": 2,\n        \"name_en\": \"pending payment\",\n        \"name_ar\": \"بانتظار الدفع\",\n        \"namespace\": \"pending_payment\",\n        \"order_status_group\": \"pending\"\n    },\n    \"number_of_jobs\": 1,\n    \"jobs\": [\n        {\n            \"id\": 53,\n            \"client\": {\n                \"id\": 6,\n                \"name_en\": \"Osama Mohamed\",\n                \"name_ar\": \"اسامة محمد\",\n                \"client_type\": \"individual\",\n                \"corporate_type\": null,\n                \"contact\": null,\n                \"logo\": null,\n                \"address_ar\": null,\n                \"address_en\": null,\n                \"status\": 1,\n                \"created_by_model\": null,\n                \"created_by_id\": 0,\n                \"created_at\": \"2023-03-26T06:03:49.000000Z\",\n                \"updated_at\": \"2023-03-26T06:03:49.000000Z\"\n            },\n            \"load_type\": {\n                \"id\": 1,\n                \"name_ar\": \"جاف\",\n                \"name_en\": \"dry\",\n                \"image\": \"https://fra1.digitaloceanspaces.com/vtwodevelopment/load-types/1675183991.jpg\",\n                \"status\": 1\n            },\n            \"unit_quantity\": null,\n            \"reference\": null,\n            \"special_cases\": null,\n            \"price_per\": null,\n            \"load_weight\": null,\n            \"job_status\": {\n                \"id\": 12,\n                \"name_en\": \"Pending Payment\",\n                \"name_ar\": \"بانتظار الدفع من العميل\",\n                \"is_action\": 0,\n                \"can_assign_when\": \"in_order\",\n                \"cannot_assign_when\": \"\",\n                \"job_status_group\": \"not_released\",\n                \"namespace\": \"pending_payment\"\n            },\n            \"driver\": null,\n            \"truck\": null,\n            \"tail\": null,\n            \"vendor\": null,\n            \"job_prices\": [\n                {\n                    \"id\": 91,\n                    \"model_type\": \"Job\",\n                    \"model_id\": 0,\n                    \"cost\": \"50.00\",\n                    \"price\": \"100.10\",\n                    \"vendor_id\": null,\n                    \"quantity\": 1,\n                    \"job_id\": 53,\n                    \"order_id\": 48,\n                    \"currency\": \"\",\n                    \"rate\": \"0.00\"\n                }\n            ],\n            \"commodities\": [\n                {\n                    \"id\": 1,\n                    \"name_en\": \"chemical products\",\n                    \"name_ar\": \"منتجات كيماوية\",\n                    \"image\": \"https://fra1.digitaloceanspaces.com/vtwodevelopment/commodities/1678464018.jpg\",\n                    \"code\": \"ch-38\",\n                    \"frequent\": 1,\n                    \"status\": 1,\n                    \"parent_id\": null,\n                    \"pivot\": {\n                        \"job_id\": 53,\n                        \"commodity_id\": 1\n                    }\n                }\n            ],\n            \"truck_types\": [\n                {\n                    \"id\": 1,\n                    \"name_en\": \"Farsh\",\n                    \"name_ar\": \"فرش\",\n                    \"image\": \"https://fra1.digitaloceanspaces.com/vtwodevelopment/truck-types/1678468385.png\",\n                    \"dimensions_ar\": \"https://fra1.digitaloceanspaces.com/vtwodevelopment/truck-types/1678468421.png\",\n                    \"dimensions_en\": \"https://fra1.digitaloceanspaces.com/vtwodevelopment/truck-types/1678468421.png\",\n                    \"status\": 1,\n                    \"minimum_load\": 1000,\n                    \"maximum_load\": 2000,\n                    \"truck_category_id\": 1,\n                    \"created_at\": null,\n                    \"updated_at\": null,\n                    \"pivot\": {\n                        \"job_id\": 53,\n                        \"truck_type_id\": 1\n                    }\n                }\n            ],\n            \"job_locations\": [\n                {\n                    \"id\": 101,\n                    \"job_id\": 53,\n                    \"ordering\": 1,\n                    \"longitude\": \"30.215474\",\n                    \"latitude\": \"30.542790\",\n                    \"address\": \"3 Nagib Mahfouz St Badr city , cairo\",\n                    \"description\": \"\",\n                    \"job_location_status\": \"pending\",\n                    \"gate_id\": null,\n                    \"location_type_id\": 1,\n                    \"time\": \"2024-01-01 00:00:00\",\n                    \"contact_number\": \"\",\n                    \"contact_name\": \"\"\n                },\n                {\n                    \"id\": 102,\n                    \"job_id\": 53,\n                    \"ordering\": 2,\n                    \"longitude\": \"30.115474\",\n                    \"latitude\": \"31.172790\",\n                    \"address\": \"107 zahraa nasr city , cairo\",\n                    \"description\": \"\",\n                    \"job_location_status\": \"pending\",\n                    \"gate_id\": null,\n                    \"location_type_id\": 2,\n                    \"time\": \"2024-01-01 00:00:00\",\n                    \"contact_number\": \"\",\n                    \"contact_name\": \"\"\n                }\n            ],\n            \"created_by_model\": \"\",\n            \"created_by_id\": 0,\n            \"created_at\": \"2023-03-26T10:22:35.000000Z\"\n        }\n    ],\n    \"files\": [\n        {\n            \"id\": 16,\n            \"name\": \"335473316_590383986325488_20407952505311696_n\",\n            \"original_url\": \"http://localhost/storage/2023/default/03/1679826155.jpg\",\n            \"custom_properties\": {\n                \"description\": \"\"\n            },\n            \"size\": 379105\n        }\n    ],\n    \"created_by_model\": \"Client\",\n    \"created_by\": {\n        \"id\": 6,\n        \"name_en\": \"Osama Mohamed\",\n        \"name_ar\": \"اسامة محمد\",\n        \"client_type\": \"individual\",\n        \"corporate_type\": null,\n        \"contact\": null,\n        \"logo\": null,\n        \"address_ar\": null,\n        \"address_en\": null,\n        \"status\": 1,\n        \"created_by_model\": null,\n        \"created_by_id\": 0,\n        \"created_at\": \"2023-03-26T06:03:49.000000Z\",\n        \"updated_at\": \"2023-03-26T06:03:49.000000Z\"\n    },\n    \"created_at\": \"2023-03-26T10:22:35.000000Z\"\n}"
 								}
 							]
 						}
@@ -40264,7 +40264,7 @@
 	],
 	"variable": [
 		{
-			"id": "27c1fa3c-3e63-4c36-8b10-a64d55861c5d",
+			"id": "a59c6881-d133-470e-a95e-ab550c015eac",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
