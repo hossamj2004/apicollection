@@ -18993,7 +18993,7 @@
 							]
 						},
 						{
-							"name": "set-price-",
+							"name": "set-price-(to_be_removed)",
 							"id": "7687abcb-24a7-4a2f-9345-3ef75fec7789",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
@@ -40264,7 +40264,7 @@
 	],
 	"variable": [
 		{
-			"id": "a59c6881-d133-470e-a95e-ab550c015eac",
+			"id": "5f88bc4a-531a-4964-870c-e11e20837a02",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
