@@ -19405,6 +19405,489 @@
 					"id": "71ee13a6-c916-4595-8c45-658ba7ad6e4c"
 				},
 				{
+					"name": "Jobs",
+					"item": [
+						{
+							"name": "list-jobs",
+							"id": "0f1ccf5e-7b0d-4f82-b314-5cd5e598f7a9",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": {
+										"token": "{{Token}}"
+									}
+								},
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"page\": 1\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{Host}}/api/admin/jobs"
+							},
+							"response": [
+								{
+									"id": "cfea4a38-4065-4e59-b143-8e9e51b06d8a",
+									"name": "success-response",
+									"originalRequest": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Authorization",
+												"value": "Bearer {{Token}}",
+												"type": "text"
+											}
+										],
+										"url": "{{Host}}/api/admin/jobs"
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Host",
+											"value": "127.0.0.1:8002"
+										},
+										{
+											"key": "Date",
+											"value": "Sun, 22 Jan 2023 13:05:05 GMT"
+										},
+										{
+											"key": "Date",
+											"value": "Sun, 22 Jan 2023 13:05:05 GMT"
+										},
+										{
+											"key": "Connection",
+											"value": "close"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/8.1.13"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "57"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"data\": [\n        {\n            \"id\": 1,  \n       \"client_id\": 98,  \n       \"load_type_id\": 93,  \n       \"unit_quantity\": 31,  \n       \"reference\": \"quia\",  \n       \"special_cases\": \"deserunt\",  \n       \"price_per\": \"consequatur\",  \n       \"load_weight\": \"nostrum\",  \n       \"job_status_id\": 32,  \n       \"created_by_model\": \"aspernatur\",  \n       \"created_by_id\": 69,  \n       \"created_at\": \"aut\",  \n       \"driver_id\": 112,  \n       \"truck_id\": 35,  \n       \"tail_id\": 75,  \n       \"vendor_id\": 58   \n         }\n    ],\n    \"count\": 1\n}"
+								},
+								{
+									"id": "8b0d900c-e1c3-41c5-b184-7c7b427b0997",
+									"name": "empty-response",
+									"originalRequest": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Authorization",
+												"value": "Bearer {{Token}}",
+												"type": "text"
+											}
+										],
+										"url": "{{Host}}/api/admin/jobs"
+									},
+									"status": "No Content",
+									"code": 204,
+									"_postman_previewlanguage": "plain",
+									"header": [
+										{
+											"key": "Host",
+											"value": "127.0.0.1:8002"
+										},
+										{
+											"key": "Date",
+											"value": "Sun, 22 Jan 2023 13:01:57 GMT"
+										},
+										{
+											"key": "Date",
+											"value": "Sun, 22 Jan 2023 13:01:57 GMT"
+										},
+										{
+											"key": "Connection",
+											"value": "close"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/8.1.13"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "58"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": ""
+								}
+							]
+						},
+						{
+							"name": "filter-jobs-by-order-id",
+							"id": "6e1228ff-736f-4e23-b429-1704a72a7fb2",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": {
+										"token": "{{Token}}"
+									}
+								},
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"page\": 1\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{Host}}/api/admin/jobs"
+							},
+							"response": [
+								{
+									"id": "b5282a84-a670-41ee-9394-b33ebaa5e2a0",
+									"name": "success-response",
+									"originalRequest": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Authorization",
+												"value": "Bearer {{Token}}",
+												"type": "text"
+											}
+										],
+										"url": "{{Host}}/api/admin/jobs"
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Host",
+											"value": "127.0.0.1:8002"
+										},
+										{
+											"key": "Date",
+											"value": "Sun, 22 Jan 2023 13:05:05 GMT"
+										},
+										{
+											"key": "Date",
+											"value": "Sun, 22 Jan 2023 13:05:05 GMT"
+										},
+										{
+											"key": "Connection",
+											"value": "close"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/8.1.13"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "57"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"data\": [\n        {\n            \"id\": 1,  \n       \"client_id\": 98,  \n       \"load_type_id\": 93,  \n       \"unit_quantity\": 31,  \n       \"reference\": \"quia\",  \n       \"special_cases\": \"deserunt\",  \n       \"price_per\": \"consequatur\",  \n       \"load_weight\": \"nostrum\",  \n       \"job_status_id\": 32,  \n       \"created_by_model\": \"aspernatur\",  \n       \"created_by_id\": 69,  \n       \"created_at\": \"aut\",  \n       \"driver_id\": 112,  \n       \"truck_id\": 35,  \n       \"tail_id\": 75,  \n       \"vendor_id\": 58   \n         }\n    ],\n    \"count\": 1\n}"
+								},
+								{
+									"id": "7098fa02-2789-4d78-8efe-873f199c14ba",
+									"name": "empty-response",
+									"originalRequest": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Authorization",
+												"value": "Bearer {{Token}}",
+												"type": "text"
+											}
+										],
+										"url": "{{Host}}/api/admin/jobs"
+									},
+									"status": "No Content",
+									"code": 204,
+									"_postman_previewlanguage": "plain",
+									"header": [
+										{
+											"key": "Host",
+											"value": "127.0.0.1:8002"
+										},
+										{
+											"key": "Date",
+											"value": "Sun, 22 Jan 2023 13:01:57 GMT"
+										},
+										{
+											"key": "Date",
+											"value": "Sun, 22 Jan 2023 13:01:57 GMT"
+										},
+										{
+											"key": "Connection",
+											"value": "close"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/8.1.13"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "58"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": ""
+								}
+							]
+						},
+						{
+							"name": "delete-job",
+							"id": "05dd462c-0d9c-4b21-80d2-4af075aaae76",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": {
+										"token": "{{Token}}"
+									}
+								},
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Auth",
+										"value": "",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{Host}}/api/admin/jobs/1"
+							},
+							"response": [
+								{
+									"id": "962db30b-02b1-44d4-a2b7-967a850c053b",
+									"name": "success-response",
+									"originalRequest": {
+										"method": "DELETE",
+										"header": [
+											{
+												"key": "Auth",
+												"value": "",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{Host}}/api/admin/jobs/1"
+									},
+									"status": "No Content",
+									"code": 204,
+									"_postman_previewlanguage": "plain",
+									"header": [
+										{
+											"key": "Host",
+											"value": "localhost:3000"
+										},
+										{
+											"key": "Date",
+											"value": "Mon, 13 Mar 2023 19:47:24 GMT"
+										},
+										{
+											"key": "Date",
+											"value": "Mon, 13 Mar 2023 19:47:24 GMT"
+										},
+										{
+											"key": "Connection",
+											"value": "close"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/8.1.13"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "59"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": null
+								},
+								{
+									"id": "2fc4b9d8-1ca4-4b80-af5b-b5a320ec058e",
+									"name": "validation-error",
+									"originalRequest": {
+										"method": "DELETE",
+										"header": [
+											{
+												"key": "Auth",
+												"value": "",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{Host}}/api/admin/jobs/1000"
+									},
+									"status": "Bad Request",
+									"code": 400,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Host",
+											"value": "localhost:3000"
+										},
+										{
+											"key": "Date",
+											"value": "Mon, 13 Mar 2023 19:47:54 GMT"
+										},
+										{
+											"key": "Date",
+											"value": "Mon, 13 Mar 2023 19:47:54 GMT"
+										},
+										{
+											"key": "Connection",
+											"value": "close"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/8.1.13"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "58"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"code\": \"validation-error\",\n    \"message\": {\n        \"id\": [\n            \"The selected id is invalid.\"\n        ]\n    }\n}"
+								}
+							]
+						}
+					],
+					"id": "a9cc8a1a-5131-4a2d-9606-1b9491fefafd"
+				},
+				{
 					"name": "OrderStatuses",
 					"item": [
 						{
@@ -20110,338 +20593,6 @@
 						}
 					],
 					"id": "934220d4-22bf-423e-a81c-d72390f95eb3"
-				},
-				{
-					"name": "Jobs",
-					"item": [
-						{
-							"name": "list-jobs",
-							"id": "0f1ccf5e-7b0d-4f82-b314-5cd5e598f7a9",
-							"protocolProfileBehavior": {
-								"disableBodyPruning": true
-							},
-							"request": {
-								"auth": {
-									"type": "bearer",
-									"bearer": {
-										"token": "{{Token}}"
-									}
-								},
-								"method": "GET",
-								"header": [],
-								"body": {
-									"mode": "raw",
-									"raw": "{\n    \"page\": 1\n}",
-									"options": {
-										"raw": {
-											"language": "json"
-										}
-									}
-								},
-								"url": "{{Host}}/api/admin/jobs"
-							},
-							"response": [
-								{
-									"id": "cfea4a38-4065-4e59-b143-8e9e51b06d8a",
-									"name": "success-response",
-									"originalRequest": {
-										"method": "GET",
-										"header": [
-											{
-												"key": "Authorization",
-												"value": "Bearer {{Token}}",
-												"type": "text"
-											}
-										],
-										"url": "{{Host}}/api/admin/jobs"
-									},
-									"status": "OK",
-									"code": 200,
-									"_postman_previewlanguage": "json",
-									"header": [
-										{
-											"key": "Host",
-											"value": "127.0.0.1:8002"
-										},
-										{
-											"key": "Date",
-											"value": "Sun, 22 Jan 2023 13:05:05 GMT"
-										},
-										{
-											"key": "Date",
-											"value": "Sun, 22 Jan 2023 13:05:05 GMT"
-										},
-										{
-											"key": "Connection",
-											"value": "close"
-										},
-										{
-											"key": "X-Powered-By",
-											"value": "PHP/8.1.13"
-										},
-										{
-											"key": "Cache-Control",
-											"value": "no-cache, private"
-										},
-										{
-											"key": "Content-Type",
-											"value": "application/json"
-										},
-										{
-											"key": "X-RateLimit-Limit",
-											"value": "60"
-										},
-										{
-											"key": "X-RateLimit-Remaining",
-											"value": "57"
-										},
-										{
-											"key": "Access-Control-Allow-Origin",
-											"value": "*"
-										}
-									],
-									"cookie": [],
-									"responseTime": null,
-									"body": "{\n    \"data\": [\n        {\n            \"id\": 1,  \n       \"client_id\": 98,  \n       \"load_type_id\": 93,  \n       \"unit_quantity\": 31,  \n       \"reference\": \"quia\",  \n       \"special_cases\": \"deserunt\",  \n       \"price_per\": \"consequatur\",  \n       \"load_weight\": \"nostrum\",  \n       \"job_status_id\": 32,  \n       \"created_by_model\": \"aspernatur\",  \n       \"created_by_id\": 69,  \n       \"created_at\": \"aut\",  \n       \"driver_id\": 112,  \n       \"truck_id\": 35,  \n       \"tail_id\": 75,  \n       \"vendor_id\": 58   \n         }\n    ],\n    \"count\": 1\n}"
-								},
-								{
-									"id": "8b0d900c-e1c3-41c5-b184-7c7b427b0997",
-									"name": "empty-response",
-									"originalRequest": {
-										"method": "GET",
-										"header": [
-											{
-												"key": "Authorization",
-												"value": "Bearer {{Token}}",
-												"type": "text"
-											}
-										],
-										"url": "{{Host}}/api/admin/jobs"
-									},
-									"status": "No Content",
-									"code": 204,
-									"_postman_previewlanguage": "plain",
-									"header": [
-										{
-											"key": "Host",
-											"value": "127.0.0.1:8002"
-										},
-										{
-											"key": "Date",
-											"value": "Sun, 22 Jan 2023 13:01:57 GMT"
-										},
-										{
-											"key": "Date",
-											"value": "Sun, 22 Jan 2023 13:01:57 GMT"
-										},
-										{
-											"key": "Connection",
-											"value": "close"
-										},
-										{
-											"key": "X-Powered-By",
-											"value": "PHP/8.1.13"
-										},
-										{
-											"key": "Cache-Control",
-											"value": "no-cache, private"
-										},
-										{
-											"key": "X-RateLimit-Limit",
-											"value": "60"
-										},
-										{
-											"key": "X-RateLimit-Remaining",
-											"value": "58"
-										},
-										{
-											"key": "Access-Control-Allow-Origin",
-											"value": "*"
-										}
-									],
-									"cookie": [],
-									"responseTime": null,
-									"body": ""
-								}
-							]
-						},
-						{
-							"name": "delete-job",
-							"id": "05dd462c-0d9c-4b21-80d2-4af075aaae76",
-							"protocolProfileBehavior": {
-								"disableBodyPruning": true
-							},
-							"request": {
-								"auth": {
-									"type": "bearer",
-									"bearer": {
-										"token": "{{Token}}"
-									}
-								},
-								"method": "DELETE",
-								"header": [
-									{
-										"key": "Auth",
-										"value": "",
-										"type": "text"
-									}
-								],
-								"body": {
-									"mode": "raw",
-									"raw": "{\n}",
-									"options": {
-										"raw": {
-											"language": "json"
-										}
-									}
-								},
-								"url": "{{Host}}/api/admin/jobs/1"
-							},
-							"response": [
-								{
-									"id": "962db30b-02b1-44d4-a2b7-967a850c053b",
-									"name": "success-response",
-									"originalRequest": {
-										"method": "DELETE",
-										"header": [
-											{
-												"key": "Auth",
-												"value": "",
-												"type": "text"
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": "{\n}",
-											"options": {
-												"raw": {
-													"language": "json"
-												}
-											}
-										},
-										"url": "{{Host}}/api/admin/jobs/1"
-									},
-									"status": "No Content",
-									"code": 204,
-									"_postman_previewlanguage": "plain",
-									"header": [
-										{
-											"key": "Host",
-											"value": "localhost:3000"
-										},
-										{
-											"key": "Date",
-											"value": "Mon, 13 Mar 2023 19:47:24 GMT"
-										},
-										{
-											"key": "Date",
-											"value": "Mon, 13 Mar 2023 19:47:24 GMT"
-										},
-										{
-											"key": "Connection",
-											"value": "close"
-										},
-										{
-											"key": "X-Powered-By",
-											"value": "PHP/8.1.13"
-										},
-										{
-											"key": "Cache-Control",
-											"value": "no-cache, private"
-										},
-										{
-											"key": "X-RateLimit-Limit",
-											"value": "60"
-										},
-										{
-											"key": "X-RateLimit-Remaining",
-											"value": "59"
-										},
-										{
-											"key": "Access-Control-Allow-Origin",
-											"value": "*"
-										}
-									],
-									"cookie": [],
-									"responseTime": null,
-									"body": null
-								},
-								{
-									"id": "2fc4b9d8-1ca4-4b80-af5b-b5a320ec058e",
-									"name": "validation-error",
-									"originalRequest": {
-										"method": "DELETE",
-										"header": [
-											{
-												"key": "Auth",
-												"value": "",
-												"type": "text"
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": "",
-											"options": {
-												"raw": {
-													"language": "json"
-												}
-											}
-										},
-										"url": "{{Host}}/api/admin/jobs/1000"
-									},
-									"status": "Bad Request",
-									"code": 400,
-									"_postman_previewlanguage": "json",
-									"header": [
-										{
-											"key": "Host",
-											"value": "localhost:3000"
-										},
-										{
-											"key": "Date",
-											"value": "Mon, 13 Mar 2023 19:47:54 GMT"
-										},
-										{
-											"key": "Date",
-											"value": "Mon, 13 Mar 2023 19:47:54 GMT"
-										},
-										{
-											"key": "Connection",
-											"value": "close"
-										},
-										{
-											"key": "X-Powered-By",
-											"value": "PHP/8.1.13"
-										},
-										{
-											"key": "Cache-Control",
-											"value": "no-cache, private"
-										},
-										{
-											"key": "Content-Type",
-											"value": "application/json"
-										},
-										{
-											"key": "X-RateLimit-Limit",
-											"value": "60"
-										},
-										{
-											"key": "X-RateLimit-Remaining",
-											"value": "58"
-										},
-										{
-											"key": "Access-Control-Allow-Origin",
-											"value": "*"
-										}
-									],
-									"cookie": [],
-									"responseTime": null,
-									"body": "{\n    \"code\": \"validation-error\",\n    \"message\": {\n        \"id\": [\n            \"The selected id is invalid.\"\n        ]\n    }\n}"
-								}
-							]
-						}
-					],
-					"id": "a9cc8a1a-5131-4a2d-9606-1b9491fefafd"
 				},
 				{
 					"name": "Gates",
@@ -40570,7 +40721,7 @@
 	],
 	"variable": [
 		{
-			"id": "a3e43c5d-2635-4243-a4dd-e198d5ffde49",
+			"id": "5d1adde9-1029-4272-9733-66448fd8958f",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
