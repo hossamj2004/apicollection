@@ -19626,23 +19626,7 @@
 										}
 									}
 								},
-								"url": {
-									"raw": "{{Host}}/api/admin/jobs?filter[order_id]=12",
-									"host": [
-										"{{Host}}"
-									],
-									"path": [
-										"api",
-										"admin",
-										"jobs"
-									],
-									"query": [
-										{
-											"key": "filter[order_id]",
-											"value": "12"
-										}
-									]
-								}
+								"url": "{{Host}}/api/admin/jobs/12"
 							},
 							"response": []
 						},
@@ -40658,7 +40642,7 @@
 	],
 	"variable": [
 		{
-			"id": "48fa7b46-eb14-48c4-83cc-df57f291a4af",
+			"id": "e271f7a0-ddd1-491c-b8ab-efefd758a8db",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
