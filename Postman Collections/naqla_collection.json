@@ -39780,13 +39780,13 @@
 											"formdata": [
 												{
 													"key": "promo_code",
-													"value": "test",
+													"value": "11142521",
 													"description": "message",
 													"type": "text"
 												}
 											]
 										},
-										"url": "{{Host}}/api/apps/client/orders/apply-promotion/1",
+										"url": "{{Host}}/api/apps/client/orders/apply-promotion/3",
 										"description": "Location types\n\n| **Value** | **ID** |\n| --- | --- |\n| Pick up | 1 |\n| Dropp off | 2 |"
 									},
 									"response": [
@@ -41140,7 +41140,7 @@
 	],
 	"variable": [
 		{
-			"id": "e2da1403-ad03-4eba-a911-519ca6d2d88e",
+			"id": "6eb3509b-f760-4310-bdb2-a31b552857ba",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
