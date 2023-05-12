@@ -39779,100 +39779,14 @@
 											"mode": "formdata",
 											"formdata": [
 												{
-													"key": "truck_type_id",
-													"value": "1",
-													"type": "text",
-													"description": "int"
-												},
-												{
-													"key": "commodity_id",
-													"value": "1",
-													"type": "text",
-													"description": "int"
-												},
-												{
-													"key": "labor_quantity",
-													"value": "0",
-													"type": "text",
-													"description": "int"
-												},
-												{
-													"key": "has_packing",
-													"value": "1",
-													"type": "text",
-													"description": "bool"
-												},
-												{
-													"key": "number_of_jobs",
-													"value": "4",
-													"type": "text",
-													"description": "int"
-												},
-												{
-													"key": "pickup_time",
-													"value": "2024-01-01 00:00:00",
-													"type": "text",
-													"description": "date time (mysql format)"
-												},
-												{
-													"key": "job_locations[0][address]",
-													"value": "3 Nagib Mahfouz St Badr city , cairo ",
-													"type": "text",
-													"description": "string"
-												},
-												{
-													"key": "job_locations[0][longitude]",
-													"value": "30.215474",
-													"type": "text",
-													"description": "string or decemal(30.676)"
-												},
-												{
-													"key": "job_locations[0][latitude]",
-													"value": "30.54279",
-													"type": "text",
-													"description": "string or decemal"
-												},
-												{
-													"key": "job_locations[0][location_type_id]",
-													"value": "1",
-													"type": "text",
-													"description": "int"
-												},
-												{
-													"key": "job_locations[1][address]",
-													"value": "107 zahraa nasr city , cairo ",
-													"type": "text"
-												},
-												{
-													"key": "job_locations[1][longitude]",
-													"value": "30.115474",
-													"type": "text"
-												},
-												{
-													"key": "job_locations[1][latitude]",
-													"value": "31.17279",
-													"type": "text"
-												},
-												{
-													"key": "job_locations[1][location_type_id]",
-													"value": "2",
-													"type": "text"
-												},
-												{
-													"key": "commodity_images[0][file]",
-													"type": "file",
-													"description": "file",
-													"src": "/C:/Users/HossamHassan/OneDrive - NAQLA Trucking/Desktop/c6e242cc-83d2-48ae-aa6d-e7d706969d90.jfif"
-												},
-												{
-													"key": "notes",
-													"value": "notes",
+													"key": "promo_code",
+													"value": "test",
 													"description": "message",
 													"type": "text"
 												}
 											]
 										},
-										"url": "{{Host}}/api/apps/client/order",
+										"url": "{{Host}}/api/apps/client/orders/apply-promotion/1",
 										"description": "Location types\n\n| **Value** | **ID** |\n| --- | --- |\n| Pick up | 1 |\n| Dropp off | 2 |"
 									},
 									"response": [
@@ -41226,7 +41140,7 @@
 	],
 	"variable": [
 		{
-			"id": "1e398ad1-23f8-4cfd-8b07-11d617bb31f8",
+			"id": "e2da1403-ad03-4eba-a911-519ca6d2d88e",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
