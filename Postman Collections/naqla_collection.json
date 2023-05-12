@@ -19615,7 +19615,7 @@
 										"token": "{{Token}}"
 									}
 								},
-								"method": "GET",
+								"method": "PUT",
 								"header": [],
 								"body": {
 									"mode": "raw",
@@ -40658,7 +40658,7 @@
 	],
 	"variable": [
 		{
-			"id": "9d11651b-a233-4a99-a191-3ef2d57dcb32",
+			"id": "49b89178-1915-451e-975e-8e75fe16f674",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
