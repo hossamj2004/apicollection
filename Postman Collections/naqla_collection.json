@@ -19781,7 +19781,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n    \"client_id\": 2,\n    \"load_type_id\":1\n}",
+									"raw": "{\n    \"jobs\":  [\n        {\n    \"client_id\": 2,\n    \"load_type_id\":1\n        }\n    ]\n\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -40804,7 +40804,7 @@
 	],
 	"variable": [
 		{
-			"id": "726030d7-c0ab-4080-82ca-f5acf75488dd",
+			"id": "e6f65506-6dbf-403a-83d8-ff76bea05998",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
