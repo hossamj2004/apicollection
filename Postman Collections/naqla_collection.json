@@ -19663,65 +19663,6 @@
 									"cookie": [],
 									"responseTime": null,
 									"body": "{\n    \"data\": [\n        {\n            \"id\": 1,  \n       \"client_id\": 98,  \n       \"load_type_id\": 93,  \n       \"unit_quantity\": 31,  \n       \"reference\": \"quia\",  \n       \"special_cases\": \"deserunt\",  \n       \"price_per\": \"consequatur\",  \n       \"load_weight\": \"nostrum\",  \n       \"job_status_id\": 32,  \n       \"created_by_model\": \"aspernatur\",  \n       \"created_by_id\": 69,  \n       \"created_at\": \"aut\",  \n       \"driver_id\": 112,  \n       \"truck_id\": 35,  \n       \"tail_id\": 75,  \n       \"vendor_id\": 58   \n         }\n    ],\n    \"count\": 1\n}"
-								},
-								{
-									"id": "7098fa02-2789-4d78-8efe-873f199c14ba",
-									"name": "empty-response",
-									"originalRequest": {
-										"method": "GET",
-										"header": [
-											{
-												"key": "Authorization",
-												"value": "Bearer {{Token}}",
-												"type": "text"
-											}
-										],
-										"url": "{{Host}}/api/admin/jobs"
-									},
-									"status": "No Content",
-									"code": 204,
-									"_postman_previewlanguage": "plain",
-									"header": [
-										{
-											"key": "Host",
-											"value": "127.0.0.1:8002"
-										},
-										{
-											"key": "Date",
-											"value": "Sun, 22 Jan 2023 13:01:57 GMT"
-										},
-										{
-											"key": "Date",
-											"value": "Sun, 22 Jan 2023 13:01:57 GMT"
-										},
-										{
-											"key": "Connection",
-											"value": "close"
-										},
-										{
-											"key": "X-Powered-By",
-											"value": "PHP/8.1.13"
-										},
-										{
-											"key": "Cache-Control",
-											"value": "no-cache, private"
-										},
-										{
-											"key": "X-RateLimit-Limit",
-											"value": "60"
-										},
-										{
-											"key": "X-RateLimit-Remaining",
-											"value": "58"
-										},
-										{
-											"key": "Access-Control-Allow-Origin",
-											"value": "*"
-										}
-									],
-									"cookie": [],
-									"responseTime": null,
-									"body": ""
 								}
 							]
 						},
@@ -40737,7 +40678,7 @@
 	],
 	"variable": [
 		{
-			"id": "f246d23c-2a01-4afd-9731-d36dd44143a1",
+			"id": "5c119d94-07cc-4400-bae1-cc3e14eb4b08",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
