@@ -19781,7 +19781,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n    \"jobs\": [\n        {\n            \"id\":29,\n            \"client_id\": 1,\n            \"load_type_id\": 2,\n            \"job_commodities\": [\n                1\n            ],\n            \"job_truck_types\": [\n               1,2 \n            ]\n\n        }\n    ]\n}",
+									"raw": "{\n    \"jobs\": [\n        {\n            \"id\":29,\n            \"client_id\": 1,\n            \"load_type_id\": 2,\n            \"job_commodities\": [\n                1\n            ],\n            \"job_truck_types\": [\n               1,2 \n            ],\n            \"job_locations\": [\n                {\n                    \"id\":1,\n                    \"ordering\":5\n                }\n            ]\n\n        }\n    ]\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -40804,7 +40804,7 @@
 	],
 	"variable": [
 		{
-			"id": "67fcdbb9-74ce-4124-9fd7-5d09f7020bf9",
+			"id": "d6cc97ff-0136-419d-93cc-880d37a1a5c1",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
