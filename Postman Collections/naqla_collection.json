@@ -39761,7 +39761,7 @@
 									]
 								},
 								{
-									"name": "set-promotion",
+									"name": "apply-promotion",
 									"id": "72ba8944-4c31-46ff-8f29-7853eace2f40",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
@@ -41140,7 +41140,7 @@
 	],
 	"variable": [
 		{
-			"id": "6eb3509b-f760-4310-bdb2-a31b552857ba",
+			"id": "88f12575-742e-4a4c-9f95-8d2aea0d94d0",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
