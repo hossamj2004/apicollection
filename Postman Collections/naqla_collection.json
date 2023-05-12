@@ -19435,69 +19435,6 @@
 							},
 							"response": [
 								{
-									"id": "cfea4a38-4065-4e59-b143-8e9e51b06d8a",
-									"name": "success-response",
-									"originalRequest": {
-										"method": "GET",
-										"header": [
-											{
-												"key": "Authorization",
-												"value": "Bearer {{Token}}",
-												"type": "text"
-											}
-										],
-										"url": "{{Host}}/api/admin/jobs"
-									},
-									"status": "OK",
-									"code": 200,
-									"_postman_previewlanguage": "json",
-									"header": [
-										{
-											"key": "Host",
-											"value": "127.0.0.1:8002"
-										},
-										{
-											"key": "Date",
-											"value": "Sun, 22 Jan 2023 13:05:05 GMT"
-										},
-										{
-											"key": "Date",
-											"value": "Sun, 22 Jan 2023 13:05:05 GMT"
-										},
-										{
-											"key": "Connection",
-											"value": "close"
-										},
-										{
-											"key": "X-Powered-By",
-											"value": "PHP/8.1.13"
-										},
-										{
-											"key": "Cache-Control",
-											"value": "no-cache, private"
-										},
-										{
-											"key": "Content-Type",
-											"value": "application/json"
-										},
-										{
-											"key": "X-RateLimit-Limit",
-											"value": "60"
-										},
-										{
-											"key": "X-RateLimit-Remaining",
-											"value": "57"
-										},
-										{
-											"key": "Access-Control-Allow-Origin",
-											"value": "*"
-										}
-									],
-									"cookie": [],
-									"responseTime": null,
-									"body": "{\n    \"data\": [\n        {\n            \"id\": 1,  \n       \"client_id\": 98,  \n       \"load_type_id\": 93,  \n       \"unit_quantity\": 31,  \n       \"reference\": \"quia\",  \n       \"special_cases\": \"deserunt\",  \n       \"price_per\": \"consequatur\",  \n       \"load_weight\": \"nostrum\",  \n       \"job_status_id\": 32,  \n       \"created_by_model\": \"aspernatur\",  \n       \"created_by_id\": 69,  \n       \"created_at\": \"aut\",  \n       \"driver_id\": 112,  \n       \"truck_id\": 35,  \n       \"tail_id\": 75,  \n       \"vendor_id\": 58   \n         }\n    ],\n    \"count\": 1\n}"
-								},
-								{
 									"id": "8b0d900c-e1c3-41c5-b184-7c7b427b0997",
 									"name": "empty-response",
 									"originalRequest": {
@@ -40642,7 +40579,7 @@
 	],
 	"variable": [
 		{
-			"id": "ff83f709-4f78-4ffc-aeec-24f33863d874",
+			"id": "26cacc1e-4bee-43c0-a8b4-4b98a31045f4",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
