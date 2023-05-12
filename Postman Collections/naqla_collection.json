@@ -19548,7 +19548,94 @@
 									]
 								}
 							},
-							"response": []
+							"response": [
+								{
+									"id": "644823f8-0f16-45ff-bc1e-a180612d06e4",
+									"name": "filter-jobs-by-order-id",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"page\": 1\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{Host}}/api/admin/jobs?filter[order_id]=12",
+											"host": [
+												"{{Host}}"
+											],
+											"path": [
+												"api",
+												"admin",
+												"jobs"
+											],
+											"query": [
+												{
+													"key": "filter[order_id]",
+													"value": "12"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Host",
+											"value": "localhost:3000"
+										},
+										{
+											"key": "Date",
+											"value": "Fri, 12 May 2023 13:50:52 GMT"
+										},
+										{
+											"key": "Date",
+											"value": "Fri, 12 May 2023 13:50:52 GMT"
+										},
+										{
+											"key": "Connection",
+											"value": "close"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/8.1.18"
+										},
+										{
+											"key": "X-Xdebug-Profile-Filename",
+											"value": "/tmp/cachegrind.out.88324"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "59"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"data\": [\n        {\n            \"id\": 33,\n            \"locations\": [\n                {\n                    \"id\": 61,\n                    \"ordering\": 1,\n                    \"lng\": \"30.220000\",\n                    \"lat\": \"29.220000\",\n                    \"address\": \"address\",\n                    \"description\": \"test description\",\n                    \"job_location_status\": \"ready\",\n                    \"gate\": {\n                        \"id\": 1,\n                        \"name_ar\": \"ميناء الأدبية\",\n                        \"name_en\": \"Adabeya\",\n                        \"code\": \"Adabeya\",\n                        \"lng\": \"32.46837615966797\",\n                        \"lat\": \"29.877862275589994\",\n                        \"address\": \"الغردقة - الاسماعيلية، عتاقة، السويس، مصر\",\n                        \"gate_type\": \"sea_port\",\n                        \"contact_name\": \"abdelrazk\",\n                        \"contact_phone\": \"01274622258\"\n                    },\n                    \"location_type\": {\n                        \"id\": 5,\n                        \"name_en\": \"gateout\",\n                        \"name_ar\": \"ميناء تحميل الحاويات\"\n                    },\n                    \"time\": \"2025-05-14 22:03:42\",\n                    \"contact_number\": \"1008292985\",\n                    \"contact_name\": \"Mohamed Fathy\"\n                },\n                {\n                    \"id\": 62,\n                    \"ordering\": 2,\n                    \"lng\": \"30.220000\",\n                    \"lat\": \"29.220000\",\n                    \"address\": \"address\",\n                    \"description\": \"test description\",\n                    \"job_location_status\": \"ready\",\n                    \"gate\": null,\n                    \"location_type\": {\n                        \"id\": 6,\n                        \"name_en\": \"export destination\",\n                        \"name_ar\": \"عنوان العميل\"\n                    },\n                    \"time\": \"2025-05-14 22:03:42\",\n                    \"contact_number\": \"1008292985\",\n                    \"contact_name\": \"Mohamed Fathy\"\n                },\n                {\n                    \"id\": 63,\n                    \"ordering\": 3,\n                    \"lng\": \"30.220000\",\n                    \"lat\": \"29.220000\",\n                    \"address\": \"address\",\n                    \"description\": \"test description\",\n                    \"job_location_status\": \"ready\",\n                    \"gate\": {\n                        \"id\": 2,\n                        \"name_ar\": \"ميناء غرب بورسعيد\",\n                        \"name_en\": \"PSDW\",\n                        \"code\": \"PSDW\",\n                        \"lng\": \"32.30062007904053\",\n                        \"lat\": \"31.25925639543162\",\n                        \"address\": \"مصطفى كامل، بور فؤاد، بور سعيد، مصر\",\n                        \"gate_type\": \"sea_port\",\n                        \"contact_name\": \"mohammed abdelhady\",\n                        \"contact_phone\": \"01206475733\"\n                    },\n                    \"location_type\": {\n                        \"id\": 3,\n                        \"name_en\": \"gatein\",\n                        \"name_ar\": \"ميناء تعتيق الحاويات\"\n                    },\n                    \"time\": \"2025-05-14 22:03:42\",\n                    \"contact_number\": \"1008292985\",\n                    \"contact_name\": \"Mohamed Fathy\"\n                }\n            ],\n            \"commodities\": [\n                {\n                    \"id\": 1,\n                    \"name_en\": \"Textiles\",\n                    \"name_ar\": \"منسوجات\"\n                },\n                {\n                    \"id\": 2,\n                    \"name_en\": \"Stone\",\n                    \"name_ar\": \"أحجار\"\n                }\n            ],\n            \"truck_types\": [\n                {\n                    \"id\": 1,\n                    \"name_en\": \"Farsh\",\n                    \"name_ar\": \"فرش\"\n                },\n                {\n                    \"id\": 2,\n                    \"name_en\": \"Sides\",\n                    \"name_ar\": \"جوانب\"\n                }\n            ]\n        }\n    ],\n    \"count\": 1\n}"
+								}
+							]
 						},
 						{
 							"name": "show-job",
@@ -40618,7 +40705,7 @@
 	],
 	"variable": [
 		{
-			"id": "67be7541-be8e-4efb-bdb6-799eeeec6c34",
+			"id": "8433fa2b-a157-4825-a785-5fe9c63b5903",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
