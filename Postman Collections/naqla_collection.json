@@ -19366,7 +19366,78 @@
 								},
 								"url": "{{Host}}/api/admin/jobs/1"
 							},
-							"response": []
+							"response": [
+								{
+									"id": "86e28244-6b2e-477a-96c6-0929763c3ee5",
+									"name": "succeess-response",
+									"originalRequest": {
+										"method": "PUT",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"client_id\": 1,\n    \"load_type_id\": 1,\n    \"unit_quantity\": 1,\n    \"reference\": \"reference\",\n    \"special_cases\": \"special_cases\",\n    \"ops_expanses\": 10,\n    \"price_per\": \"ton\",\n    \"load_weight_unit\": \"kg\",\n    \"load_weight\": 10,\n    \"bill_of_lading\": \"tts\",\n    \"driver_id\": 1,\n    \"truck_id\": 1,\n    \"tail_id\": 1,\n    \"vendor_id\": 1,\n    \"shipper_id\": 1,\n    \"customs_procedure\": \"shahada\",\n    \"customs_broker_name\": \"Mohamed fathy\",\n    \"customs_broker_phone\": \"1008292856\",\n    \"customs_clearance_gate\": 1,\n    \"job_commodities\": [\n        1,\n        2\n    ],\n    \"job_truck_types\": [\n        1,\n        2\n    ],\n    // \"job_locations\": [\n    //     {\n    //         \"id\": 84,\n    //         \"job_id\": 39,\n    //         \"ordering\": 1,\n    //         \"lng\": 44.22,\n    //         \"lat\": 55.22,\n    //         \"address\": \"ssfsdfsdfsdf\",\n    //         \"job_location_status\": \"readys\",\n    //         \"gate_id\": null,\n    //         \"description\": \"test descriptionss\",\n    //         \"location_type_id\": 1,\n    //         \"time\": \"2023-05-14 22:03:42\",\n    //         \"contact_number\": \"1008292984\",\n    //         \"contact_name\": \"Mohamed Fathys\"\n    //     },\n    //     {\n    //         \"id\": 85,\n    //         \"job_id\": 39,\n    //         \"ordering\": 2,\n    //         \"lng\": 44.22,\n    //         \"lat\": 55.22,\n    //         \"address\": \"addressss\",\n    //         \"job_location_status\": \"readys\",\n    //         \"gate_id\": null,\n    //         \"description\": \"test descriptionss\",\n    //         \"location_type_id\": 2,\n    //         \"time\": \"2023-05-14 22:03:42\",\n    //         \"contact_number\": \"1008292984\",\n    //         \"contact_name\": \"Mohamed Fathys\"\n    //     }\n    // ]\n    // \"deleted_job_locations\": [93,94],\n    \"job_prices\": [\n        {\n            \"model_type\": \"Accessory\",\n            \"model_id\": 7,\n            \"cost\": 200,\n            \"price\": 300,\n            \"vendor_id\": 1,\n            \"quantity\": 4,\n            \"currency\": \"USD\",\n            \"rate\": 40.0,\n            \"options\": [{\"delay_type\" :\"delay\",\"hours_count\": 4 }]\n        }\n    ]\n    // \"deleted_job_prices\": [\n    //     55\n    // ],\n    // \"job_containers\": [\n    //     {\n    //         \"id\":16,\n    //         \"shipping_line_id\": 1,\n    //         \"booking_code\": \"mh234341yy\",\n    //         \"container_number\": \"msd215st1yy\",\n    //         \"container_port_code\": \"ADCAN\"\n    //     },\n    //     {\n    //         \"id\":17,\n    //         \"shipping_line_id\": 2,\n    //         \"booking_code\": \"mh234342xx\",\n    //         \"container_number\": \"msd215st2xx\",\n    //         \"container_port_code\": \"ADALV\"\n    //     }\n    // ],\n    // \"deleted_job_containers\": [\n    //     17\n    // ]\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{Host}}/api/admin/jobs/1"
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Host",
+											"value": "localhost:3000"
+										},
+										{
+											"key": "Date",
+											"value": "Sat, 13 May 2023 16:14:55 GMT"
+										},
+										{
+											"key": "Date",
+											"value": "Sat, 13 May 2023 16:14:55 GMT"
+										},
+										{
+											"key": "Connection",
+											"value": "close"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/8.1.18"
+										},
+										{
+											"key": "X-Xdebug-Profile-Filename",
+											"value": "/tmp/cachegrind.out.88324"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "59"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"id\": 1,\n    \"order_id\": 1,\n    \"client\": {\n        \"id\": 1,\n        \"name_en\": \"Elsewedy Electric\",\n        \"name_ar\": \"السويدي اليكتريك\",\n        \"client_type\": \"corporate\",\n        \"corporate_type\": \"direct_client\",\n        \"contact\": \"1008292984\",\n        \"logo\": \"https://fra1.digitaloceanspaces.com/vtwodevelopment/direct_clients/1675183991.jpg\",\n        \"address_ar\": \"الحي الاول , التجمع الخامس\",\n        \"address_en\": \"1st District, 5th Settlement\",\n        \"status\": \"active\",\n        \"fcm_token\": null,\n        \"created_by_model\": null,\n        \"created_by_id\": 0,\n        \"parent_id\": null,\n        \"account_owner_id\": null,\n        \"industry\": \"\",\n        \"mobile_1\": null,\n        \"mobile_2\": null,\n        \"website\": null,\n        \"email\": null,\n        \"governorate_id\": null,\n        \"credit_term_days\": 7,\n        \"credit_limit\": 100000,\n        \"tax_card_number\": null,\n        \"tax_card_image\": null,\n        \"tax_card_expiration_date\": null,\n        \"commercial_register_image\": null,\n        \"commercial_register_number\": null,\n        \"commercial_register_issue_date\": null,\n        \"created_at\": \"2023-05-13T16:05:11.000000Z\",\n        \"updated_at\": \"2023-05-13T16:05:11.000000Z\"\n    },\n    \"load_type\": {\n        \"id\": 1,\n        \"name_ar\": \"جاف\",\n        \"name_en\": \"dry\",\n        \"image\": \"https://fra1.digitaloceanspaces.com/vtwodevelopment/load-types/1675183991.jpg\",\n        \"status\": 1\n    },\n    \"unit_quantity\": 1,\n    \"reference\": \"reference\",\n    \"special_cases\": \"special_cases\",\n    \"ops_expanses\": 10,\n    \"price_per\": \"ton\",\n    \"load_weight_unit\": \"kg\",\n    \"load_weight\": 10,\n    \"bill_of_lading\": \"tts\",\n    \"active_location\": [],\n    \"job_status_id\": {\n        \"id\": 1,\n        \"name_en\": \"pending driver\",\n        \"name_ar\": \"بانتظار التخصيص\",\n        \"is_action\": 0,\n        \"can_assign_when\": \"at_start_or_in_order\",\n        \"cannot_assign_when\": \"\",\n        \"job_status_group\": \"pending\",\n        \"show_in_quick_links\": \"1\",\n        \"namespace\": \"pendingDriver\"\n    },\n    \"driver\": {\n        \"id\": 1,\n        \"first_name\": \"Aymen \",\n        \"last_name\": \"Hassan\",\n        \"national_id\": \"2928232400056\",\n        \"phone\": \"1008292928\",\n        \"nationality\": \"مصري\",\n        \"traffic_unit\": \"الجيزة\",\n        \"birthdate\": \"1992-08-23\",\n        \"license_number\": \"7126nks\",\n        \"license_expiry_date\": \"2025-08-23\",\n        \"fcm_token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c\",\n        \"personal_license_type\": \"first_grade\",\n        \"marital_status\": \"اعزب\",\n        \"religion\": \"مسلم\",\n        \"personal_license_date_of_issue\": \"2020-08-23\",\n        \"personal_address\": \"1st District, 5th Settlement\",\n        \"country_id\": 1,\n        \"governorate_id\": 1,\n        \"status\": 1,\n        \"created_by_model\": \"\",\n        \"created_by_id\": 0,\n        \"created_at\": null,\n        \"updated_at\": null\n    },\n    \"truck\": {\n        \"id\": 1,\n        \"contractor_id\": 1,\n        \"truck_type_id\": 1,\n        \"governorate_id\": 1,\n        \"plate_number\": \"2020kmh\",\n        \"license_date_of_issue\": \"2023-05-13\",\n        \"license_expire_date\": \"2023-05-13\",\n        \"traffic_unit\": \"Dokki\",\n        \"owner\": \"Mohamed Osama\",\n        \"brand\": \"Mercedes\",\n        \"chassis_number\": \"2020kmh\",\n        \"motor_number\": \"1000\",\n        \"color\": \"red\",\n        \"allowed_weight\": \"1000.40\",\n        \"cylinder_size\": 100,\n        \"status\": 1,\n        \"created_by_model\": \"Client\",\n        \"created_by_id\": 1,\n        \"created_at\": \"2023-05-13 19:05:11\",\n        \"updated_at\": null\n    },\n    \"tail\": {\n        \"id\": 1,\n        \"governorate_id\": 1,\n        \"plate_number\": \"2050nhg\",\n        \"license_date_of_issue\": \"2023-05-13\",\n        \"license_expire_date\": \"2023-05-13\",\n        \"traffic_unit\": \"Salahya\",\n        \"owner\": \"Mohamed Osama\",\n        \"brand\": \"Salahya\",\n        \"chassis_number\": \"2050nhm\",\n        \"color\": \"red\",\n        \"allowed_weight\": \"2000.10\",\n        \"status\": 1,\n        \"created_by_model\": \"Account\",\n        \"created_by_id\": 1,\n        \"created_at\": \"2023-05-13 19:05:11\",\n        \"updated_at\": null\n    },\n    \"shipper\": {\n        \"id\": 1,\n        \"name_en\": \"Elsewedy Electric\",\n        \"name_ar\": \"السويدي اليكتريك\",\n        \"client_type\": \"corporate\",\n        \"corporate_type\": \"direct_client\",\n        \"contact\": \"1008292984\",\n        \"logo\": \"https://fra1.digitaloceanspaces.com/vtwodevelopment/direct_clients/1675183991.jpg\",\n        \"address_ar\": \"الحي الاول , التجمع الخامس\",\n        \"address_en\": \"1st District, 5th Settlement\",\n        \"status\": \"active\",\n        \"fcm_token\": null,\n        \"created_by_model\": null,\n        \"created_by_id\": 0,\n        \"parent_id\": null,\n        \"account_owner_id\": null,\n        \"industry\": \"\",\n        \"mobile_1\": null,\n        \"mobile_2\": null,\n        \"website\": null,\n        \"email\": null,\n        \"governorate_id\": null,\n        \"credit_term_days\": 7,\n        \"credit_limit\": 100000,\n        \"tax_card_number\": null,\n        \"tax_card_image\": null,\n        \"tax_card_expiration_date\": null,\n        \"commercial_register_image\": null,\n        \"commercial_register_number\": null,\n        \"commercial_register_issue_date\": null,\n        \"created_at\": \"2023-05-13T16:05:11.000000Z\",\n        \"updated_at\": \"2023-05-13T16:05:11.000000Z\"\n    },\n    \"job_type\": {\n        \"id\": 3,\n        \"name_en\": \"Distribution\",\n        \"name_ar\": \"توزيع\",\n        \"vertical_id\": 2,\n        \"status\": 1\n    },\n    \"customs_procedure\": \"shahada\",\n    \"customs_broker_name\": \"Mohamed fathy\",\n    \"customs_broker_phone\": \"1008292856\",\n    \"customs_clearance_gate\": 1,\n    \"locations\": [],\n    \"commodities\": [\n        {\n            \"id\": 1,\n            \"name_en\": \"Textiles\",\n            \"name_ar\": \"منسوجات\"\n        },\n        {\n            \"id\": 2,\n            \"name_en\": \"Stone\",\n            \"name_ar\": \"أحجار\"\n        }\n    ],\n    \"truck_types\": [\n        {\n            \"id\": 1,\n            \"name_en\": \"Farsh\",\n            \"name_ar\": \"فرش\"\n        },\n        {\n            \"id\": 2,\n            \"name_en\": \"Sides\",\n            \"name_ar\": \"جوانب\"\n        }\n    ],\n    \"created_at\": null,\n    \"updated_at\": \"2023-05-13T16:14:54.000000Z\"\n}"
+								}
+							]
 						},
 						{
 							"name": "delete-job",
@@ -40716,7 +40787,7 @@
 	],
 	"variable": [
 		{
-			"id": "1aed464f-beda-470a-895b-b2778b741499",
+			"id": "bc652884-563d-4219-b895-8857e4617a54",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
