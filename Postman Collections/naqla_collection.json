@@ -34566,7 +34566,78 @@
 								},
 								"url": "{{Host}}/api/admin/ops-expanses"
 							},
-							"response": []
+							"response": [
+								{
+									"id": "5c0a725a-a891-4d11-9309-7a3856d2081b",
+									"name": "create-ops-expanses",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"name_en\":\"one\",\n    \"name_ar\": \"one\",\n    \"status\": true\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{Host}}/api/admin/ops-expanses"
+									},
+									"status": "Created",
+									"code": 201,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Host",
+											"value": "localhost:3000"
+										},
+										{
+											"key": "Date",
+											"value": "Sun, 14 May 2023 11:16:40 GMT"
+										},
+										{
+											"key": "Date",
+											"value": "Sun, 14 May 2023 11:16:40 GMT"
+										},
+										{
+											"key": "Connection",
+											"value": "close"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/8.1.18"
+										},
+										{
+											"key": "X-Xdebug-Profile-Filename",
+											"value": "/tmp/cachegrind.out.13613"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "58"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"id\": 3,\n    \"name\": \"one\",\n    \"name_en\": \"one\",\n    \"name_ar\": \"one\",\n    \"status\": true\n}"
+								}
+							]
 						},
 						{
 							"name": "update-ops-expanses",
@@ -41048,7 +41119,7 @@
 	],
 	"variable": [
 		{
-			"id": "8d74aaf6-ade5-423a-973e-16b5e5a66e24",
+			"id": "98d3134c-35f7-4c88-9e67-c8aeb2c69c93",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
