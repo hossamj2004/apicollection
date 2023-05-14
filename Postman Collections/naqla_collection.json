@@ -34540,78 +34540,6 @@
 							},
 							"response": [
 								{
-									"id": "26f23266-e9c6-481e-ae8f-e99e7a359f3e",
-									"name": "success-response",
-									"originalRequest": {
-										"method": "GET",
-										"header": [
-											{
-												"key": "Authorization",
-												"value": "Bearer {{Token}}",
-												"type": "text"
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": "",
-											"options": {
-												"raw": {
-													"language": "json"
-												}
-											}
-										},
-										"url": "{{Host}}/api/admin/ops-expanses"
-									},
-									"status": "OK",
-									"code": 200,
-									"_postman_previewlanguage": "json",
-									"header": [
-										{
-											"key": "Host",
-											"value": "localhost:3000"
-										},
-										{
-											"key": "Date",
-											"value": "Wed, 03 May 2023 07:58:44 GMT"
-										},
-										{
-											"key": "Date",
-											"value": "Wed, 03 May 2023 07:58:44 GMT"
-										},
-										{
-											"key": "Connection",
-											"value": "close"
-										},
-										{
-											"key": "X-Powered-By",
-											"value": "PHP/8.1.13"
-										},
-										{
-											"key": "Cache-Control",
-											"value": "no-cache, private"
-										},
-										{
-											"key": "Content-Type",
-											"value": "application/json"
-										},
-										{
-											"key": "X-RateLimit-Limit",
-											"value": "60"
-										},
-										{
-											"key": "X-RateLimit-Remaining",
-											"value": "59"
-										},
-										{
-											"key": "Access-Control-Allow-Origin",
-											"value": "*"
-										}
-									],
-									"cookie": [],
-									"responseTime": null,
-									"body": "{\n    \"data\": [\n        {\n            \"id\": 1,\n            \"title\": \"sdfdsfsdf\",\n            \"title_en\": \"sdfsdf\",\n            \"title_ar\": \"sdfdsfsdf\",\n            \"description_en\": \"sdfsdf\",\n            \"description_ar\": \"sdfsdf\",\n            \"image\": \"https://st4.depositphotos.com/5943922/40270/i/1600/depositphotos_402703556-stock-photo-ling-watercolor-isolated-illustration-of.jpg\",\n            \"link\": \"https://st4.depositphotos.com/5943922/40270/i/1600/depositphotos_402703556-stock-photo-ling-watercolor-isolated-illustration-of.jpg\",\n            \"status\": 1\n        },\n        {\n            \"id\": 2,\n            \"title\": \"العنوان2\",\n            \"title_en\": \"title2\",\n            \"title_ar\": \"العنوان2\",\n            \"description_en\": \"description2\",\n            \"description_ar\": \"الوصف2\",\n            \"image\": \"https://st4.depositphotos.com/5943922/40270/i/1600/depositphotos_402703556-stock-photo-ling-watercolor-isolated-illustration-of.jpg\",\n            \"link\": \"https://st4.depositphotos.com/5943922/40270/i/1600/depositphotos_402703556-stock-photo-ling-watercolor-isolated-illustration-of.jpg\",\n            \"status\": 1\n        },\n        {\n            \"id\": 3,\n            \"title\": \"name_ar\",\n            \"title_en\": \"name_en\",\n            \"title_ar\": \"name_ar\",\n            \"description_en\": \"description_en\",\n            \"description_ar\": \"descritpion_ar\",\n            \"image\": \"sliders/1683038128.png\",\n            \"link\": \"\",\n            \"status\": 1\n        },\n        {\n            \"id\": 5,\n            \"title\": \"name_ar\",\n            \"title_en\": \"name_en\",\n            \"title_ar\": \"name_ar\",\n            \"description_en\": \"description_en\",\n            \"description_ar\": \"descritpion_ar\",\n            \"image\": \"sliders/1683038439.png\",\n            \"link\": \"https://st4.depositphotos.com/5943922/40270/i/1600/depositphotos_402703556-stock-photo-ling-watercolor-isolated-illustration-of.jpg\",\n            \"status\": 1\n        }\n    ],\n    \"count\": 4\n}"
-								},
-								{
 									"id": "d4165abf-fec3-4def-9db3-2c29bfc2e24d",
 									"name": "empty-response",
 									"originalRequest": {
@@ -41605,7 +41533,7 @@
 	],
 	"variable": [
 		{
-			"id": "c66f9895-18f2-4f5a-8705-d3d83468fc48",
+			"id": "ff7e68ca-1181-45f1-bac4-a4da79bcff53",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
