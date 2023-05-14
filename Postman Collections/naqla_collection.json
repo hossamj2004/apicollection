@@ -34560,7 +34560,7 @@
 												}
 											}
 										},
-										"url": "{{Host}}/api/admin/sliders"
+										"url": "{{Host}}/api/admin/ops-expanses"
 									},
 									"status": "OK",
 									"code": 200,
@@ -41605,7 +41605,7 @@
 	],
 	"variable": [
 		{
-			"id": "60d9404e-fbe8-4eff-af3a-47a36791dc4e",
+			"id": "2638e645-e8a0-4f6f-9b0b-5aeff81df066",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
