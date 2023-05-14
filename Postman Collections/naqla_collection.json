@@ -34802,108 +34802,6 @@
 							},
 							"response": [
 								{
-									"id": "9b80c67e-c3fd-4d3d-bcfb-6f8e795073c0",
-									"name": "success-response",
-									"originalRequest": {
-										"method": "POST",
-										"header": [],
-										"body": {
-											"mode": "formdata",
-											"formdata": [
-												{
-													"key": "title_en",
-													"value": "Slider",
-													"type": "text"
-												},
-												{
-													"key": "title_ar",
-													"value": "Slider",
-													"type": "text"
-												},
-												{
-													"key": "description_en",
-													"value": "description",
-													"type": "text"
-												},
-												{
-													"key": "description_ar",
-													"value": "description",
-													"type": "text"
-												},
-												{
-													"key": "image",
-													"type": "file",
-													"src": "/home/mfathy/Desktop/image.png"
-												},
-												{
-													"key": "link",
-													"value": "https://st4.depositphotos.com/5943922/40270/i/1600/depositphotos_402703556-stock-photo-ling-watercolor-isolated-illustration-of.jpg",
-													"type": "text"
-												},
-												{
-													"key": "status",
-													"value": "0",
-													"type": "text"
-												},
-												{
-													"key": "_method",
-													"value": "put",
-													"type": "text"
-												}
-											]
-										},
-										"url": "{{Host}}/api/admin/sliders/1"
-									},
-									"status": "OK",
-									"code": 200,
-									"_postman_previewlanguage": "json",
-									"header": [
-										{
-											"key": "Host",
-											"value": "localhost:3000"
-										},
-										{
-											"key": "Date",
-											"value": "Wed, 03 May 2023 09:33:41 GMT"
-										},
-										{
-											"key": "Date",
-											"value": "Wed, 03 May 2023 09:33:41 GMT"
-										},
-										{
-											"key": "Connection",
-											"value": "close"
-										},
-										{
-											"key": "X-Powered-By",
-											"value": "PHP/8.1.13"
-										},
-										{
-											"key": "Cache-Control",
-											"value": "no-cache, private"
-										},
-										{
-											"key": "Content-Type",
-											"value": "application/json"
-										},
-										{
-											"key": "X-RateLimit-Limit",
-											"value": "60"
-										},
-										{
-											"key": "X-RateLimit-Remaining",
-											"value": "59"
-										},
-										{
-											"key": "Access-Control-Allow-Origin",
-											"value": "*"
-										}
-									],
-									"cookie": [],
-									"responseTime": null,
-									"body": "{\n    \"id\": 1,\n    \"title\": \"Slider\",\n    \"title_en\": \"Slider\",\n    \"title_ar\": \"Slider\",\n    \"description_en\": \"description\",\n    \"description_ar\": \"description\",\n    \"image\": \"sliders/1683106420.png\",\n    \"link\": \"https://st4.depositphotos.com/5943922/40270/i/1600/depositphotos_402703556-stock-photo-ling-watercolor-isolated-illustration-of.jpg\",\n    \"status\": \"0\"\n}"
-								},
-								{
 									"id": "b3cd09bb-043c-4c64-9255-20a81b5dc54a",
 									"name": "validation-error",
 									"originalRequest": {
@@ -41388,7 +41286,7 @@
 	],
 	"variable": [
 		{
-			"id": "e6549346-d384-4eb9-9863-6ab76e28346a",
+			"id": "9ad50dde-1479-4cdc-9b25-92c23512b255",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
