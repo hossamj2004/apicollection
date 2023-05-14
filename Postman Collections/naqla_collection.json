@@ -34636,6 +34636,76 @@
 									"cookie": [],
 									"responseTime": null,
 									"body": "{\n    \"id\": 3,\n    \"name\": \"one\",\n    \"name_en\": \"one\",\n    \"name_ar\": \"one\",\n    \"status\": true\n}"
+								},
+								{
+									"id": "b7055567-2951-4435-96a9-c652c38860c8",
+									"name": "create-ops-expanses",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"name_en\":\"one\",\n    \"name_ar\": \"one\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{Host}}/api/admin/ops-expanses"
+									},
+									"status": "Bad Request",
+									"code": 400,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Host",
+											"value": "localhost:3000"
+										},
+										{
+											"key": "Date",
+											"value": "Sun, 14 May 2023 11:19:23 GMT"
+										},
+										{
+											"key": "Date",
+											"value": "Sun, 14 May 2023 11:19:23 GMT"
+										},
+										{
+											"key": "Connection",
+											"value": "close"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/8.1.18"
+										},
+										{
+											"key": "X-Xdebug-Profile-Filename",
+											"value": "/tmp/cachegrind.out.13613"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "59"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"code\": 400,\n    \"error\": \"validation-error\",\n    \"message\": \"الحقل status مطلوب.\",\n    \"messages\": {\n        \"status\": [\n            \"الحقل status مطلوب.\"\n        ]\n    },\n    \"file\": \"/home/mfathy/Desktop/core/vendor/laravel/framework/src/Illuminate/Support/helpers.php\",\n    \"line\": 327\n}"
 								}
 							]
 						},
@@ -41119,7 +41189,7 @@
 	],
 	"variable": [
 		{
-			"id": "d6e8cae7-f1b6-4cd2-83b3-a13d2ff62785",
+			"id": "40139dbb-0934-4af1-8636-c15a60747d44",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
