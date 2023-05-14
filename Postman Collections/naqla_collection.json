@@ -34787,7 +34787,7 @@
 										"token": "{{Token}}"
 									}
 								},
-								"method": "POST",
+								"method": "PUT",
 								"header": [],
 								"body": {
 									"mode": "raw",
@@ -41380,7 +41380,7 @@
 	],
 	"variable": [
 		{
-			"id": "e67ae3b3-9faa-431c-8bd6-a944014bb06e",
+			"id": "d9d0ce0a-f2b9-4bdf-9755-08fff238cac6",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
