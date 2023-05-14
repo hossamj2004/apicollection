@@ -34529,14 +34529,14 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "",
+									"raw": "{\n    \"page\":1000\n}",
 									"options": {
 										"raw": {
 											"language": "json"
 										}
 									}
 								},
-								"url": "{{Host}}/api/admin/sliders"
+								"url": "{{Host}}/api/admin/ops-expanses"
 							},
 							"response": [
 								{
@@ -41266,7 +41266,7 @@
 	],
 	"variable": [
 		{
-			"id": "be8b4b9d-4b9e-43a5-9573-f3c80c7359ff",
+			"id": "bc698dc8-5d9c-4ae6-af97-c980abccbc5f",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
