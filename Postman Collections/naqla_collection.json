@@ -13291,6 +13291,895 @@
 					"id": "ba909113-b9ab-42ac-bdde-8341b34caa44"
 				},
 				{
+					"name": "OpsExpanses",
+					"item": [
+						{
+							"name": "list-sliders",
+							"id": "8ee98508-b663-48f8-8c45-b5bc53213cd1",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": {
+										"token": "{{Token}}"
+									}
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer {{Token}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{Host}}/api/admin/sliders"
+							},
+							"response": [
+								{
+									"id": "26f23266-e9c6-481e-ae8f-e99e7a359f3e",
+									"name": "success-response",
+									"originalRequest": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Authorization",
+												"value": "Bearer {{Token}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{Host}}/api/admin/sliders"
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Host",
+											"value": "localhost:3000"
+										},
+										{
+											"key": "Date",
+											"value": "Wed, 03 May 2023 07:58:44 GMT"
+										},
+										{
+											"key": "Date",
+											"value": "Wed, 03 May 2023 07:58:44 GMT"
+										},
+										{
+											"key": "Connection",
+											"value": "close"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/8.1.13"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "59"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"data\": [\n        {\n            \"id\": 1,\n            \"title\": \"sdfdsfsdf\",\n            \"title_en\": \"sdfsdf\",\n            \"title_ar\": \"sdfdsfsdf\",\n            \"description_en\": \"sdfsdf\",\n            \"description_ar\": \"sdfsdf\",\n            \"image\": \"https://st4.depositphotos.com/5943922/40270/i/1600/depositphotos_402703556-stock-photo-ling-watercolor-isolated-illustration-of.jpg\",\n            \"link\": \"https://st4.depositphotos.com/5943922/40270/i/1600/depositphotos_402703556-stock-photo-ling-watercolor-isolated-illustration-of.jpg\",\n            \"status\": 1\n        },\n        {\n            \"id\": 2,\n            \"title\": \"العنوان2\",\n            \"title_en\": \"title2\",\n            \"title_ar\": \"العنوان2\",\n            \"description_en\": \"description2\",\n            \"description_ar\": \"الوصف2\",\n            \"image\": \"https://st4.depositphotos.com/5943922/40270/i/1600/depositphotos_402703556-stock-photo-ling-watercolor-isolated-illustration-of.jpg\",\n            \"link\": \"https://st4.depositphotos.com/5943922/40270/i/1600/depositphotos_402703556-stock-photo-ling-watercolor-isolated-illustration-of.jpg\",\n            \"status\": 1\n        },\n        {\n            \"id\": 3,\n            \"title\": \"name_ar\",\n            \"title_en\": \"name_en\",\n            \"title_ar\": \"name_ar\",\n            \"description_en\": \"description_en\",\n            \"description_ar\": \"descritpion_ar\",\n            \"image\": \"sliders/1683038128.png\",\n            \"link\": \"\",\n            \"status\": 1\n        },\n        {\n            \"id\": 5,\n            \"title\": \"name_ar\",\n            \"title_en\": \"name_en\",\n            \"title_ar\": \"name_ar\",\n            \"description_en\": \"description_en\",\n            \"description_ar\": \"descritpion_ar\",\n            \"image\": \"sliders/1683038439.png\",\n            \"link\": \"https://st4.depositphotos.com/5943922/40270/i/1600/depositphotos_402703556-stock-photo-ling-watercolor-isolated-illustration-of.jpg\",\n            \"status\": 1\n        }\n    ],\n    \"count\": 4\n}"
+								},
+								{
+									"id": "d4165abf-fec3-4def-9db3-2c29bfc2e24d",
+									"name": "empty-response",
+									"originalRequest": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Authorization",
+												"value": "Bearer {{Token}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{Host}}/api/admin/sliders?page=100",
+											"host": [
+												"{{Host}}"
+											],
+											"path": [
+												"api",
+												"admin",
+												"sliders"
+											],
+											"query": [
+												{
+													"key": "page",
+													"value": "100"
+												}
+											]
+										}
+									},
+									"status": "No Content",
+									"code": 204,
+									"_postman_previewlanguage": "plain",
+									"header": [
+										{
+											"key": "Host",
+											"value": "localhost:3000"
+										},
+										{
+											"key": "Date",
+											"value": "Wed, 03 May 2023 09:32:03 GMT"
+										},
+										{
+											"key": "Date",
+											"value": "Wed, 03 May 2023 09:32:03 GMT"
+										},
+										{
+											"key": "Connection",
+											"value": "close"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/8.1.13"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "59"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": null
+								}
+							]
+						},
+						{
+							"name": "create-slider",
+							"id": "ac2b454f-e243-4286-8372-f03710bcf901",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": {
+										"token": "{{Token}}"
+									}
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "title_en",
+											"value": "name_en",
+											"type": "text"
+										},
+										{
+											"key": "title_ar",
+											"value": "name_ar",
+											"type": "text"
+										},
+										{
+											"key": "description_en",
+											"value": "description_en",
+											"type": "text"
+										},
+										{
+											"key": "description_ar",
+											"value": "descritpion_ar",
+											"type": "text"
+										},
+										{
+											"key": "image",
+											"type": "file",
+											"src": "/home/mfathy/Desktop/image.png"
+										},
+										{
+											"key": "link",
+											"value": "https://st4.depositphotos.com/5943922/40270/i/1600/depositphotos_402703556-stock-photo-ling-watercolor-isolated-illustration-of.jpg",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "status",
+											"value": "1",
+											"type": "text"
+										}
+									]
+								},
+								"url": "{{Host}}/api/admin/sliders"
+							},
+							"response": [
+								{
+									"id": "9380b494-dd36-4df6-b06a-4810d8017177",
+									"name": "success-responsse",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "formdata",
+											"formdata": [
+												{
+													"key": "title_en",
+													"value": "name_en",
+													"type": "text"
+												},
+												{
+													"key": "title_ar",
+													"value": "name_ar",
+													"type": "text"
+												},
+												{
+													"key": "description_en",
+													"value": "description_en",
+													"type": "text"
+												},
+												{
+													"key": "description_ar",
+													"value": "descritpion_ar",
+													"type": "text"
+												},
+												{
+													"key": "image",
+													"type": "file",
+													"src": "/home/mfathy/Desktop/image.png"
+												},
+												{
+													"key": "link",
+													"value": "https://st4.depositphotos.com/5943922/40270/i/1600/depositphotos_402703556-stock-photo-ling-watercolor-isolated-illustration-of.jpg",
+													"type": "text"
+												},
+												{
+													"key": "status",
+													"value": "1",
+													"type": "text"
+												}
+											],
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{Host}}/api/admin/sliders"
+									},
+									"status": "Created",
+									"code": 201,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Host",
+											"value": "localhost:3000"
+										},
+										{
+											"key": "Date",
+											"value": "Tue, 02 May 2023 14:40:40 GMT"
+										},
+										{
+											"key": "Date",
+											"value": "Tue, 02 May 2023 14:40:40 GMT"
+										},
+										{
+											"key": "Connection",
+											"value": "close"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/8.1.13"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "58"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"title_en\": \"name_en\",\n    \"title_ar\": \"name_ar\",\n    \"description_en\": \"description_en\",\n    \"description_ar\": \"descritpion_ar\",\n    \"image\": \"sliders/1683038439.png\",\n    \"link\": \"https://st4.depositphotos.com/5943922/40270/i/1600/depositphotos_402703556-stock-photo-ling-watercolor-isolated-illustration-of.jpg\",\n    \"status\": \"1\",\n    \"id\": 5\n}"
+								},
+								{
+									"id": "94c9f560-9237-4ca9-a667-fe4c4c5cf2db",
+									"name": "validation-error",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "formdata",
+											"formdata": [
+												{
+													"key": "title_en",
+													"value": "name_en",
+													"type": "text"
+												},
+												{
+													"key": "title_ar",
+													"value": "name_ar",
+													"type": "text"
+												},
+												{
+													"key": "description_en",
+													"value": "description_en",
+													"type": "text",
+													"disabled": true
+												},
+												{
+													"key": "description_ar",
+													"value": "descritpion_ar",
+													"type": "text"
+												},
+												{
+													"key": "image",
+													"type": "file",
+													"src": "/home/mfathy/Desktop/image.png"
+												},
+												{
+													"key": "link",
+													"value": "https://st4.depositphotos.com/5943922/40270/i/1600/depositphotos_402703556-stock-photo-ling-watercolor-isolated-illustration-of.jpg",
+													"type": "text"
+												},
+												{
+													"key": "status",
+													"value": "1",
+													"type": "text"
+												}
+											],
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{Host}}/api/admin/sliders"
+									},
+									"status": "Bad Request",
+									"code": 400,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Host",
+											"value": "localhost:3000"
+										},
+										{
+											"key": "Date",
+											"value": "Wed, 03 May 2023 09:32:50 GMT"
+										},
+										{
+											"key": "Date",
+											"value": "Wed, 03 May 2023 09:32:50 GMT"
+										},
+										{
+											"key": "Connection",
+											"value": "close"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/8.1.13"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "58"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"code\": 400,\n    \"error\": \"validation-error\",\n    \"message\": \"الحقل description en مطلوب.\",\n    \"messages\": {\n        \"description_en\": [\n            \"الحقل description en مطلوب.\"\n        ]\n    },\n    \"file\": \"/home/mfathy/Desktop/core/vendor/laravel/framework/src/Illuminate/Support/helpers.php\",\n    \"line\": 327\n}"
+								}
+							]
+						},
+						{
+							"name": "update-slider",
+							"id": "e2f5811b-6d12-4d08-a88f-8aa4f1e43123",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": {
+										"token": "{{Token}}"
+									}
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "title_en",
+											"value": "Slider",
+											"type": "text"
+										},
+										{
+											"key": "title_ar",
+											"value": "Slider",
+											"type": "text"
+										},
+										{
+											"key": "description_en",
+											"value": "description",
+											"type": "text"
+										},
+										{
+											"key": "description_ar",
+											"value": "description",
+											"type": "text"
+										},
+										{
+											"key": "image",
+											"type": "file",
+											"src": "/home/mfathy/Desktop/image.png"
+										},
+										{
+											"key": "link",
+											"value": "https://st4.depositphotos.com/5943922/40270/i/1600/depositphotos_402703556-stock-photo-ling-watercolor-isolated-illustration-of.jpg",
+											"type": "text"
+										},
+										{
+											"key": "status",
+											"value": "tes",
+											"type": "text"
+										},
+										{
+											"key": "_method",
+											"value": "put",
+											"type": "text"
+										}
+									]
+								},
+								"url": "{{Host}}/api/admin/sliders/1"
+							},
+							"response": [
+								{
+									"id": "9b80c67e-c3fd-4d3d-bcfb-6f8e795073c0",
+									"name": "success-response",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "formdata",
+											"formdata": [
+												{
+													"key": "title_en",
+													"value": "Slider",
+													"type": "text"
+												},
+												{
+													"key": "title_ar",
+													"value": "Slider",
+													"type": "text"
+												},
+												{
+													"key": "description_en",
+													"value": "description",
+													"type": "text"
+												},
+												{
+													"key": "description_ar",
+													"value": "description",
+													"type": "text"
+												},
+												{
+													"key": "image",
+													"type": "file",
+													"src": "/home/mfathy/Desktop/image.png"
+												},
+												{
+													"key": "link",
+													"value": "https://st4.depositphotos.com/5943922/40270/i/1600/depositphotos_402703556-stock-photo-ling-watercolor-isolated-illustration-of.jpg",
+													"type": "text"
+												},
+												{
+													"key": "status",
+													"value": "0",
+													"type": "text"
+												},
+												{
+													"key": "_method",
+													"value": "put",
+													"type": "text"
+												}
+											]
+										},
+										"url": "{{Host}}/api/admin/sliders/1"
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Host",
+											"value": "localhost:3000"
+										},
+										{
+											"key": "Date",
+											"value": "Wed, 03 May 2023 09:33:41 GMT"
+										},
+										{
+											"key": "Date",
+											"value": "Wed, 03 May 2023 09:33:41 GMT"
+										},
+										{
+											"key": "Connection",
+											"value": "close"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/8.1.13"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "59"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"id\": 1,\n    \"title\": \"Slider\",\n    \"title_en\": \"Slider\",\n    \"title_ar\": \"Slider\",\n    \"description_en\": \"description\",\n    \"description_ar\": \"description\",\n    \"image\": \"sliders/1683106420.png\",\n    \"link\": \"https://st4.depositphotos.com/5943922/40270/i/1600/depositphotos_402703556-stock-photo-ling-watercolor-isolated-illustration-of.jpg\",\n    \"status\": \"0\"\n}"
+								},
+								{
+									"id": "b3cd09bb-043c-4c64-9255-20a81b5dc54a",
+									"name": "validation-error",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "formdata",
+											"formdata": [
+												{
+													"key": "title_en",
+													"value": "Slider",
+													"type": "text"
+												},
+												{
+													"key": "title_ar",
+													"value": "Slider",
+													"type": "text"
+												},
+												{
+													"key": "description_en",
+													"value": "description",
+													"type": "text"
+												},
+												{
+													"key": "description_ar",
+													"value": "description",
+													"type": "text"
+												},
+												{
+													"key": "image",
+													"type": "file",
+													"src": "/home/mfathy/Desktop/image.png"
+												},
+												{
+													"key": "link",
+													"value": "https://st4.depositphotos.com/5943922/40270/i/1600/depositphotos_402703556-stock-photo-ling-watercolor-isolated-illustration-of.jpg",
+													"type": "text"
+												},
+												{
+													"key": "status",
+													"value": "tes",
+													"type": "text"
+												},
+												{
+													"key": "_method",
+													"value": "put",
+													"type": "text"
+												}
+											]
+										},
+										"url": "{{Host}}/api/admin/sliders/1"
+									},
+									"status": "Bad Request",
+									"code": 400,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Host",
+											"value": "localhost:3000"
+										},
+										{
+											"key": "Date",
+											"value": "Wed, 03 May 2023 09:34:13 GMT"
+										},
+										{
+											"key": "Date",
+											"value": "Wed, 03 May 2023 09:34:13 GMT"
+										},
+										{
+											"key": "Connection",
+											"value": "close"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/8.1.13"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "58"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"code\": 400,\n    \"error\": \"validation-error\",\n    \"message\": \"يجب أن تكون قيمة الحقل status إما true أو false \",\n    \"messages\": {\n        \"status\": [\n            \"يجب أن تكون قيمة الحقل status إما true أو false \"\n        ]\n    },\n    \"file\": \"/home/mfathy/Desktop/core/vendor/laravel/framework/src/Illuminate/Support/helpers.php\",\n    \"line\": 327\n}"
+								}
+							]
+						},
+						{
+							"name": "delete-slider",
+							"id": "803a1c2e-8dcb-432b-afe0-429dc6eb5aa5",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": {
+										"token": "{{Token}}"
+									}
+								},
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{Host}}/api/admin/sliders/1000"
+							},
+							"response": [
+								{
+									"id": "9b8ed127-2422-4d52-9139-91651020c756",
+									"name": "success-response",
+									"originalRequest": {
+										"method": "DELETE",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{Host}}/api/admin/sliders/1"
+									},
+									"status": "No Content",
+									"code": 204,
+									"_postman_previewlanguage": "plain",
+									"header": [
+										{
+											"key": "Host",
+											"value": "localhost:3000"
+										},
+										{
+											"key": "Date",
+											"value": "Wed, 03 May 2023 09:35:06 GMT"
+										},
+										{
+											"key": "Date",
+											"value": "Wed, 03 May 2023 09:35:06 GMT"
+										},
+										{
+											"key": "Connection",
+											"value": "close"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/8.1.13"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "59"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": null
+								},
+								{
+									"id": "3e3631e3-9676-4d83-acf3-3eec6cdeb97a",
+									"name": "validation-error",
+									"originalRequest": {
+										"method": "DELETE",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{Host}}/api/admin/sliders/1000"
+									},
+									"status": "Bad Request",
+									"code": 400,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Host",
+											"value": "localhost:3000"
+										},
+										{
+											"key": "Date",
+											"value": "Wed, 03 May 2023 09:35:30 GMT"
+										},
+										{
+											"key": "Date",
+											"value": "Wed, 03 May 2023 09:35:30 GMT"
+										},
+										{
+											"key": "Connection",
+											"value": "close"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/8.1.13"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "58"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"code\": 400,\n    \"error\": \"validation-error\",\n    \"message\": \"الحقل id لاغٍ\",\n    \"messages\": {\n        \"id\": [\n            \"الحقل id لاغٍ\"\n        ]\n    },\n    \"file\": \"/home/mfathy/Desktop/core/vendor/laravel/framework/src/Illuminate/Support/helpers.php\",\n    \"linew\": 327\n}"
+								}
+							]
+						}
+					],
+					"id": "b9a8c594-dc48-4bae-9b83-bc023d2c5e37"
+				},
+				{
 					"name": "Regions",
 					"item": [
 						{
@@ -40716,7 +41605,7 @@
 	],
 	"variable": [
 		{
-			"id": "99a9ab23-5f9d-4a99-99c4-d98cfa861f24",
+			"id": "f81640d3-66d0-489c-b46e-7d96c87dd6e4",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
