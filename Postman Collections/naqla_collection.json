@@ -34964,7 +34964,7 @@
 							]
 						},
 						{
-							"name": "update-slider",
+							"name": "update-ops-expanses",
 							"id": "e2f5811b-6d12-4d08-a88f-8aa4f1e43123",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
@@ -41605,7 +41605,7 @@
 	],
 	"variable": [
 		{
-			"id": "1f7ecfad-3272-47c5-ad84-6bd9d51000bf",
+			"id": "1a1b0c4f-d94a-4269-b39a-d50ac3d1aae0",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
