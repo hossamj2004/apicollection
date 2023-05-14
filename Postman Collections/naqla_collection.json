@@ -18756,14 +18756,14 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n    \"order_status_id\":2,\n    \"jobs\":[\n        {\n            \"id\":3,\n            \"job_status_id\":12\n        }\n    ]\n}",
+									"raw": "{\n    \"order_status_id\":3,\n    \"jobs\":[\n        {\n            \"id\":3,\n            \"job_status_id\":12\n        }\n    ]\n}",
 									"options": {
 										"raw": {
 											"language": "json"
 										}
 									}
 								},
-								"url": "{{Host}}/api/admin/orders/3"
+								"url": "{{Host}}/api/admin/orders/6"
 							},
 							"response": [
 								{
@@ -41437,7 +41437,7 @@
 	],
 	"variable": [
 		{
-			"id": "1efb8ed7-2b03-42b1-a0f0-c8c2f5a864d4",
+			"id": "54c28eaf-7e05-4e5b-aebc-5d951c383706",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
