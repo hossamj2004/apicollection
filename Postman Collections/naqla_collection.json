@@ -34698,7 +34698,7 @@
 							]
 						},
 						{
-							"name": "create-slider",
+							"name": "create-ops-expanses",
 							"id": "ac2b454f-e243-4286-8372-f03710bcf901",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
@@ -41605,7 +41605,7 @@
 	],
 	"variable": [
 		{
-			"id": "bffc4692-7944-434a-aaa1-3ebdd6744be7",
+			"id": "1f7ecfad-3272-47c5-ad84-6bd9d51000bf",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
