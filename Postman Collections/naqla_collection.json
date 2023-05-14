@@ -34800,110 +34800,7 @@
 								},
 								"url": "{{Host}}/api/admin/ops-expanses/1"
 							},
-							"response": [
-								{
-									"id": "b3cd09bb-043c-4c64-9255-20a81b5dc54a",
-									"name": "validation-error",
-									"originalRequest": {
-										"method": "POST",
-										"header": [],
-										"body": {
-											"mode": "formdata",
-											"formdata": [
-												{
-													"key": "title_en",
-													"value": "Slider",
-													"type": "text"
-												},
-												{
-													"key": "title_ar",
-													"value": "Slider",
-													"type": "text"
-												},
-												{
-													"key": "description_en",
-													"value": "description",
-													"type": "text"
-												},
-												{
-													"key": "description_ar",
-													"value": "description",
-													"type": "text"
-												},
-												{
-													"key": "image",
-													"type": "file",
-													"src": "/home/mfathy/Desktop/image.png"
-												},
-												{
-													"key": "link",
-													"value": "https://st4.depositphotos.com/5943922/40270/i/1600/depositphotos_402703556-stock-photo-ling-watercolor-isolated-illustration-of.jpg",
-													"type": "text"
-												},
-												{
-													"key": "status",
-													"value": "tes",
-													"type": "text"
-												},
-												{
-													"key": "_method",
-													"value": "put",
-													"type": "text"
-												}
-											]
-										},
-										"url": "{{Host}}/api/admin/sliders/1"
-									},
-									"status": "Bad Request",
-									"code": 400,
-									"_postman_previewlanguage": "json",
-									"header": [
-										{
-											"key": "Host",
-											"value": "localhost:3000"
-										},
-										{
-											"key": "Date",
-											"value": "Wed, 03 May 2023 09:34:13 GMT"
-										},
-										{
-											"key": "Date",
-											"value": "Wed, 03 May 2023 09:34:13 GMT"
-										},
-										{
-											"key": "Connection",
-											"value": "close"
-										},
-										{
-											"key": "X-Powered-By",
-											"value": "PHP/8.1.13"
-										},
-										{
-											"key": "Cache-Control",
-											"value": "no-cache, private"
-										},
-										{
-											"key": "Content-Type",
-											"value": "application/json"
-										},
-										{
-											"key": "X-RateLimit-Limit",
-											"value": "60"
-										},
-										{
-											"key": "X-RateLimit-Remaining",
-											"value": "58"
-										},
-										{
-											"key": "Access-Control-Allow-Origin",
-											"value": "*"
-										}
-									],
-									"cookie": [],
-									"responseTime": null,
-									"body": "{\n    \"code\": 400,\n    \"error\": \"validation-error\",\n    \"message\": \"يجب أن تكون قيمة الحقل status إما true أو false \",\n    \"messages\": {\n        \"status\": [\n            \"يجب أن تكون قيمة الحقل status إما true أو false \"\n        ]\n    },\n    \"file\": \"/home/mfathy/Desktop/core/vendor/laravel/framework/src/Illuminate/Support/helpers.php\",\n    \"line\": 327\n}"
-								}
-							]
+							"response": []
 						},
 						{
 							"name": "delete-ops-expanses",
@@ -41286,7 +41183,7 @@
 	],
 	"variable": [
 		{
-			"id": "9ad50dde-1479-4cdc-9b25-92c23512b255",
+			"id": "ff58c53f-2d38-4b7c-a784-7c9ab4e125f3",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
