@@ -35233,7 +35233,7 @@
 							]
 						},
 						{
-							"name": "delete-slider",
+							"name": "delete-ops-expanses",
 							"id": "803a1c2e-8dcb-432b-afe0-429dc6eb5aa5",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
@@ -41605,7 +41605,7 @@
 	],
 	"variable": [
 		{
-			"id": "1a1b0c4f-d94a-4269-b39a-d50ac3d1aae0",
+			"id": "60d9404e-fbe8-4eff-af3a-47a36791dc4e",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
