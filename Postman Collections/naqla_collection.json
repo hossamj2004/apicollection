@@ -38060,7 +38060,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\n    \"title\":\"title\",\n    \"description\":\"description\",\n}",
+											"raw": "{\n    \"title\":\"title\",\n    \"description\":\"description\",\n    \"solved\":true\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -42580,7 +42580,7 @@
 	],
 	"variable": [
 		{
-			"id": "ed9526cc-b7d5-41a2-8e05-a2ab8d47a186",
+			"id": "38f6ebcf-63b1-4d8a-a70b-dda45b5b8f67",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
