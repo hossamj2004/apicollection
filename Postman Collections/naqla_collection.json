@@ -33649,7 +33649,7 @@
 										}
 									}
 								},
-								"url": "{{Host}}/api/admin/contact-fomrs"
+								"url": "{{Host}}/api/admin/contact-forms"
 							},
 							"response": [
 								{
@@ -33884,7 +33884,7 @@
 										}
 									]
 								},
-								"url": "{{Host}}/api/admin/pages"
+								"url": "{{Host}}/api/admin/contact-forms"
 							},
 							"response": [
 								{
@@ -42539,7 +42539,7 @@
 	],
 	"variable": [
 		{
-			"id": "bd3e7a6c-92f9-44d9-9518-40c9cc49538a",
+			"id": "d0d66ddd-8c21-48e6-a512-8340fc49be4d",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
