@@ -36238,46 +36238,6 @@
 						}
 					],
 					"id": "b9a8c594-dc48-4bae-9b83-bc023d2c5e37"
-				},
-				{
-					"name": "ContactForm",
-					"item": [
-						{
-							"name": "list-contact-form",
-							"id": "70d30a26-9b9d-49db-848e-480ce325c814",
-							"protocolProfileBehavior": {
-								"disableBodyPruning": true
-							},
-							"request": {
-								"auth": {
-									"type": "bearer",
-									"bearer": {
-										"token": "{{Token}}"
-									}
-								},
-								"method": "GET",
-								"header": [
-									{
-										"key": "Authorization",
-										"value": "Bearer {{Token}}",
-										"type": "text"
-									}
-								],
-								"body": {
-									"mode": "raw",
-									"raw": "",
-									"options": {
-										"raw": {
-											"language": "json"
-										}
-									}
-								},
-								"url": "{{Host}}/api/admin/ops-expanses"
-							},
-							"response": []
-						}
-					],
-					"id": "a0f5c9dd-0c10-4e68-a86e-8170c769b4d2"
 				}
 			],
 			"id": "874dc743-b732-4020-85d5-087f2f53180c"
@@ -38099,8 +38059,13 @@
 											}
 										],
 										"body": {
-											"mode": "formdata",
-											"formdata": []
+											"mode": "raw",
+											"raw": "{\n    \"title\":\"title\",\n    \"description\":\"description\",\n    \"solved\":true\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
 										},
 										"url": "{{Host}}/api/apps/client/contact-forms"
 									},
@@ -42615,7 +42580,7 @@
 	],
 	"variable": [
 		{
-			"id": "99b33e43-4044-4a0c-a696-9ecd53c2b603",
+			"id": "7fa29c6c-8518-4019-84b4-acc4ebb61cbc",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
