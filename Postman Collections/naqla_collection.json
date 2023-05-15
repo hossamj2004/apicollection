@@ -34058,39 +34058,13 @@
 								"method": "POST",
 								"header": [],
 								"body": {
-									"mode": "formdata",
-									"formdata": [
-										{
-											"key": "_method",
-											"value": "put",
-											"type": "text"
-										},
-										{
-											"key": "title_ar",
-											"value": "et766",
-											"type": "text"
-										},
-										{
-											"key": "content_ar",
-											"value": "iste",
-											"type": "text"
-										},
-										{
-											"key": "title_en",
-											"value": "ut",
-											"type": "text"
-										},
-										{
-											"key": "content_en",
-											"value": "provident4",
-											"type": "text"
-										},
-										{
-											"key": "slug",
-											"value": "voluptates",
-											"type": "text"
+									"mode": "raw",
+									"raw": "{\n    \"title\":\"title\",\n    \"description\":\"description\",\n    \"solved\":true\n}",
+									"options": {
+										"raw": {
+											"language": "json"
 										}
-									]
+									}
 								},
 								"url": "{{Host}}/api/admin/contact-forms/1"
 							},
@@ -42518,7 +42492,7 @@
 	],
 	"variable": [
 		{
-			"id": "9e622c79-eab2-4bf7-b611-bc5c02184cf6",
+			"id": "ea30bf34-301a-4a4c-b989-56a14b1cbbdc",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
