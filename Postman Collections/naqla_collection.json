@@ -35421,6 +35421,628 @@
 						}
 					],
 					"id": "b9a8c594-dc48-4bae-9b83-bc023d2c5e37"
+				},
+				{
+					"name": "ContactForm",
+					"item": [
+						{
+							"name": "list-ops-expanses",
+							"id": "70d30a26-9b9d-49db-848e-480ce325c814",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": {
+										"token": "{{Token}}"
+									}
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer {{Token}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{Host}}/api/admin/ops-expanses"
+							},
+							"response": [
+								{
+									"id": "20707aa4-69ec-4c25-9a1b-405e0855bb19",
+									"name": "success-response",
+									"originalRequest": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Authorization",
+												"value": "Bearer {{Token}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{Host}}/api/admin/ops-expanses"
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Host",
+											"value": "localhost:3000"
+										},
+										{
+											"key": "Date",
+											"value": "Sun, 14 May 2023 11:19:47 GMT"
+										},
+										{
+											"key": "Date",
+											"value": "Sun, 14 May 2023 11:19:47 GMT"
+										},
+										{
+											"key": "Connection",
+											"value": "close"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/8.1.18"
+										},
+										{
+											"key": "X-Xdebug-Profile-Filename",
+											"value": "/tmp/cachegrind.out.13613"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "58"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"data\": [\n        {\n            \"id\": 1,\n            \"name\": \"sss\",\n            \"name_en\": \"ssss\",\n            \"name_ar\": \"sss\",\n            \"status\": 0\n        },\n        {\n            \"id\": 3,\n            \"name\": \"one\",\n            \"name_en\": \"one\",\n            \"name_ar\": \"one\",\n            \"status\": 1\n        }\n    ],\n    \"count\": 2\n}"
+								},
+								{
+									"id": "36dd4498-01d4-47df-9e2a-7a6ccb715411",
+									"name": "list-ops-expanses",
+									"originalRequest": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Authorization",
+												"value": "Bearer {{Token}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"page\":1000\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{Host}}/api/admin/ops-expanses"
+									},
+									"status": "No Content",
+									"code": 204,
+									"_postman_previewlanguage": "plain",
+									"header": [
+										{
+											"key": "Host",
+											"value": "localhost:3000"
+										},
+										{
+											"key": "Date",
+											"value": "Sun, 14 May 2023 11:20:18 GMT"
+										},
+										{
+											"key": "Date",
+											"value": "Sun, 14 May 2023 11:20:18 GMT"
+										},
+										{
+											"key": "Connection",
+											"value": "close"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/8.1.18"
+										},
+										{
+											"key": "X-Xdebug-Profile-Filename",
+											"value": "/tmp/cachegrind.out.13613"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "57"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": null
+								}
+							]
+						},
+						{
+							"name": "create-ops-expanses",
+							"id": "af16b118-0f74-49a5-9392-1fe9b1582ac9",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": {
+										"token": "{{Token}}"
+									}
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"name_en\":\"one\",\n    \"name_ar\": \"one\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{Host}}/api/admin/ops-expanses"
+							},
+							"response": [
+								{
+									"id": "208489fe-a8b8-4f83-9302-c63ba619ba82",
+									"name": "success-response",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"name_en\":\"one\",\n    \"name_ar\": \"one\",\n    \"status\": true\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{Host}}/api/admin/ops-expanses"
+									},
+									"status": "Created",
+									"code": 201,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Host",
+											"value": "localhost:3000"
+										},
+										{
+											"key": "Date",
+											"value": "Sun, 14 May 2023 11:16:40 GMT"
+										},
+										{
+											"key": "Date",
+											"value": "Sun, 14 May 2023 11:16:40 GMT"
+										},
+										{
+											"key": "Connection",
+											"value": "close"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/8.1.18"
+										},
+										{
+											"key": "X-Xdebug-Profile-Filename",
+											"value": "/tmp/cachegrind.out.13613"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "58"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"id\": 3,\n    \"name\": \"one\",\n    \"name_en\": \"one\",\n    \"name_ar\": \"one\",\n    \"status\": true\n}"
+								},
+								{
+									"id": "a642db88-2f88-4fc3-9d43-b2c22b06bd78",
+									"name": "validation-error",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"name_en\":\"one\",\n    \"name_ar\": \"one\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{Host}}/api/admin/ops-expanses"
+									},
+									"status": "Bad Request",
+									"code": 400,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Host",
+											"value": "localhost:3000"
+										},
+										{
+											"key": "Date",
+											"value": "Sun, 14 May 2023 11:19:23 GMT"
+										},
+										{
+											"key": "Date",
+											"value": "Sun, 14 May 2023 11:19:23 GMT"
+										},
+										{
+											"key": "Connection",
+											"value": "close"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/8.1.18"
+										},
+										{
+											"key": "X-Xdebug-Profile-Filename",
+											"value": "/tmp/cachegrind.out.13613"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "59"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"code\": 400,\n    \"error\": \"validation-error\",\n    \"message\": \"الحقل status مطلوب.\",\n    \"messages\": {\n        \"status\": [\n            \"الحقل status مطلوب.\"\n        ]\n    },\n    \"file\": \"/home/mfathy/Desktop/core/vendor/laravel/framework/src/Illuminate/Support/helpers.php\",\n    \"line\": 327\n}"
+								}
+							]
+						},
+						{
+							"name": "update-ops-expanses",
+							"id": "0a566a33-ede1-4377-b56e-94cedf9bb591",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": {
+										"token": "{{Token}}"
+									}
+								},
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"name_en\":\"ss\",\n    \"name_ar\": \"sss\",\n    \"status\": false\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{Host}}/api/admin/ops-expanses/1"
+							},
+							"response": [
+								{
+									"id": "491f42f6-9c4c-4cd2-82ef-36db3537ed97",
+									"name": "success-response",
+									"originalRequest": {
+										"method": "PUT",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"name_en\":\"ssss\",\n    \"name_ar\": \"sss\",\n    \"status\": false\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{Host}}/api/admin/ops-expanses/1"
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Host",
+											"value": "localhost:3000"
+										},
+										{
+											"key": "Date",
+											"value": "Sun, 14 May 2023 11:17:38 GMT"
+										},
+										{
+											"key": "Date",
+											"value": "Sun, 14 May 2023 11:17:38 GMT"
+										},
+										{
+											"key": "Connection",
+											"value": "close"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/8.1.18"
+										},
+										{
+											"key": "X-Xdebug-Profile-Filename",
+											"value": "/tmp/cachegrind.out.13613"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "58"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"id\": 1,\n    \"name\": \"sss\",\n    \"name_en\": \"ssss\",\n    \"name_ar\": \"sss\",\n    \"status\": false\n}"
+								}
+							]
+						},
+						{
+							"name": "delete-ops-expanses",
+							"id": "ad7842c2-5c7c-44e6-b9b0-a08e95bcca26",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": {
+										"token": "{{Token}}"
+									}
+								},
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{Host}}/api/admin/ops-expanses/1000"
+							},
+							"response": [
+								{
+									"id": "d72d7002-f5f4-456a-94de-2b740fc726cb",
+									"name": "success-response",
+									"originalRequest": {
+										"method": "DELETE",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{Host}}/api/admin/ops-expanses/2"
+									},
+									"status": "No Content",
+									"code": 204,
+									"_postman_previewlanguage": "plain",
+									"header": [
+										{
+											"key": "Host",
+											"value": "localhost:3000"
+										},
+										{
+											"key": "Date",
+											"value": "Sun, 14 May 2023 11:17:45 GMT"
+										},
+										{
+											"key": "Date",
+											"value": "Sun, 14 May 2023 11:17:45 GMT"
+										},
+										{
+											"key": "Connection",
+											"value": "close"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/8.1.18"
+										},
+										{
+											"key": "X-Xdebug-Profile-Filename",
+											"value": "/tmp/cachegrind.out.13613"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "57"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": null
+								},
+								{
+									"id": "c7df5665-cfad-4c66-8c7a-8837d25ed19a",
+									"name": "validation-error",
+									"originalRequest": {
+										"method": "DELETE",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{Host}}/api/admin/ops-expanses/1000"
+									},
+									"status": "Bad Request",
+									"code": 400,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Host",
+											"value": "localhost:3000"
+										},
+										{
+											"key": "Date",
+											"value": "Sun, 14 May 2023 11:18:15 GMT"
+										},
+										{
+											"key": "Date",
+											"value": "Sun, 14 May 2023 11:18:15 GMT"
+										},
+										{
+											"key": "Connection",
+											"value": "close"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/8.1.18"
+										},
+										{
+											"key": "X-Xdebug-Profile-Filename",
+											"value": "/tmp/cachegrind.out.13613"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "56"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"code\": 400,\n    \"error\": \"validation-error\",\n    \"message\": \"الحقل id لاغٍ\",\n    \"messages\": {\n        \"id\": [\n            \"الحقل id لاغٍ\"\n        ]\n    },\n    \"file\": \"/home/mfathy/Desktop/core/vendor/laravel/framework/src/Illuminate/Support/helpers.php\",\n    \"line\": 327\n}"
+								}
+							]
+						}
+					],
+					"id": "a0f5c9dd-0c10-4e68-a86e-8170c769b4d2"
 				}
 			],
 			"id": "874dc743-b732-4020-85d5-087f2f53180c"
@@ -41635,7 +42257,7 @@
 	],
 	"variable": [
 		{
-			"id": "ad83263e-aa04-482e-92c4-3b7a341d6764",
+			"id": "504d45be-4bd0-4dba-bcec-a2fef5101ab5",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
