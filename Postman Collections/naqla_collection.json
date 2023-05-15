@@ -33617,6 +33617,870 @@
 					"id": "60cddae0-d877-4cc0-b4c6-b7788dd0a944"
 				},
 				{
+					"name": "ContactForm",
+					"item": [
+						{
+							"name": "list-pages",
+							"id": "5d21ad1e-a5d1-46b3-82c0-aa723c32f3d3",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": {
+										"token": "{{Token}}"
+									}
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer {{Token}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"page\": 1\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{Host}}/api/admin/pages"
+							},
+							"response": [
+								{
+									"id": "4d990aaa-d583-4cfc-abd3-8a1487573da9",
+									"name": "empty-response",
+									"originalRequest": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Authorization",
+												"value": "Bearer {{Token}}",
+												"type": "text"
+											}
+										],
+										"url": "{{Host}}/api/admin/pages"
+									},
+									"status": "No Content",
+									"code": 204,
+									"_postman_previewlanguage": "plain",
+									"header": [
+										{
+											"key": "Host",
+											"value": "127.0.0.1:8002"
+										},
+										{
+											"key": "Date",
+											"value": "Sun, 22 Jan 2023 13:01:57 GMT"
+										},
+										{
+											"key": "Date",
+											"value": "Sun, 22 Jan 2023 13:01:57 GMT"
+										},
+										{
+											"key": "Connection",
+											"value": "close"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/8.1.13"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "58"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": ""
+								},
+								{
+									"id": "da311b81-8f02-4830-a202-18086a4b0843",
+									"name": "validation-error",
+									"originalRequest": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Authorization",
+												"value": "Bearer {{Token}}",
+												"type": "text"
+											}
+										],
+										"url": "{{Host}}/api/admin/pages"
+									},
+									"status": "Bad Request",
+									"code": 400,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Host",
+											"value": "127.0.0.1:8002"
+										},
+										{
+											"key": "Date",
+											"value": "Sun, 22 Jan 2023 13:02:41 GMT"
+										},
+										{
+											"key": "Date",
+											"value": "Sun, 22 Jan 2023 13:02:41 GMT"
+										},
+										{
+											"key": "Connection",
+											"value": "close"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/8.1.13"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "57"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"code\": \"validation-error\",\n    \"message\": {\n        \"page\": [\n            \"The page field is required.\"\n        ]\n    }\n}"
+								},
+								{
+									"id": "81bc5223-c745-4c7f-aa87-9f75bc8fbe9e",
+									"name": "success-response",
+									"originalRequest": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Authorization",
+												"value": "Bearer {{Token}}",
+												"type": "text"
+											}
+										],
+										"url": "{{Host}}/api/admin/pages"
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Host",
+											"value": "127.0.0.1:8002"
+										},
+										{
+											"key": "Date",
+											"value": "Sun, 22 Jan 2023 13:05:05 GMT"
+										},
+										{
+											"key": "Date",
+											"value": "Sun, 22 Jan 2023 13:05:05 GMT"
+										},
+										{
+											"key": "Connection",
+											"value": "close"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/8.1.13"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "57"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"data\": [\n        {\n            \"id\": 1,  \n            \"title_ar\": \"cupiditate\",  \n            \"content_ar\": \"quia\",  \n            \"title_en\": \"blanditiis\",  \n            \"content_en\": \"impedit\",  \n            \"slug\": \"corrupti\",  \n            \"created_at\": \"explicabo\",  \n            \"updated_at\": \"vitae\"   \n        }\n    ],\n    \"count\": 1\n}"
+								}
+							]
+						},
+						{
+							"name": "create-page",
+							"id": "9e882229-540f-40e2-9d3b-ab23aec2a34f",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": {
+										"token": "{{Token}}"
+									}
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "title_ar",
+											"value": "et",
+											"type": "text"
+										},
+										{
+											"key": "content_ar",
+											"value": "iste",
+											"type": "text"
+										},
+										{
+											"key": "title_en",
+											"value": "ut",
+											"type": "text"
+										},
+										{
+											"key": "content_en",
+											"value": "provident",
+											"type": "text"
+										},
+										{
+											"key": "slug",
+											"value": "voluptates",
+											"type": "text"
+										}
+									]
+								},
+								"url": "{{Host}}/api/admin/pages"
+							},
+							"response": [
+								{
+									"id": "ab9a2f31-c16b-4a34-96d1-2c9ebd233dca",
+									"name": "success-response",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "formdata",
+											"formdata": [
+												{
+													"key": "title_ar",
+													"value": "et",
+													"type": "text"
+												},
+												{
+													"key": "content_ar",
+													"value": "iste",
+													"type": "text"
+												},
+												{
+													"key": "title_en",
+													"value": "ut",
+													"type": "text"
+												},
+												{
+													"key": "content_en",
+													"value": "provident",
+													"type": "text"
+												},
+												{
+													"key": "slug",
+													"value": "voluptates",
+													"type": "text"
+												}
+											]
+										},
+										"url": "{{Host}}/api/admin/pages"
+									},
+									"status": "Created",
+									"code": 201,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Host",
+											"value": "127.0.0.1:8002"
+										},
+										{
+											"key": "Date",
+											"value": "Sun, 22 Jan 2023 13:03:46 GMT"
+										},
+										{
+											"key": "Date",
+											"value": "Sun, 22 Jan 2023 13:03:46 GMT"
+										},
+										{
+											"key": "Connection",
+											"value": "close"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/8.1.13"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "58"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n      \"id\": 1,  \n       \"title_ar\": \"cupiditate\",  \n       \"content_ar\": \"quia\",  \n       \"title_en\": \"blanditiis\",  \n       \"content_en\": \"impedit\",  \n       \"slug\": \"corrupti\",  \n       \"created_at\": \"explicabo\",  \n       \"updated_at\": \"vitae\"   \n    \n}"
+								},
+								{
+									"id": "bbb1a11f-e01e-4e25-a4e9-18b22bc45941",
+									"name": "validation-error",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "formdata",
+											"formdata": [
+												{
+													"key": "title_ar",
+													"value": "et",
+													"type": "text"
+												},
+												{
+													"key": "content_ar",
+													"value": "iste",
+													"type": "text"
+												},
+												{
+													"key": "title_en",
+													"value": "ut",
+													"type": "text"
+												},
+												{
+													"key": "content_en",
+													"value": "provident",
+													"type": "text"
+												},
+												{
+													"key": "slug",
+													"value": "voluptates",
+													"type": "text"
+												}
+											]
+										},
+										"url": "{{Host}}/api/admin/pages"
+									},
+									"status": "Bad Request",
+									"code": 400,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Host",
+											"value": "127.0.0.1:8002"
+										},
+										{
+											"key": "Date",
+											"value": "Sun, 22 Jan 2023 13:04:30 GMT"
+										},
+										{
+											"key": "Date",
+											"value": "Sun, 22 Jan 2023 13:04:30 GMT"
+										},
+										{
+											"key": "Connection",
+											"value": "close"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/8.1.13"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "59"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"code\": \"validation-error\",\n    \"message\": {\n           \"status\": [\n            \"The title_ar field is required.\"\n        ]\n    }\n}"
+								}
+							]
+						},
+						{
+							"name": "update-page",
+							"id": "0f06f509-cf85-4607-8137-9c60e1e01eef",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": {
+										"token": "{{Token}}"
+									}
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "_method",
+											"value": "put",
+											"type": "text"
+										},
+										{
+											"key": "title_ar",
+											"value": "et766",
+											"type": "text"
+										},
+										{
+											"key": "content_ar",
+											"value": "iste",
+											"type": "text"
+										},
+										{
+											"key": "title_en",
+											"value": "ut",
+											"type": "text"
+										},
+										{
+											"key": "content_en",
+											"value": "provident4",
+											"type": "text"
+										},
+										{
+											"key": "slug",
+											"value": "voluptates",
+											"type": "text"
+										}
+									]
+								},
+								"url": "{{Host}}/api/admin/pages/1"
+							},
+							"response": [
+								{
+									"id": "f9d4ce8d-e027-4003-8a39-8dfb65ee9df9",
+									"name": "validation-error",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "formdata",
+											"formdata": [
+												{
+													"key": "_method",
+													"value": "put",
+													"type": "text"
+												},
+												{
+													"key": "title_ar",
+													"value": "et",
+													"type": "text"
+												},
+												{
+													"key": "content_ar",
+													"value": "iste",
+													"type": "text"
+												},
+												{
+													"key": "title_en",
+													"value": "ut",
+													"type": "text"
+												},
+												{
+													"key": "content_en",
+													"value": "provident",
+													"type": "text"
+												},
+												{
+													"key": "slug",
+													"value": "voluptates",
+													"type": "text"
+												}
+											]
+										},
+										"url": "{{Host}}/api/admin/pages/1"
+									},
+									"status": "Bad Request",
+									"code": 400,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Host",
+											"value": "127.0.0.1:8002"
+										},
+										{
+											"key": "Date",
+											"value": "Sun, 22 Jan 2023 13:07:59 GMT"
+										},
+										{
+											"key": "Date",
+											"value": "Sun, 22 Jan 2023 13:07:59 GMT"
+										},
+										{
+											"key": "Connection",
+											"value": "close"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/8.1.13"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "58"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"code\": \"validation-error\",\n    \"message\": {\n        \"id\": [\n            \"The name_ar field is required.\"\n        ]\n    }\n}"
+								},
+								{
+									"id": "3ff472c3-94bc-4b75-9cb6-ffd7a3474a29",
+									"name": "success-response",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "formdata",
+											"formdata": [
+												{
+													"key": "_method",
+													"value": "put",
+													"type": "text"
+												},
+												{
+													"key": "title_ar",
+													"value": "et",
+													"type": "text"
+												},
+												{
+													"key": "content_ar",
+													"value": "iste",
+													"type": "text"
+												},
+												{
+													"key": "title_en",
+													"value": "ut",
+													"type": "text"
+												},
+												{
+													"key": "content_en",
+													"value": "provident",
+													"type": "text"
+												},
+												{
+													"key": "slug",
+													"value": "voluptates",
+													"type": "text"
+												}
+											]
+										},
+										"url": "{{Host}}/api/admin/pages/1"
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Host",
+											"value": "127.0.0.1:8002"
+										},
+										{
+											"key": "Date",
+											"value": "Sun, 22 Jan 2023 13:08:21 GMT"
+										},
+										{
+											"key": "Date",
+											"value": "Sun, 22 Jan 2023 13:08:21 GMT"
+										},
+										{
+											"key": "Connection",
+											"value": "close"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/8.1.13"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "57"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n      \"id\": 1,  \n       \"title_ar\": \"cupiditate\",  \n       \"content_ar\": \"quia\",  \n       \"title_en\": \"blanditiis\",  \n       \"content_en\": \"impedit\",  \n       \"slug\": \"corrupti\",  \n       \"created_at\": \"explicabo\",  \n       \"updated_at\": \"vitae\"   \n}"
+								}
+							]
+						},
+						{
+							"name": "delete-page",
+							"id": "faa3fbd7-c9f7-4cfd-937f-8870d35218a6",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": {
+										"token": "{{Token}}"
+									}
+								},
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Auth",
+										"value": "",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{Host}}/api/admin/pages/1"
+							},
+							"response": [
+								{
+									"id": "0f544097-509e-465f-a19a-68f333675835",
+									"name": "validation-error",
+									"originalRequest": {
+										"method": "DELETE",
+										"header": [
+											{
+												"key": "Auth",
+												"value": "",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{Host}}/api/admin/pages/1"
+									},
+									"status": "Bad Request",
+									"code": 400,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Host",
+											"value": "127.0.0.1:8002"
+										},
+										{
+											"key": "Date",
+											"value": "Sun, 22 Jan 2023 14:14:48 GMT"
+										},
+										{
+											"key": "Date",
+											"value": "Sun, 22 Jan 2023 14:14:48 GMT"
+										},
+										{
+											"key": "Connection",
+											"value": "close"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/8.1.13"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "59"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"code\": \"validation-error\",\n    \"message\": {\n        \"id\": [\n            \"The title_ar field is required.\"\n        ]\n    }\n}"
+								},
+								{
+									"id": "7e54d38d-e84d-44e3-bf32-91cbbf333457",
+									"name": "success-response",
+									"originalRequest": {
+										"method": "DELETE",
+										"header": [
+											{
+												"key": "Auth",
+												"value": "",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{Host}}/api/admin/pages/1"
+									},
+									"status": "No Content",
+									"code": 204,
+									"_postman_previewlanguage": "plain",
+									"header": [
+										{
+											"key": "Host",
+											"value": "127.0.0.1:8002"
+										},
+										{
+											"key": "Date",
+											"value": "Sun, 22 Jan 2023 14:17:21 GMT"
+										},
+										{
+											"key": "Date",
+											"value": "Sun, 22 Jan 2023 14:17:21 GMT"
+										},
+										{
+											"key": "Connection",
+											"value": "close"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/8.1.13"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "59"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": ""
+								}
+							]
+						}
+					],
+					"id": "02964487-aa1d-4822-b836-5826d35d05a8"
+				},
+				{
 					"name": "Testing",
 					"item": [
 						{
@@ -35458,171 +36322,6 @@
 								"url": "{{Host}}/api/admin/ops-expanses"
 							},
 							"response": []
-						},
-						{
-							"name": "delete-ops-expanses",
-							"id": "ad7842c2-5c7c-44e6-b9b0-a08e95bcca26",
-							"protocolProfileBehavior": {
-								"disableBodyPruning": true
-							},
-							"request": {
-								"auth": {
-									"type": "bearer",
-									"bearer": {
-										"token": "{{Token}}"
-									}
-								},
-								"method": "DELETE",
-								"header": [],
-								"body": {
-									"mode": "raw",
-									"raw": "",
-									"options": {
-										"raw": {
-											"language": "json"
-										}
-									}
-								},
-								"url": "{{Host}}/api/admin/ops-expanses/1000"
-							},
-							"response": [
-								{
-									"id": "d72d7002-f5f4-456a-94de-2b740fc726cb",
-									"name": "success-response",
-									"originalRequest": {
-										"method": "DELETE",
-										"header": [],
-										"body": {
-											"mode": "raw",
-											"raw": "",
-											"options": {
-												"raw": {
-													"language": "json"
-												}
-											}
-										},
-										"url": "{{Host}}/api/admin/ops-expanses/2"
-									},
-									"status": "No Content",
-									"code": 204,
-									"_postman_previewlanguage": "plain",
-									"header": [
-										{
-											"key": "Host",
-											"value": "localhost:3000"
-										},
-										{
-											"key": "Date",
-											"value": "Sun, 14 May 2023 11:17:45 GMT"
-										},
-										{
-											"key": "Date",
-											"value": "Sun, 14 May 2023 11:17:45 GMT"
-										},
-										{
-											"key": "Connection",
-											"value": "close"
-										},
-										{
-											"key": "X-Powered-By",
-											"value": "PHP/8.1.18"
-										},
-										{
-											"key": "X-Xdebug-Profile-Filename",
-											"value": "/tmp/cachegrind.out.13613"
-										},
-										{
-											"key": "Cache-Control",
-											"value": "no-cache, private"
-										},
-										{
-											"key": "X-RateLimit-Limit",
-											"value": "60"
-										},
-										{
-											"key": "X-RateLimit-Remaining",
-											"value": "57"
-										},
-										{
-											"key": "Access-Control-Allow-Origin",
-											"value": "*"
-										}
-									],
-									"cookie": [],
-									"responseTime": null,
-									"body": null
-								},
-								{
-									"id": "c7df5665-cfad-4c66-8c7a-8837d25ed19a",
-									"name": "validation-error",
-									"originalRequest": {
-										"method": "DELETE",
-										"header": [],
-										"body": {
-											"mode": "raw",
-											"raw": "",
-											"options": {
-												"raw": {
-													"language": "json"
-												}
-											}
-										},
-										"url": "{{Host}}/api/admin/ops-expanses/1000"
-									},
-									"status": "Bad Request",
-									"code": 400,
-									"_postman_previewlanguage": "json",
-									"header": [
-										{
-											"key": "Host",
-											"value": "localhost:3000"
-										},
-										{
-											"key": "Date",
-											"value": "Sun, 14 May 2023 11:18:15 GMT"
-										},
-										{
-											"key": "Date",
-											"value": "Sun, 14 May 2023 11:18:15 GMT"
-										},
-										{
-											"key": "Connection",
-											"value": "close"
-										},
-										{
-											"key": "X-Powered-By",
-											"value": "PHP/8.1.18"
-										},
-										{
-											"key": "X-Xdebug-Profile-Filename",
-											"value": "/tmp/cachegrind.out.13613"
-										},
-										{
-											"key": "Cache-Control",
-											"value": "no-cache, private"
-										},
-										{
-											"key": "Content-Type",
-											"value": "application/json"
-										},
-										{
-											"key": "X-RateLimit-Limit",
-											"value": "60"
-										},
-										{
-											"key": "X-RateLimit-Remaining",
-											"value": "56"
-										},
-										{
-											"key": "Access-Control-Allow-Origin",
-											"value": "*"
-										}
-									],
-									"cookie": [],
-									"responseTime": null,
-									"body": "{\n    \"code\": 400,\n    \"error\": \"validation-error\",\n    \"message\": \"الحقل id لاغٍ\",\n    \"messages\": {\n        \"id\": [\n            \"الحقل id لاغٍ\"\n        ]\n    },\n    \"file\": \"/home/mfathy/Desktop/core/vendor/laravel/framework/src/Illuminate/Support/helpers.php\",\n    \"line\": 327\n}"
-								}
-							]
 						}
 					],
 					"id": "a0f5c9dd-0c10-4e68-a86e-8170c769b4d2"
@@ -41840,7 +42539,7 @@
 	],
 	"variable": [
 		{
-			"id": "290299e3-230f-4912-b190-e2041cc952c8",
+			"id": "f0898358-9347-4136-bc42-d46f31ef970e",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
