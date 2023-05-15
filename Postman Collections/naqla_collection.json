@@ -38059,13 +38059,8 @@
 											}
 										],
 										"body": {
-											"mode": "raw",
-											"raw": "{\n    \"title\":\"title\",\n    \"description\":\"description\",\n}",
-											"options": {
-												"raw": {
-													"language": "json"
-												}
-											}
+											"mode": "formdata",
+											"formdata": []
 										},
 										"url": "{{Host}}/api/apps/client/contact-forms"
 									},
@@ -42580,7 +42575,7 @@
 	],
 	"variable": [
 		{
-			"id": "e23efd9f-50a6-497f-8058-393d5b74fe12",
+			"id": "cd782e1a-65fd-4637-b7c1-f7b8d408781c",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
