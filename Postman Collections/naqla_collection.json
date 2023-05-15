@@ -38080,7 +38080,7 @@
 												"token": "{{Client-Token}}"
 											}
 										},
-										"method": "GET",
+										"method": "POST",
 										"header": [
 											{
 												"key": "x-device-id",
@@ -38102,7 +38102,7 @@
 											"mode": "formdata",
 											"formdata": []
 										},
-										"url": "{{Host}}/api/apps/client/home"
+										"url": "{{Host}}/api/apps/client/contact-forms"
 									},
 									"response": [
 										{
@@ -42615,7 +42615,7 @@
 	],
 	"variable": [
 		{
-			"id": "204baa61-98a3-4bee-b12b-b66978ee34f6",
+			"id": "99b33e43-4044-4a0c-a696-9ecd53c2b603",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
