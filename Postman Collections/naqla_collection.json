@@ -35457,80 +35457,7 @@
 								},
 								"url": "{{Host}}/api/admin/ops-expanses"
 							},
-							"response": [
-								{
-									"id": "36dd4498-01d4-47df-9e2a-7a6ccb715411",
-									"name": "list-ops-expanses",
-									"originalRequest": {
-										"method": "GET",
-										"header": [
-											{
-												"key": "Authorization",
-												"value": "Bearer {{Token}}",
-												"type": "text"
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": "{\n    \"page\":1000\n}",
-											"options": {
-												"raw": {
-													"language": "json"
-												}
-											}
-										},
-										"url": "{{Host}}/api/admin/ops-expanses"
-									},
-									"status": "No Content",
-									"code": 204,
-									"_postman_previewlanguage": "plain",
-									"header": [
-										{
-											"key": "Host",
-											"value": "localhost:3000"
-										},
-										{
-											"key": "Date",
-											"value": "Sun, 14 May 2023 11:20:18 GMT"
-										},
-										{
-											"key": "Date",
-											"value": "Sun, 14 May 2023 11:20:18 GMT"
-										},
-										{
-											"key": "Connection",
-											"value": "close"
-										},
-										{
-											"key": "X-Powered-By",
-											"value": "PHP/8.1.18"
-										},
-										{
-											"key": "X-Xdebug-Profile-Filename",
-											"value": "/tmp/cachegrind.out.13613"
-										},
-										{
-											"key": "Cache-Control",
-											"value": "no-cache, private"
-										},
-										{
-											"key": "X-RateLimit-Limit",
-											"value": "60"
-										},
-										{
-											"key": "X-RateLimit-Remaining",
-											"value": "57"
-										},
-										{
-											"key": "Access-Control-Allow-Origin",
-											"value": "*"
-										}
-									],
-									"cookie": [],
-									"responseTime": null,
-									"body": null
-								}
-							]
+							"response": []
 						},
 						{
 							"name": "create-ops-expanses",
@@ -42181,7 +42108,7 @@
 	],
 	"variable": [
 		{
-			"id": "a679995a-0322-4f5f-b471-8d351989eab1",
+			"id": "9b1f2401-0a3a-4e6b-a1be-32b4ff046886",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
