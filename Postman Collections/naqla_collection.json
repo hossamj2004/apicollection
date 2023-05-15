@@ -18756,7 +18756,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n    \"client_id\": 2,\n    \"order_status_id\": 2,\n    \"price\": 10,\n    \"cost\": 15,\n    \"prices\": [\n        {\n            \"id\": 195,\n            \"cost\": 200,\n            \"price\": 300,\n            \"vendor_id\": 1,\n            \"quantity\": 4,\n            \"currency\": \"USD\",\n            \"rate\": 40.0\n        }\n    ]\n}",
+									"raw": "{\n    \"client_id\": 2,\n    \"order_status_id\": 2,\n    \"price\": 10,\n    \"cost\": 15,\n    \"prices\": [\n        {\n            \"cost\": 200,\n            \"price\": 300,\n            \"vendor_id\": 1,\n            \"quantity\": 4,\n            \"currency\": \"USD\",\n            \"rate\": 40.0\n        }\n    ]\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -41635,7 +41635,7 @@
 	],
 	"variable": [
 		{
-			"id": "d48edbac-8e94-4e4b-86c0-d998d0d1a228",
+			"id": "67024ec9-ec9f-4d7f-9658-7a985e3774d2",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
