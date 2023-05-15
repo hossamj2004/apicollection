@@ -38068,7 +38068,7 @@
 							"name": "ContactForm",
 							"item": [
 								{
-									"name": "list-home",
+									"name": "contact-forms",
 									"id": "a96e4a06-42a6-4178-80d4-891d2679edbf",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
@@ -38080,7 +38080,7 @@
 												"token": "{{Client-Token}}"
 											}
 										},
-										"method": "GET",
+										"method": "POST",
 										"header": [
 											{
 												"key": "x-device-id",
@@ -38102,7 +38102,7 @@
 											"mode": "formdata",
 											"formdata": []
 										},
-										"url": "{{Host}}/api/apps/client/home"
+										"url": "{{Host}}/api/apps/client/contact-forms"
 									},
 									"response": [
 										{
@@ -42615,7 +42615,7 @@
 	],
 	"variable": [
 		{
-			"id": "178f7a00-ad93-4493-a7ef-998a8b014394",
+			"id": "314a417c-30bb-4b9b-8d0f-74243ba9d6cf",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
