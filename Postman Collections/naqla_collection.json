@@ -17225,43 +17225,7 @@
 										}
 									}
 								},
-								"url": {
-									"raw": "{{Host}}/api/admin/orders?page=1&per_page=10&sort=-id&filter%5BJob%5D%5Bjob_type_id%5D=3&filter%5BJob%5D%5Border_by_start_date%5D=asc&filter%5BJob%5D%5Bjob_range_date%5D=today",
-									"host": [
-										"{{Host}}"
-									],
-									"path": [
-										"api",
-										"admin",
-										"orders"
-									],
-									"query": [
-										{
-											"key": "page",
-											"value": "1"
-										},
-										{
-											"key": "per_page",
-											"value": "10"
-										},
-										{
-											"key": "sort",
-											"value": "-id"
-										},
-										{
-											"key": "filter%5BJob%5D%5Bjob_type_id%5D",
-											"value": "3"
-										},
-										{
-											"key": "filter%5BJob%5D%5Border_by_start_date%5D",
-											"value": "asc"
-										},
-										{
-											"key": "filter%5BJob%5D%5Bjob_range_date%5D",
-											"value": "today"
-										}
-									]
-								}
+								"url": "{{Host}}/api/admin/orders"
 							},
 							"response": [
 								{
@@ -42508,7 +42472,7 @@
 	],
 	"variable": [
 		{
-			"id": "0219e809-891d-4537-9255-180ea6cf3f98",
+			"id": "81544bec-92ea-40c1-817d-66212df294d3",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
