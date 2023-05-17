@@ -41122,6 +41122,37 @@
 										"description": "Location types\n\n| **Value** | **ID** |\n| --- | --- |\n| Pick up | 1 |\n| Dropp off | 2 |"
 									},
 									"response": []
+								},
+								{
+									"name": "remove-promotion",
+									"id": "ac9bb3df-6160-4a30-bb8a-252a7378a1da",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"auth": {
+											"type": "bearer",
+											"bearer": {
+												"token": "{{Client-Token}}"
+											}
+										},
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "formdata",
+											"formdata": [
+												{
+													"key": "promo_code",
+													"value": "11142521",
+													"description": "11142521",
+													"type": "text"
+												}
+											]
+										},
+										"url": "{{Host}}/api/apps/client/orders/apply-promotion/3",
+										"description": "Location types\n\n| **Value** | **ID** |\n| --- | --- |\n| Pick up | 1 |\n| Dropp off | 2 |"
+									},
+									"response": []
 								}
 							],
 							"id": "adaac7f0-2ef9-4e01-bb57-04324872d031"
@@ -42167,7 +42198,7 @@
 	],
 	"variable": [
 		{
-			"id": "c946a372-b559-47cd-8410-a945a394c23a",
+			"id": "6de4df90-81a3-4494-8d6d-bbe4edd0abc7",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
