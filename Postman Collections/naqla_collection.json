@@ -41113,7 +41113,7 @@
 												{
 													"key": "promo_code",
 													"value": "11142521",
-													"description": "message",
+													"description": "11142521",
 													"type": "text"
 												}
 											]
@@ -42167,7 +42167,7 @@
 	],
 	"variable": [
 		{
-			"id": "eff08fd5-aabb-4183-9075-d84ec32571b1",
+			"id": "80c486bd-49ad-4766-9304-e529b9c60c90",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
