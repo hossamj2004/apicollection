@@ -37121,7 +37121,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\n    \"country_code\": \"20\",\n    \"phone\": \"1008292933\",\n    \"name\": \"محمد فتحي\",\n    \"fcm_token\": \"tests\"\n}",
+											"raw": "{\n    \"country_code\": \"20\",\n    \"phone\": \"01008292985\",\n    \"name\": \"محمد فتحي\",\n    \"fcm_token\": \"tests\"\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -42198,7 +42198,7 @@
 	],
 	"variable": [
 		{
-			"id": "6b41812d-60b3-442b-8d87-0b8d8ac1d4e3",
+			"id": "d6c30c50-eef1-4d45-96ee-c71afa64eedd",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
