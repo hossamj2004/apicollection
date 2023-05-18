@@ -36690,7 +36690,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\n    \"country_code\": \"20\",\n    \"phone\": \"01008292985\"\n}",
+											"raw": "{\n    \"country_code\": \"20\",\n    \"phone\": \"1008292985\"\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -42297,7 +42297,7 @@
 	],
 	"variable": [
 		{
-			"id": "fbee52ac-c1fd-4516-b69e-ed9b351abd34",
+			"id": "f5388db7-d7cc-4141-93b5-5e08a4dcf4ba",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
