@@ -36234,7 +36234,7 @@
 			"id": "874dc743-b732-4020-85d5-087f2f53180c"
 		},
 		{
-			"name": "ClientMobile",
+			"name": "ClientMobileApplication",
 			"item": [
 				{
 					"name": "LoginAndRegistration",
@@ -42291,7 +42291,7 @@
 	],
 	"variable": [
 		{
-			"id": "669010bf-fa31-46cf-ac7d-272d06dfe58f",
+			"id": "23ae7bfa-eeaf-4d4a-8562-c0dbe895eab4",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
