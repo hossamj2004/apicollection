@@ -36707,7 +36707,7 @@
 										}
 									}
 								},
-								"url": "{{Host}}/api/admin/delays/1000"
+								"url": "{{Host}}/api/admin/delays/1"
 							},
 							"response": [
 								{
@@ -42936,7 +42936,7 @@
 	],
 	"variable": [
 		{
-			"id": "5cc744d0-83ff-4442-8f3b-8f8955cdb2d6",
+			"id": "42b99764-9cc4-4329-9427-a71a19167732",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
