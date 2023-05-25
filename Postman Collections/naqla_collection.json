@@ -36601,7 +36601,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n    \"name_en\":\"ss\",\n    \"name_ar\": \"sss\",\n    \"status\": false\n}",
+									"raw": "{\n    \"name_en\":\"sss\",\n    \"name_ar\": \"ssss\",\n    \"status\": false\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -42936,7 +42936,7 @@
 	],
 	"variable": [
 		{
-			"id": "044e41e6-9402-4193-95d0-689d220ae2d5",
+			"id": "720c8b9a-9bb0-4ff6-8ee7-2fb2859d318b",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
