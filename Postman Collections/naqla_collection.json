@@ -36684,7 +36684,7 @@
 							]
 						},
 						{
-							"name": "delete-delays",
+							"name": "delete-ops-expanses",
 							"id": "bd1c9dd0-3116-4cdd-8f85-d77a8d0286fc",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
@@ -36707,7 +36707,7 @@
 										}
 									}
 								},
-								"url": "{{Host}}/api/admin/delays/delete/2"
+								"url": "{{Host}}/api/admin/ops-expanses/delete/2"
 							},
 							"response": [
 								{
@@ -42936,7 +42936,7 @@
 	],
 	"variable": [
 		{
-			"id": "8257ca85-f0b2-41f5-87cb-4636f85282a0",
+			"id": "fb0613ee-0a0e-4740-a0ac-d8436c1b56a2",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
