@@ -20077,6 +20077,719 @@
 					"id": "a9cc8a1a-5131-4a2d-9606-1b9491fefafd"
 				},
 				{
+					"name": "ChangeStatuses",
+					"item": [
+						{
+							"name": "list-jobs",
+							"id": "fd978bc7-e29b-45b2-a9d0-e2e9e0ceef8c",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": {
+										"token": "{{Token}}"
+									}
+								},
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"page\": 1\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{Host}}/api/admin/jobs"
+							},
+							"response": [
+								{
+									"id": "d9be9c80-53cd-45e7-9cc2-2fda1b17ff25",
+									"name": "success-response",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"page\": 1\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{Host}}/api/admin/jobs"
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Host",
+											"value": "localhost:3000"
+										},
+										{
+											"key": "Date",
+											"value": "Fri, 12 May 2023 13:55:36 GMT"
+										},
+										{
+											"key": "Date",
+											"value": "Fri, 12 May 2023 13:55:36 GMT"
+										},
+										{
+											"key": "Connection",
+											"value": "close"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/8.1.18"
+										},
+										{
+											"key": "X-Xdebug-Profile-Filename",
+											"value": "/tmp/cachegrind.out.88324"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "59"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"data\": [\n        {\n            \"id\": 29,\n            \"order_id\": 11,\n            \"client\": {\n                \"id\": 1,\n                \"name_en\": \"Elsewedy Electric\",\n                \"name_ar\": \"السويدي اليكتريك\",\n                \"client_type\": \"corporate\",\n                \"corporate_type\": \"direct_client\",\n                \"contact\": \"1008292984\",\n                \"logo\": \"https://fra1.digitaloceanspaces.com/vtwodevelopment/direct_clients/1675183991.jpg\",\n                \"address_ar\": \"الحي الاول , التجمع الخامس\",\n                \"address_en\": \"1st District, 5th Settlement\",\n                \"status\": 1,\n                \"fcm_token\": null,\n                \"created_by_model\": null,\n                \"created_by_id\": 0,\n                \"parent_id\": null,\n                \"account_owner_id\": null,\n                \"industry\": \"\",\n                \"mobile_1\": null,\n                \"mobile_2\": null,\n                \"website\": null,\n                \"email\": null,\n                \"governorate_id\": null,\n                \"credit_term_days\": 7,\n                \"credit_limit\": 100000,\n                \"tax_card_number\": null,\n                \"tax_card_image\": null,\n                \"tax_card_expiration_date\": null,\n                \"commercial_register_image\": null,\n                \"commercial_register_number\": null,\n                \"commercial_register_issue_date\": null,\n                \"created_at\": \"2023-05-09T13:05:10.000000Z\",\n                \"updated_at\": \"2023-05-09T13:05:10.000000Z\"\n            },\n            \"load_type\": {\n                \"id\": 2,\n                \"name_ar\": \"مبرد\",\n                \"name_en\": \"chilled\",\n                \"image\": \"https://fra1.digitaloceanspaces.com/vtwodevelopment/load-types/1675183991.jpg\",\n                \"status\": 1\n            },\n            \"job_type\": {\n                \"id\": 3,\n                \"name_en\": \"Distribution\",\n                \"name_ar\": \"توزيع\",\n                \"vertical_id\": 2,\n                \"status\": 1\n            },\n            \"locations\": [],\n            \"commodities\": [\n                {\n                    \"id\": 1,\n                    \"name_en\": \"Textiles\",\n                    \"name_ar\": \"منسوجات\"\n                }\n            ],\n            \"truck_types\": [\n                {\n                    \"id\": 2,\n                    \"name_en\": \"Sides\",\n                    \"name_ar\": \"جوانب\"\n                }\n            ]\n        },\n        {\n            \"id\": 30,\n            \"order_id\": 11,\n            \"client\": {\n                \"id\": 1,\n                \"name_en\": \"Elsewedy Electric\",\n                \"name_ar\": \"السويدي اليكتريك\",\n                \"client_type\": \"corporate\",\n                \"corporate_type\": \"direct_client\",\n                \"contact\": \"1008292984\",\n                \"logo\": \"https://fra1.digitaloceanspaces.com/vtwodevelopment/direct_clients/1675183991.jpg\",\n                \"address_ar\": \"الحي الاول , التجمع الخامس\",\n                \"address_en\": \"1st District, 5th Settlement\",\n                \"status\": 1,\n                \"fcm_token\": null,\n                \"created_by_model\": null,\n                \"created_by_id\": 0,\n                \"parent_id\": null,\n                \"account_owner_id\": null,\n                \"industry\": \"\",\n                \"mobile_1\": null,\n                \"mobile_2\": null,\n                \"website\": null,\n                \"email\": null,\n                \"governorate_id\": null,\n                \"credit_term_days\": 7,\n                \"credit_limit\": 100000,\n                \"tax_card_number\": null,\n                \"tax_card_image\": null,\n                \"tax_card_expiration_date\": null,\n                \"commercial_register_image\": null,\n                \"commercial_register_number\": null,\n                \"commercial_register_issue_date\": null,\n                \"created_at\": \"2023-05-09T13:05:10.000000Z\",\n                \"updated_at\": \"2023-05-09T13:05:10.000000Z\"\n            },\n            \"load_type\": {\n                \"id\": 2,\n                \"name_ar\": \"مبرد\",\n                \"name_en\": \"chilled\",\n                \"image\": \"https://fra1.digitaloceanspaces.com/vtwodevelopment/load-types/1675183991.jpg\",\n                \"status\": 1\n            },\n            \"job_type\": {\n                \"id\": 3,\n                \"name_en\": \"Distribution\",\n                \"name_ar\": \"توزيع\",\n                \"vertical_id\": 2,\n                \"status\": 1\n            },\n            \"locations\": [\n                {\n                    \"id\": 55,\n                    \"ordering\": 1,\n                    \"lng\": \"30.220000\",\n                    \"lat\": \"29.220000\",\n                    \"address\": \"address\",\n                    \"description\": \"test description\",\n                    \"job_location_status\": \"ready\",\n                    \"gate\": {\n                        \"id\": 1,\n                        \"name_ar\": \"ميناء الأدبية\",\n                        \"name_en\": \"Adabeya\",\n                        \"code\": \"Adabeya\",\n                        \"lng\": \"32.46837615966797\",\n                        \"lat\": \"29.877862275589994\",\n                        \"address\": \"الغردقة - الاسماعيلية، عتاقة، السويس، مصر\",\n                        \"gate_type\": \"sea_port\",\n                        \"contact_name\": \"abdelrazk\",\n                        \"contact_phone\": \"01274622258\"\n                    },\n                    \"location_type\": {\n                        \"id\": 1,\n                        \"name_en\": \"pickup\",\n                        \"name_ar\": \"تحميل\"\n                    },\n                    \"time\": \"2023-05-14 22:03:42\",\n                    \"contact_number\": \"1008292985\",\n                    \"contact_name\": \"Mohamed Fathy\"\n                },\n                {\n                    \"id\": 56,\n                    \"ordering\": 2,\n                    \"lng\": \"30.220000\",\n                    \"lat\": \"29.220000\",\n                    \"address\": \"address\",\n                    \"description\": \"test description\",\n                    \"job_location_status\": \"ready\",\n                    \"gate\": null,\n                    \"location_type\": {\n                        \"id\": 2,\n                        \"name_en\": \"dropoff\",\n                        \"name_ar\": \"تعتيق\"\n                    },\n                    \"time\": \"2023-05-14 22:03:42\",\n                    \"contact_number\": \"1008292985\",\n                    \"contact_name\": \"Mohamed Fathy\"\n                }\n            ],\n            \"commodities\": [\n                {\n                    \"id\": 1,\n                    \"name_en\": \"Textiles\",\n                    \"name_ar\": \"منسوجات\"\n                }\n            ],\n            \"truck_types\": [\n                {\n                    \"id\": 2,\n                    \"name_en\": \"Sides\",\n                    \"name_ar\": \"جوانب\"\n                }\n            ]\n        },\n        {\n            \"id\": 31,\n            \"order_id\": 11,\n            \"client\": {\n                \"id\": 1,\n                \"name_en\": \"Elsewedy Electric\",\n                \"name_ar\": \"السويدي اليكتريك\",\n                \"client_type\": \"corporate\",\n                \"corporate_type\": \"direct_client\",\n                \"contact\": \"1008292984\",\n                \"logo\": \"https://fra1.digitaloceanspaces.com/vtwodevelopment/direct_clients/1675183991.jpg\",\n                \"address_ar\": \"الحي الاول , التجمع الخامس\",\n                \"address_en\": \"1st District, 5th Settlement\",\n                \"status\": 1,\n                \"fcm_token\": null,\n                \"created_by_model\": null,\n                \"created_by_id\": 0,\n                \"parent_id\": null,\n                \"account_owner_id\": null,\n                \"industry\": \"\",\n                \"mobile_1\": null,\n                \"mobile_2\": null,\n                \"website\": null,\n                \"email\": null,\n                \"governorate_id\": null,\n                \"credit_term_days\": 7,\n                \"credit_limit\": 100000,\n                \"tax_card_number\": null,\n                \"tax_card_image\": null,\n                \"tax_card_expiration_date\": null,\n                \"commercial_register_image\": null,\n                \"commercial_register_number\": null,\n                \"commercial_register_issue_date\": null,\n                \"created_at\": \"2023-05-09T13:05:10.000000Z\",\n                \"updated_at\": \"2023-05-09T13:05:10.000000Z\"\n            },\n            \"load_type\": {\n                \"id\": 2,\n                \"name_ar\": \"مبرد\",\n                \"name_en\": \"chilled\",\n                \"image\": \"https://fra1.digitaloceanspaces.com/vtwodevelopment/load-types/1675183991.jpg\",\n                \"status\": 1\n            },\n            \"job_type\": {\n                \"id\": 3,\n                \"name_en\": \"Distribution\",\n                \"name_ar\": \"توزيع\",\n                \"vertical_id\": 2,\n                \"status\": 1\n            },\n            \"locations\": [\n                {\n                    \"id\": 57,\n                    \"ordering\": 1,\n                    \"lng\": \"30.220000\",\n                    \"lat\": \"29.220000\",\n                    \"address\": \"address\",\n                    \"description\": \"test description\",\n                    \"job_location_status\": \"ready\",\n                    \"gate\": {\n                        \"id\": 1,\n                        \"name_ar\": \"ميناء الأدبية\",\n                        \"name_en\": \"Adabeya\",\n                        \"code\": \"Adabeya\",\n                        \"lng\": \"32.46837615966797\",\n                        \"lat\": \"29.877862275589994\",\n                        \"address\": \"الغردقة - الاسماعيلية، عتاقة، السويس، مصر\",\n                        \"gate_type\": \"sea_port\",\n                        \"contact_name\": \"abdelrazk\",\n                        \"contact_phone\": \"01274622258\"\n                    },\n                    \"location_type\": {\n                        \"id\": 1,\n                        \"name_en\": \"pickup\",\n                        \"name_ar\": \"تحميل\"\n                    },\n                    \"time\": \"2023-05-14 22:03:42\",\n                    \"contact_number\": \"1008292985\",\n                    \"contact_name\": \"Mohamed Fathy\"\n                },\n                {\n                    \"id\": 58,\n                    \"ordering\": 2,\n                    \"lng\": \"30.220000\",\n                    \"lat\": \"29.220000\",\n                    \"address\": \"address\",\n                    \"description\": \"test description\",\n                    \"job_location_status\": \"ready\",\n                    \"gate\": null,\n                    \"location_type\": {\n                        \"id\": 2,\n                        \"name_en\": \"dropoff\",\n                        \"name_ar\": \"تعتيق\"\n                    },\n                    \"time\": \"2023-05-14 22:03:42\",\n                    \"contact_number\": \"1008292985\",\n                    \"contact_name\": \"Mohamed Fathy\"\n                }\n            ],\n            \"commodities\": [\n                {\n                    \"id\": 1,\n                    \"name_en\": \"Textiles\",\n                    \"name_ar\": \"منسوجات\"\n                }\n            ],\n            \"truck_types\": [\n                {\n                    \"id\": 2,\n                    \"name_en\": \"Sides\",\n                    \"name_ar\": \"جوانب\"\n                }\n            ]\n        },\n        {\n            \"id\": 32,\n            \"order_id\": 11,\n            \"client\": {\n                \"id\": 1,\n                \"name_en\": \"Elsewedy Electric\",\n                \"name_ar\": \"السويدي اليكتريك\",\n                \"client_type\": \"corporate\",\n                \"corporate_type\": \"direct_client\",\n                \"contact\": \"1008292984\",\n                \"logo\": \"https://fra1.digitaloceanspaces.com/vtwodevelopment/direct_clients/1675183991.jpg\",\n                \"address_ar\": \"الحي الاول , التجمع الخامس\",\n                \"address_en\": \"1st District, 5th Settlement\",\n                \"status\": 1,\n                \"fcm_token\": null,\n                \"created_by_model\": null,\n                \"created_by_id\": 0,\n                \"parent_id\": null,\n                \"account_owner_id\": null,\n                \"industry\": \"\",\n                \"mobile_1\": null,\n                \"mobile_2\": null,\n                \"website\": null,\n                \"email\": null,\n                \"governorate_id\": null,\n                \"credit_term_days\": 7,\n                \"credit_limit\": 100000,\n                \"tax_card_number\": null,\n                \"tax_card_image\": null,\n                \"tax_card_expiration_date\": null,\n                \"commercial_register_image\": null,\n                \"commercial_register_number\": null,\n                \"commercial_register_issue_date\": null,\n                \"created_at\": \"2023-05-09T13:05:10.000000Z\",\n                \"updated_at\": \"2023-05-09T13:05:10.000000Z\"\n            },\n            \"load_type\": {\n                \"id\": 2,\n                \"name_ar\": \"مبرد\",\n                \"name_en\": \"chilled\",\n                \"image\": \"https://fra1.digitaloceanspaces.com/vtwodevelopment/load-types/1675183991.jpg\",\n                \"status\": 1\n            },\n            \"job_type\": {\n                \"id\": 3,\n                \"name_en\": \"Distribution\",\n                \"name_ar\": \"توزيع\",\n                \"vertical_id\": 2,\n                \"status\": 1\n            },\n            \"locations\": [\n                {\n                    \"id\": 59,\n                    \"ordering\": 1,\n                    \"lng\": \"30.220000\",\n                    \"lat\": \"29.220000\",\n                    \"address\": \"address\",\n                    \"description\": \"test description\",\n                    \"job_location_status\": \"ready\",\n                    \"gate\": {\n                        \"id\": 1,\n                        \"name_ar\": \"ميناء الأدبية\",\n                        \"name_en\": \"Adabeya\",\n                        \"code\": \"Adabeya\",\n                        \"lng\": \"32.46837615966797\",\n                        \"lat\": \"29.877862275589994\",\n                        \"address\": \"الغردقة - الاسماعيلية، عتاقة، السويس، مصر\",\n                        \"gate_type\": \"sea_port\",\n                        \"contact_name\": \"abdelrazk\",\n                        \"contact_phone\": \"01274622258\"\n                    },\n                    \"location_type\": {\n                        \"id\": 1,\n                        \"name_en\": \"pickup\",\n                        \"name_ar\": \"تحميل\"\n                    },\n                    \"time\": \"2023-05-14 22:03:42\",\n                    \"contact_number\": \"1008292985\",\n                    \"contact_name\": \"Mohamed Fathy\"\n                },\n                {\n                    \"id\": 60,\n                    \"ordering\": 2,\n                    \"lng\": \"30.220000\",\n                    \"lat\": \"29.220000\",\n                    \"address\": \"address\",\n                    \"description\": \"test description\",\n                    \"job_location_status\": \"ready\",\n                    \"gate\": null,\n                    \"location_type\": {\n                        \"id\": 2,\n                        \"name_en\": \"dropoff\",\n                        \"name_ar\": \"تعتيق\"\n                    },\n                    \"time\": \"2023-05-14 22:03:42\",\n                    \"contact_number\": \"1008292985\",\n                    \"contact_name\": \"Mohamed Fathy\"\n                }\n            ],\n            \"commodities\": [\n                {\n                    \"id\": 1,\n                    \"name_en\": \"Textiles\",\n                    \"name_ar\": \"منسوجات\"\n                }\n            ],\n            \"truck_types\": [\n                {\n                    \"id\": 2,\n                    \"name_en\": \"Sides\",\n                    \"name_ar\": \"جوانب\"\n                }\n            ]\n        },\n        {\n            \"id\": 33,\n            \"order_id\": 12,\n            \"client\": {\n                \"id\": 1,\n                \"name_en\": \"Elsewedy Electric\",\n                \"name_ar\": \"السويدي اليكتريك\",\n                \"client_type\": \"corporate\",\n                \"corporate_type\": \"direct_client\",\n                \"contact\": \"1008292984\",\n                \"logo\": \"https://fra1.digitaloceanspaces.com/vtwodevelopment/direct_clients/1675183991.jpg\",\n                \"address_ar\": \"الحي الاول , التجمع الخامس\",\n                \"address_en\": \"1st District, 5th Settlement\",\n                \"status\": 1,\n                \"fcm_token\": null,\n                \"created_by_model\": null,\n                \"created_by_id\": 0,\n                \"parent_id\": null,\n                \"account_owner_id\": null,\n                \"industry\": \"\",\n                \"mobile_1\": null,\n                \"mobile_2\": null,\n                \"website\": null,\n                \"email\": null,\n                \"governorate_id\": null,\n                \"credit_term_days\": 7,\n                \"credit_limit\": 100000,\n                \"tax_card_number\": null,\n                \"tax_card_image\": null,\n                \"tax_card_expiration_date\": null,\n                \"commercial_register_image\": null,\n                \"commercial_register_number\": null,\n                \"commercial_register_issue_date\": null,\n                \"created_at\": \"2023-05-09T13:05:10.000000Z\",\n                \"updated_at\": \"2023-05-09T13:05:10.000000Z\"\n            },\n            \"load_type\": {\n                \"id\": 2,\n                \"name_ar\": \"مبرد\",\n                \"name_en\": \"chilled\",\n                \"image\": \"https://fra1.digitaloceanspaces.com/vtwodevelopment/load-types/1675183991.jpg\",\n                \"status\": 1\n            },\n            \"job_type\": {\n                \"id\": 2,\n                \"name_en\": \"EXP\",\n                \"name_ar\": \"صادر\",\n                \"vertical_id\": 1,\n                \"status\": 1\n            },\n            \"locations\": [\n                {\n                    \"id\": 61,\n                    \"ordering\": 1,\n                    \"lng\": \"30.220000\",\n                    \"lat\": \"29.220000\",\n                    \"address\": \"address\",\n                    \"description\": \"test description\",\n                    \"job_location_status\": \"ready\",\n                    \"gate\": {\n                        \"id\": 1,\n                        \"name_ar\": \"ميناء الأدبية\",\n                        \"name_en\": \"Adabeya\",\n                        \"code\": \"Adabeya\",\n                        \"lng\": \"32.46837615966797\",\n                        \"lat\": \"29.877862275589994\",\n                        \"address\": \"الغردقة - الاسماعيلية، عتاقة، السويس، مصر\",\n                        \"gate_type\": \"sea_port\",\n                        \"contact_name\": \"abdelrazk\",\n                        \"contact_phone\": \"01274622258\"\n                    },\n                    \"location_type\": {\n                        \"id\": 5,\n                        \"name_en\": \"gateout\",\n                        \"name_ar\": \"ميناء تحميل الحاويات\"\n                    },\n                    \"time\": \"2025-05-14 22:03:42\",\n                    \"contact_number\": \"1008292985\",\n                    \"contact_name\": \"Mohamed Fathy\"\n                },\n                {\n                    \"id\": 62,\n                    \"ordering\": 2,\n                    \"lng\": \"30.220000\",\n                    \"lat\": \"29.220000\",\n                    \"address\": \"address\",\n                    \"description\": \"test description\",\n                    \"job_location_status\": \"ready\",\n                    \"gate\": null,\n                    \"location_type\": {\n                        \"id\": 6,\n                        \"name_en\": \"export destination\",\n                        \"name_ar\": \"عنوان العميل\"\n                    },\n                    \"time\": \"2025-05-14 22:03:42\",\n                    \"contact_number\": \"1008292985\",\n                    \"contact_name\": \"Mohamed Fathy\"\n                },\n                {\n                    \"id\": 63,\n                    \"ordering\": 3,\n                    \"lng\": \"30.220000\",\n                    \"lat\": \"29.220000\",\n                    \"address\": \"address\",\n                    \"description\": \"test description\",\n                    \"job_location_status\": \"ready\",\n                    \"gate\": {\n                        \"id\": 2,\n                        \"name_ar\": \"ميناء غرب بورسعيد\",\n                        \"name_en\": \"PSDW\",\n                        \"code\": \"PSDW\",\n                        \"lng\": \"32.30062007904053\",\n                        \"lat\": \"31.25925639543162\",\n                        \"address\": \"مصطفى كامل، بور فؤاد، بور سعيد، مصر\",\n                        \"gate_type\": \"sea_port\",\n                        \"contact_name\": \"mohammed abdelhady\",\n                        \"contact_phone\": \"01206475733\"\n                    },\n                    \"location_type\": {\n                        \"id\": 3,\n                        \"name_en\": \"gatein\",\n                        \"name_ar\": \"ميناء تعتيق الحاويات\"\n                    },\n                    \"time\": \"2025-05-14 22:03:42\",\n                    \"contact_number\": \"1008292985\",\n                    \"contact_name\": \"Mohamed Fathy\"\n                }\n            ],\n            \"commodities\": [\n                {\n                    \"id\": 1,\n                    \"name_en\": \"Textiles\",\n                    \"name_ar\": \"منسوجات\"\n                },\n                {\n                    \"id\": 2,\n                    \"name_en\": \"Stone\",\n                    \"name_ar\": \"أحجار\"\n                }\n            ],\n            \"truck_types\": [\n                {\n                    \"id\": 1,\n                    \"name_en\": \"Farsh\",\n                    \"name_ar\": \"فرش\"\n                },\n                {\n                    \"id\": 2,\n                    \"name_en\": \"Sides\",\n                    \"name_ar\": \"جوانب\"\n                }\n            ]\n        },\n        {\n            \"id\": 34,\n            \"order_id\": 13,\n            \"client\": {\n                \"id\": 1,\n                \"name_en\": \"Elsewedy Electric\",\n                \"name_ar\": \"السويدي اليكتريك\",\n                \"client_type\": \"corporate\",\n                \"corporate_type\": \"direct_client\",\n                \"contact\": \"1008292984\",\n                \"logo\": \"https://fra1.digitaloceanspaces.com/vtwodevelopment/direct_clients/1675183991.jpg\",\n                \"address_ar\": \"الحي الاول , التجمع الخامس\",\n                \"address_en\": \"1st District, 5th Settlement\",\n                \"status\": 1,\n                \"fcm_token\": null,\n                \"created_by_model\": null,\n                \"created_by_id\": 0,\n                \"parent_id\": null,\n                \"account_owner_id\": null,\n                \"industry\": \"\",\n                \"mobile_1\": null,\n                \"mobile_2\": null,\n                \"website\": null,\n                \"email\": null,\n                \"governorate_id\": null,\n                \"credit_term_days\": 7,\n                \"credit_limit\": 100000,\n                \"tax_card_number\": null,\n                \"tax_card_image\": null,\n                \"tax_card_expiration_date\": null,\n                \"commercial_register_image\": null,\n                \"commercial_register_number\": null,\n                \"commercial_register_issue_date\": null,\n                \"created_at\": \"2023-05-09T13:05:10.000000Z\",\n                \"updated_at\": \"2023-05-09T13:05:10.000000Z\"\n            },\n            \"load_type\": {\n                \"id\": 2,\n                \"name_ar\": \"مبرد\",\n                \"name_en\": \"chilled\",\n                \"image\": \"https://fra1.digitaloceanspaces.com/vtwodevelopment/load-types/1675183991.jpg\",\n                \"status\": 1\n            },\n            \"job_type\": {\n                \"id\": 2,\n                \"name_en\": \"EXP\",\n                \"name_ar\": \"صادر\",\n                \"vertical_id\": 1,\n                \"status\": 1\n            },\n            \"locations\": [\n                {\n                    \"id\": 64,\n                    \"ordering\": 1,\n                    \"lng\": \"30.220000\",\n                    \"lat\": \"29.220000\",\n                    \"address\": \"address\",\n                    \"description\": \"test description\",\n                    \"job_location_status\": \"ready\",\n                    \"gate\": {\n                        \"id\": 1,\n                        \"name_ar\": \"ميناء الأدبية\",\n                        \"name_en\": \"Adabeya\",\n                        \"code\": \"Adabeya\",\n                        \"lng\": \"32.46837615966797\",\n                        \"lat\": \"29.877862275589994\",\n                        \"address\": \"الغردقة - الاسماعيلية، عتاقة، السويس، مصر\",\n                        \"gate_type\": \"sea_port\",\n                        \"contact_name\": \"abdelrazk\",\n                        \"contact_phone\": \"01274622258\"\n                    },\n                    \"location_type\": {\n                        \"id\": 5,\n                        \"name_en\": \"gateout\",\n                        \"name_ar\": \"ميناء تحميل الحاويات\"\n                    },\n                    \"time\": \"2025-05-14 22:03:42\",\n                    \"contact_number\": \"1008292985\",\n                    \"contact_name\": \"Mohamed Fathy\"\n                },\n                {\n                    \"id\": 65,\n                    \"ordering\": 2,\n                    \"lng\": \"30.220000\",\n                    \"lat\": \"29.220000\",\n                    \"address\": \"address\",\n                    \"description\": \"test description\",\n                    \"job_location_status\": \"ready\",\n                    \"gate\": null,\n                    \"location_type\": {\n                        \"id\": 6,\n                        \"name_en\": \"export destination\",\n                        \"name_ar\": \"عنوان العميل\"\n                    },\n                    \"time\": \"2025-05-14 22:03:42\",\n                    \"contact_number\": \"1008292985\",\n                    \"contact_name\": \"Mohamed Fathy\"\n                },\n                {\n                    \"id\": 66,\n                    \"ordering\": 3,\n                    \"lng\": \"30.220000\",\n                    \"lat\": \"29.220000\",\n                    \"address\": \"address\",\n                    \"description\": \"test description\",\n                    \"job_location_status\": \"ready\",\n                    \"gate\": {\n                        \"id\": 2,\n                        \"name_ar\": \"ميناء غرب بورسعيد\",\n                        \"name_en\": \"PSDW\",\n                        \"code\": \"PSDW\",\n                        \"lng\": \"32.30062007904053\",\n                        \"lat\": \"31.25925639543162\",\n                        \"address\": \"مصطفى كامل، بور فؤاد، بور سعيد، مصر\",\n                        \"gate_type\": \"sea_port\",\n                        \"contact_name\": \"mohammed abdelhady\",\n                        \"contact_phone\": \"01206475733\"\n                    },\n                    \"location_type\": {\n                        \"id\": 3,\n                        \"name_en\": \"gatein\",\n                        \"name_ar\": \"ميناء تعتيق الحاويات\"\n                    },\n                    \"time\": \"2025-05-14 22:03:42\",\n                    \"contact_number\": \"1008292985\",\n                    \"contact_name\": \"Mohamed Fathy\"\n                }\n            ],\n            \"commodities\": [\n                {\n                    \"id\": 1,\n                    \"name_en\": \"Textiles\",\n                    \"name_ar\": \"منسوجات\"\n                },\n                {\n                    \"id\": 2,\n                    \"name_en\": \"Stone\",\n                    \"name_ar\": \"أحجار\"\n                }\n            ],\n            \"truck_types\": [\n                {\n                    \"id\": 1,\n                    \"name_en\": \"Farsh\",\n                    \"name_ar\": \"فرش\"\n                },\n                {\n                    \"id\": 2,\n                    \"name_en\": \"Sides\",\n                    \"name_ar\": \"جوانب\"\n                }\n            ]\n        },\n        {\n            \"id\": 35,\n            \"order_id\": 14,\n            \"client\": {\n                \"id\": 1,\n                \"name_en\": \"Elsewedy Electric\",\n                \"name_ar\": \"السويدي اليكتريك\",\n                \"client_type\": \"corporate\",\n                \"corporate_type\": \"direct_client\",\n                \"contact\": \"1008292984\",\n                \"logo\": \"https://fra1.digitaloceanspaces.com/vtwodevelopment/direct_clients/1675183991.jpg\",\n                \"address_ar\": \"الحي الاول , التجمع الخامس\",\n                \"address_en\": \"1st District, 5th Settlement\",\n                \"status\": 1,\n                \"fcm_token\": null,\n                \"created_by_model\": null,\n                \"created_by_id\": 0,\n                \"parent_id\": null,\n                \"account_owner_id\": null,\n                \"industry\": \"\",\n                \"mobile_1\": null,\n                \"mobile_2\": null,\n                \"website\": null,\n                \"email\": null,\n                \"governorate_id\": null,\n                \"credit_term_days\": 7,\n                \"credit_limit\": 100000,\n                \"tax_card_number\": null,\n                \"tax_card_image\": null,\n                \"tax_card_expiration_date\": null,\n                \"commercial_register_image\": null,\n                \"commercial_register_number\": null,\n                \"commercial_register_issue_date\": null,\n                \"created_at\": \"2023-05-09T13:05:10.000000Z\",\n                \"updated_at\": \"2023-05-09T13:05:10.000000Z\"\n            },\n            \"load_type\": {\n                \"id\": 2,\n                \"name_ar\": \"مبرد\",\n                \"name_en\": \"chilled\",\n                \"image\": \"https://fra1.digitaloceanspaces.com/vtwodevelopment/load-types/1675183991.jpg\",\n                \"status\": 1\n            },\n            \"job_type\": {\n                \"id\": 4,\n                \"name_en\": \"Empties\",\n                \"name_ar\": \"فوارغ\",\n                \"vertical_id\": 1,\n                \"status\": 1\n            },\n            \"locations\": [\n                {\n                    \"id\": 67,\n                    \"ordering\": 1,\n                    \"lng\": \"30.220000\",\n                    \"lat\": \"29.220000\",\n                    \"address\": \"address\",\n                    \"description\": \"test description\",\n                    \"job_location_status\": \"ready\",\n                    \"gate\": {\n                        \"id\": 1,\n                        \"name_ar\": \"ميناء الأدبية\",\n                        \"name_en\": \"Adabeya\",\n                        \"code\": \"Adabeya\",\n                        \"lng\": \"32.46837615966797\",\n                        \"lat\": \"29.877862275589994\",\n                        \"address\": \"الغردقة - الاسماعيلية، عتاقة، السويس، مصر\",\n                        \"gate_type\": \"sea_port\",\n                        \"contact_name\": \"abdelrazk\",\n                        \"contact_phone\": \"01274622258\"\n                    },\n                    \"location_type\": {\n                        \"id\": 5,\n                        \"name_en\": \"gateout\",\n                        \"name_ar\": \"ميناء تحميل الحاويات\"\n                    },\n                    \"time\": \"2025-05-14 22:03:42\",\n                    \"contact_number\": \"1008292985\",\n                    \"contact_name\": \"Mohamed Fathy\"\n                },\n                {\n                    \"id\": 68,\n                    \"ordering\": 2,\n                    \"lng\": \"30.220000\",\n                    \"lat\": \"29.220000\",\n                    \"address\": \"address\",\n                    \"description\": \"test description\",\n                    \"job_location_status\": \"ready\",\n                    \"gate\": {\n                        \"id\": 2,\n                        \"name_ar\": \"ميناء غرب بورسعيد\",\n                        \"name_en\": \"PSDW\",\n                        \"code\": \"PSDW\",\n                        \"lng\": \"32.30062007904053\",\n                        \"lat\": \"31.25925639543162\",\n                        \"address\": \"مصطفى كامل، بور فؤاد، بور سعيد، مصر\",\n                        \"gate_type\": \"sea_port\",\n                        \"contact_name\": \"mohammed abdelhady\",\n                        \"contact_phone\": \"01206475733\"\n                    },\n                    \"location_type\": {\n                        \"id\": 3,\n                        \"name_en\": \"gatein\",\n                        \"name_ar\": \"ميناء تعتيق الحاويات\"\n                    },\n                    \"time\": \"2025-05-14 22:03:42\",\n                    \"contact_number\": \"1008292985\",\n                    \"contact_name\": \"Mohamed Fathy\"\n                }\n            ],\n            \"commodities\": [\n                {\n                    \"id\": 1,\n                    \"name_en\": \"Textiles\",\n                    \"name_ar\": \"منسوجات\"\n                },\n                {\n                    \"id\": 2,\n                    \"name_en\": \"Stone\",\n                    \"name_ar\": \"أحجار\"\n                }\n            ],\n            \"truck_types\": [\n                {\n                    \"id\": 1,\n                    \"name_en\": \"Farsh\",\n                    \"name_ar\": \"فرش\"\n                },\n                {\n                    \"id\": 2,\n                    \"name_en\": \"Sides\",\n                    \"name_ar\": \"جوانب\"\n                }\n            ]\n        },\n        {\n            \"id\": 36,\n            \"order_id\": 15,\n            \"client\": {\n                \"id\": 1,\n                \"name_en\": \"Elsewedy Electric\",\n                \"name_ar\": \"السويدي اليكتريك\",\n                \"client_type\": \"corporate\",\n                \"corporate_type\": \"direct_client\",\n                \"contact\": \"1008292984\",\n                \"logo\": \"https://fra1.digitaloceanspaces.com/vtwodevelopment/direct_clients/1675183991.jpg\",\n                \"address_ar\": \"الحي الاول , التجمع الخامس\",\n                \"address_en\": \"1st District, 5th Settlement\",\n                \"status\": 1,\n                \"fcm_token\": null,\n                \"created_by_model\": null,\n                \"created_by_id\": 0,\n                \"parent_id\": null,\n                \"account_owner_id\": null,\n                \"industry\": \"\",\n                \"mobile_1\": null,\n                \"mobile_2\": null,\n                \"website\": null,\n                \"email\": null,\n                \"governorate_id\": null,\n                \"credit_term_days\": 7,\n                \"credit_limit\": 100000,\n                \"tax_card_number\": null,\n                \"tax_card_image\": null,\n                \"tax_card_expiration_date\": null,\n                \"commercial_register_image\": null,\n                \"commercial_register_number\": null,\n                \"commercial_register_issue_date\": null,\n                \"created_at\": \"2023-05-09T13:05:10.000000Z\",\n                \"updated_at\": \"2023-05-09T13:05:10.000000Z\"\n            },\n            \"load_type\": {\n                \"id\": 2,\n                \"name_ar\": \"مبرد\",\n                \"name_en\": \"chilled\",\n                \"image\": \"https://fra1.digitaloceanspaces.com/vtwodevelopment/load-types/1675183991.jpg\",\n                \"status\": 1\n            },\n            \"job_type\": {\n                \"id\": 1,\n                \"name_en\": \"Import\",\n                \"name_ar\": \"وارد\",\n                \"vertical_id\": 1,\n                \"status\": 1\n            },\n            \"locations\": [\n                {\n                    \"id\": 69,\n                    \"ordering\": 1,\n                    \"lng\": \"30.220000\",\n                    \"lat\": \"29.220000\",\n                    \"address\": \"address\",\n                    \"description\": \"test description\",\n                    \"job_location_status\": \"ready\",\n                    \"gate\": {\n                        \"id\": 1,\n                        \"name_ar\": \"ميناء الأدبية\",\n                        \"name_en\": \"Adabeya\",\n                        \"code\": \"Adabeya\",\n                        \"lng\": \"32.46837615966797\",\n                        \"lat\": \"29.877862275589994\",\n                        \"address\": \"الغردقة - الاسماعيلية، عتاقة، السويس، مصر\",\n                        \"gate_type\": \"sea_port\",\n                        \"contact_name\": \"abdelrazk\",\n                        \"contact_phone\": \"01274622258\"\n                    },\n                    \"location_type\": {\n                        \"id\": 5,\n                        \"name_en\": \"gateout\",\n                        \"name_ar\": \"ميناء تحميل الحاويات\"\n                    },\n                    \"time\": \"2025-05-14 22:03:42\",\n                    \"contact_number\": \"1008292985\",\n                    \"contact_name\": \"Mohamed Fathy\"\n                },\n                {\n                    \"id\": 70,\n                    \"ordering\": 2,\n                    \"lng\": \"30.220000\",\n                    \"lat\": \"29.220000\",\n                    \"address\": \"address\",\n                    \"description\": \"test description\",\n                    \"job_location_status\": \"ready\",\n                    \"gate\": {\n                        \"id\": 1,\n                        \"name_ar\": \"ميناء الأدبية\",\n                        \"name_en\": \"Adabeya\",\n                        \"code\": \"Adabeya\",\n                        \"lng\": \"32.46837615966797\",\n                        \"lat\": \"29.877862275589994\",\n                        \"address\": \"الغردقة - الاسماعيلية، عتاقة، السويس، مصر\",\n                        \"gate_type\": \"sea_port\",\n                        \"contact_name\": \"abdelrazk\",\n                        \"contact_phone\": \"01274622258\"\n                    },\n                    \"location_type\": {\n                        \"id\": 4,\n                        \"name_en\": \"import destination\",\n                        \"name_ar\": \"عنوان العميل\"\n                    },\n                    \"time\": \"2025-05-14 22:03:42\",\n                    \"contact_number\": \"1008292985\",\n                    \"contact_name\": \"Mohamed Fathy\"\n                },\n                {\n                    \"id\": 71,\n                    \"ordering\": 3,\n                    \"lng\": \"30.220000\",\n                    \"lat\": \"29.220000\",\n                    \"address\": \"address\",\n                    \"description\": \"test description\",\n                    \"job_location_status\": \"ready\",\n                    \"gate\": {\n                        \"id\": 2,\n                        \"name_ar\": \"ميناء غرب بورسعيد\",\n                        \"name_en\": \"PSDW\",\n                        \"code\": \"PSDW\",\n                        \"lng\": \"32.30062007904053\",\n                        \"lat\": \"31.25925639543162\",\n                        \"address\": \"مصطفى كامل، بور فؤاد، بور سعيد، مصر\",\n                        \"gate_type\": \"sea_port\",\n                        \"contact_name\": \"mohammed abdelhady\",\n                        \"contact_phone\": \"01206475733\"\n                    },\n                    \"location_type\": {\n                        \"id\": 3,\n                        \"name_en\": \"gatein\",\n                        \"name_ar\": \"ميناء تعتيق الحاويات\"\n                    },\n                    \"time\": \"2025-05-14 22:03:42\",\n                    \"contact_number\": \"1008292985\",\n                    \"contact_name\": \"Mohamed Fathy\"\n                }\n            ],\n            \"commodities\": [\n                {\n                    \"id\": 1,\n                    \"name_en\": \"Textiles\",\n                    \"name_ar\": \"منسوجات\"\n                },\n                {\n                    \"id\": 2,\n                    \"name_en\": \"Stone\",\n                    \"name_ar\": \"أحجار\"\n                }\n            ],\n            \"truck_types\": [\n                {\n                    \"id\": 1,\n                    \"name_en\": \"Farsh\",\n                    \"name_ar\": \"فرش\"\n                },\n                {\n                    \"id\": 2,\n                    \"name_en\": \"Sides\",\n                    \"name_ar\": \"جوانب\"\n                }\n            ]\n        },\n        {\n            \"id\": 37,\n            \"order_id\": 16,\n            \"client\": {\n                \"id\": 1,\n                \"name_en\": \"Elsewedy Electric\",\n                \"name_ar\": \"السويدي اليكتريك\",\n                \"client_type\": \"corporate\",\n                \"corporate_type\": \"direct_client\",\n                \"contact\": \"1008292984\",\n                \"logo\": \"https://fra1.digitaloceanspaces.com/vtwodevelopment/direct_clients/1675183991.jpg\",\n                \"address_ar\": \"الحي الاول , التجمع الخامس\",\n                \"address_en\": \"1st District, 5th Settlement\",\n                \"status\": 1,\n                \"fcm_token\": null,\n                \"created_by_model\": null,\n                \"created_by_id\": 0,\n                \"parent_id\": null,\n                \"account_owner_id\": null,\n                \"industry\": \"\",\n                \"mobile_1\": null,\n                \"mobile_2\": null,\n                \"website\": null,\n                \"email\": null,\n                \"governorate_id\": null,\n                \"credit_term_days\": 7,\n                \"credit_limit\": 100000,\n                \"tax_card_number\": null,\n                \"tax_card_image\": null,\n                \"tax_card_expiration_date\": null,\n                \"commercial_register_image\": null,\n                \"commercial_register_number\": null,\n                \"commercial_register_issue_date\": null,\n                \"created_at\": \"2023-05-09T13:05:10.000000Z\",\n                \"updated_at\": \"2023-05-09T13:05:10.000000Z\"\n            },\n            \"load_type\": {\n                \"id\": 2,\n                \"name_ar\": \"مبرد\",\n                \"name_en\": \"chilled\",\n                \"image\": \"https://fra1.digitaloceanspaces.com/vtwodevelopment/load-types/1675183991.jpg\",\n                \"status\": 1\n            },\n            \"job_type\": {\n                \"id\": 5,\n                \"name_en\": \"destruction\",\n                \"name_ar\": \"إعدام\",\n                \"vertical_id\": 1,\n                \"status\": 1\n            },\n            \"locations\": [\n                {\n                    \"id\": 72,\n                    \"ordering\": 1,\n                    \"lng\": \"30.220000\",\n                    \"lat\": \"29.220000\",\n                    \"address\": \"address\",\n                    \"description\": \"test description\",\n                    \"job_location_status\": \"ready\",\n                    \"gate\": {\n                        \"id\": 1,\n                        \"name_ar\": \"ميناء الأدبية\",\n                        \"name_en\": \"Adabeya\",\n                        \"code\": \"Adabeya\",\n                        \"lng\": \"32.46837615966797\",\n                        \"lat\": \"29.877862275589994\",\n                        \"address\": \"الغردقة - الاسماعيلية، عتاقة، السويس، مصر\",\n                        \"gate_type\": \"sea_port\",\n                        \"contact_name\": \"abdelrazk\",\n                        \"contact_phone\": \"01274622258\"\n                    },\n                    \"location_type\": {\n                        \"id\": 5,\n                        \"name_en\": \"gateout\",\n                        \"name_ar\": \"ميناء تحميل الحاويات\"\n                    },\n                    \"time\": \"2025-05-14 22:03:42\",\n                    \"contact_number\": \"1008292985\",\n                    \"contact_name\": \"Mohamed Fathy\"\n                },\n                {\n                    \"id\": 73,\n                    \"ordering\": 2,\n                    \"lng\": \"30.220000\",\n                    \"lat\": \"29.220000\",\n                    \"address\": \"address\",\n                    \"description\": \"test description\",\n                    \"job_location_status\": \"ready\",\n                    \"gate\": {\n                        \"id\": 1,\n                        \"name_ar\": \"ميناء الأدبية\",\n                        \"name_en\": \"Adabeya\",\n                        \"code\": \"Adabeya\",\n                        \"lng\": \"32.46837615966797\",\n                        \"lat\": \"29.877862275589994\",\n                        \"address\": \"الغردقة - الاسماعيلية، عتاقة، السويس، مصر\",\n                        \"gate_type\": \"sea_port\",\n                        \"contact_name\": \"abdelrazk\",\n                        \"contact_phone\": \"01274622258\"\n                    },\n                    \"location_type\": {\n                        \"id\": 4,\n                        \"name_en\": \"import destination\",\n                        \"name_ar\": \"عنوان العميل\"\n                    },\n                    \"time\": \"2025-05-14 22:03:42\",\n                    \"contact_number\": \"1008292985\",\n                    \"contact_name\": \"Mohamed Fathy\"\n                },\n                {\n                    \"id\": 74,\n                    \"ordering\": 3,\n                    \"lng\": \"30.220000\",\n                    \"lat\": \"29.220000\",\n                    \"address\": \"address\",\n                    \"description\": \"test description\",\n                    \"job_location_status\": \"ready\",\n                    \"gate\": {\n                        \"id\": 2,\n                        \"name_ar\": \"ميناء غرب بورسعيد\",\n                        \"name_en\": \"PSDW\",\n                        \"code\": \"PSDW\",\n                        \"lng\": \"32.30062007904053\",\n                        \"lat\": \"31.25925639543162\",\n                        \"address\": \"مصطفى كامل، بور فؤاد، بور سعيد، مصر\",\n                        \"gate_type\": \"sea_port\",\n                        \"contact_name\": \"mohammed abdelhady\",\n                        \"contact_phone\": \"01206475733\"\n                    },\n                    \"location_type\": {\n                        \"id\": 3,\n                        \"name_en\": \"gatein\",\n                        \"name_ar\": \"ميناء تعتيق الحاويات\"\n                    },\n                    \"time\": \"2025-05-14 22:03:42\",\n                    \"contact_number\": \"1008292985\",\n                    \"contact_name\": \"Mohamed Fathy\"\n                }\n            ],\n            \"commodities\": [\n                {\n                    \"id\": 1,\n                    \"name_en\": \"Textiles\",\n                    \"name_ar\": \"منسوجات\"\n                },\n                {\n                    \"id\": 2,\n                    \"name_en\": \"Stone\",\n                    \"name_ar\": \"أحجار\"\n                }\n            ],\n            \"truck_types\": [\n                {\n                    \"id\": 1,\n                    \"name_en\": \"Farsh\",\n                    \"name_ar\": \"فرش\"\n                },\n                {\n                    \"id\": 2,\n                    \"name_en\": \"Sides\",\n                    \"name_ar\": \"جوانب\"\n                }\n            ]\n        },\n        {\n            \"id\": 38,\n            \"order_id\": 17,\n            \"client\": {\n                \"id\": 1,\n                \"name_en\": \"Elsewedy Electric\",\n                \"name_ar\": \"السويدي اليكتريك\",\n                \"client_type\": \"corporate\",\n                \"corporate_type\": \"direct_client\",\n                \"contact\": \"1008292984\",\n                \"logo\": \"https://fra1.digitaloceanspaces.com/vtwodevelopment/direct_clients/1675183991.jpg\",\n                \"address_ar\": \"الحي الاول , التجمع الخامس\",\n                \"address_en\": \"1st District, 5th Settlement\",\n                \"status\": 1,\n                \"fcm_token\": null,\n                \"created_by_model\": null,\n                \"created_by_id\": 0,\n                \"parent_id\": null,\n                \"account_owner_id\": null,\n                \"industry\": \"\",\n                \"mobile_1\": null,\n                \"mobile_2\": null,\n                \"website\": null,\n                \"email\": null,\n                \"governorate_id\": null,\n                \"credit_term_days\": 7,\n                \"credit_limit\": 100000,\n                \"tax_card_number\": null,\n                \"tax_card_image\": null,\n                \"tax_card_expiration_date\": null,\n                \"commercial_register_image\": null,\n                \"commercial_register_number\": null,\n                \"commercial_register_issue_date\": null,\n                \"created_at\": \"2023-05-09T13:05:10.000000Z\",\n                \"updated_at\": \"2023-05-09T13:05:10.000000Z\"\n            },\n            \"load_type\": {\n                \"id\": 2,\n                \"name_ar\": \"مبرد\",\n                \"name_en\": \"chilled\",\n                \"image\": \"https://fra1.digitaloceanspaces.com/vtwodevelopment/load-types/1675183991.jpg\",\n                \"status\": 1\n            },\n            \"job_type\": {\n                \"id\": 5,\n                \"name_en\": \"destruction\",\n                \"name_ar\": \"إعدام\",\n                \"vertical_id\": 1,\n                \"status\": 1\n            },\n            \"locations\": [\n                {\n                    \"id\": 75,\n                    \"ordering\": 1,\n                    \"lng\": \"30.220000\",\n                    \"lat\": \"29.220000\",\n                    \"address\": \"address\",\n                    \"description\": \"test description\",\n                    \"job_location_status\": \"ready\",\n                    \"gate\": {\n                        \"id\": 1,\n                        \"name_ar\": \"ميناء الأدبية\",\n                        \"name_en\": \"Adabeya\",\n                        \"code\": \"Adabeya\",\n                        \"lng\": \"32.46837615966797\",\n                        \"lat\": \"29.877862275589994\",\n                        \"address\": \"الغردقة - الاسماعيلية، عتاقة، السويس، مصر\",\n                        \"gate_type\": \"sea_port\",\n                        \"contact_name\": \"abdelrazk\",\n                        \"contact_phone\": \"01274622258\"\n                    },\n                    \"location_type\": {\n                        \"id\": 5,\n                        \"name_en\": \"gateout\",\n                        \"name_ar\": \"ميناء تحميل الحاويات\"\n                    },\n                    \"time\": \"2025-05-14 22:03:42\",\n                    \"contact_number\": \"1008292985\",\n                    \"contact_name\": \"Mohamed Fathy\"\n                },\n                {\n                    \"id\": 76,\n                    \"ordering\": 2,\n                    \"lng\": \"30.220000\",\n                    \"lat\": \"29.220000\",\n                    \"address\": \"address\",\n                    \"description\": \"test description\",\n                    \"job_location_status\": \"ready\",\n                    \"gate\": {\n                        \"id\": 1,\n                        \"name_ar\": \"ميناء الأدبية\",\n                        \"name_en\": \"Adabeya\",\n                        \"code\": \"Adabeya\",\n                        \"lng\": \"32.46837615966797\",\n                        \"lat\": \"29.877862275589994\",\n                        \"address\": \"الغردقة - الاسماعيلية، عتاقة، السويس، مصر\",\n                        \"gate_type\": \"sea_port\",\n                        \"contact_name\": \"abdelrazk\",\n                        \"contact_phone\": \"01274622258\"\n                    },\n                    \"location_type\": {\n                        \"id\": 4,\n                        \"name_en\": \"import destination\",\n                        \"name_ar\": \"عنوان العميل\"\n                    },\n                    \"time\": \"2025-05-14 22:03:42\",\n                    \"contact_number\": \"1008292985\",\n                    \"contact_name\": \"Mohamed Fathy\"\n                },\n                {\n                    \"id\": 77,\n                    \"ordering\": 3,\n                    \"lng\": \"30.220000\",\n                    \"lat\": \"29.220000\",\n                    \"address\": \"address\",\n                    \"description\": \"test description\",\n                    \"job_location_status\": \"ready\",\n                    \"gate\": {\n                        \"id\": 2,\n                        \"name_ar\": \"ميناء غرب بورسعيد\",\n                        \"name_en\": \"PSDW\",\n                        \"code\": \"PSDW\",\n                        \"lng\": \"32.30062007904053\",\n                        \"lat\": \"31.25925639543162\",\n                        \"address\": \"مصطفى كامل، بور فؤاد، بور سعيد، مصر\",\n                        \"gate_type\": \"sea_port\",\n                        \"contact_name\": \"mohammed abdelhady\",\n                        \"contact_phone\": \"01206475733\"\n                    },\n                    \"location_type\": {\n                        \"id\": 3,\n                        \"name_en\": \"gatein\",\n                        \"name_ar\": \"ميناء تعتيق الحاويات\"\n                    },\n                    \"time\": \"2025-05-14 22:03:42\",\n                    \"contact_number\": \"1008292985\",\n                    \"contact_name\": \"Mohamed Fathy\"\n                }\n            ],\n            \"commodities\": [\n                {\n                    \"id\": 1,\n                    \"name_en\": \"Textiles\",\n                    \"name_ar\": \"منسوجات\"\n                },\n                {\n                    \"id\": 2,\n                    \"name_en\": \"Stone\",\n                    \"name_ar\": \"أحجار\"\n                }\n            ],\n            \"truck_types\": [\n                {\n                    \"id\": 1,\n                    \"name_en\": \"Farsh\",\n                    \"name_ar\": \"فرش\"\n                },\n                {\n                    \"id\": 2,\n                    \"name_en\": \"Sides\",\n                    \"name_ar\": \"جوانب\"\n                }\n            ]\n        }\n    ],\n    \"count\": 10\n}"
+								}
+							]
+						},
+						{
+							"name": "filter-jobs-by-order-id",
+							"id": "1237b8c2-f62e-42c1-bfda-1de9598af8cc",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": {
+										"token": "{{Token}}"
+									}
+								},
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"page\": 1\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{Host}}/api/admin/jobs?filter[order_id]=8",
+									"host": [
+										"{{Host}}"
+									],
+									"path": [
+										"api",
+										"admin",
+										"jobs"
+									],
+									"query": [
+										{
+											"key": "filter[order_id]",
+											"value": "8"
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"id": "4c336c26-1981-4b3a-b2e1-ee2a7cd411e7",
+									"name": "success-response",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"page\": 1\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{Host}}/api/admin/jobs?filter[order_id]=12",
+											"host": [
+												"{{Host}}"
+											],
+											"path": [
+												"api",
+												"admin",
+												"jobs"
+											],
+											"query": [
+												{
+													"key": "filter[order_id]",
+													"value": "12"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Host",
+											"value": "localhost:3000"
+										},
+										{
+											"key": "Date",
+											"value": "Fri, 12 May 2023 13:50:52 GMT"
+										},
+										{
+											"key": "Date",
+											"value": "Fri, 12 May 2023 13:50:52 GMT"
+										},
+										{
+											"key": "Connection",
+											"value": "close"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/8.1.18"
+										},
+										{
+											"key": "X-Xdebug-Profile-Filename",
+											"value": "/tmp/cachegrind.out.88324"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "59"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"data\": [\n        {\n            \"id\": 33,\n            \"locations\": [\n                {\n                    \"id\": 61,\n                    \"ordering\": 1,\n                    \"lng\": \"30.220000\",\n                    \"lat\": \"29.220000\",\n                    \"address\": \"address\",\n                    \"description\": \"test description\",\n                    \"job_location_status\": \"ready\",\n                    \"gate\": {\n                        \"id\": 1,\n                        \"name_ar\": \"ميناء الأدبية\",\n                        \"name_en\": \"Adabeya\",\n                        \"code\": \"Adabeya\",\n                        \"lng\": \"32.46837615966797\",\n                        \"lat\": \"29.877862275589994\",\n                        \"address\": \"الغردقة - الاسماعيلية، عتاقة، السويس، مصر\",\n                        \"gate_type\": \"sea_port\",\n                        \"contact_name\": \"abdelrazk\",\n                        \"contact_phone\": \"01274622258\"\n                    },\n                    \"location_type\": {\n                        \"id\": 5,\n                        \"name_en\": \"gateout\",\n                        \"name_ar\": \"ميناء تحميل الحاويات\"\n                    },\n                    \"time\": \"2025-05-14 22:03:42\",\n                    \"contact_number\": \"1008292985\",\n                    \"contact_name\": \"Mohamed Fathy\"\n                },\n                {\n                    \"id\": 62,\n                    \"ordering\": 2,\n                    \"lng\": \"30.220000\",\n                    \"lat\": \"29.220000\",\n                    \"address\": \"address\",\n                    \"description\": \"test description\",\n                    \"job_location_status\": \"ready\",\n                    \"gate\": null,\n                    \"location_type\": {\n                        \"id\": 6,\n                        \"name_en\": \"export destination\",\n                        \"name_ar\": \"عنوان العميل\"\n                    },\n                    \"time\": \"2025-05-14 22:03:42\",\n                    \"contact_number\": \"1008292985\",\n                    \"contact_name\": \"Mohamed Fathy\"\n                },\n                {\n                    \"id\": 63,\n                    \"ordering\": 3,\n                    \"lng\": \"30.220000\",\n                    \"lat\": \"29.220000\",\n                    \"address\": \"address\",\n                    \"description\": \"test description\",\n                    \"job_location_status\": \"ready\",\n                    \"gate\": {\n                        \"id\": 2,\n                        \"name_ar\": \"ميناء غرب بورسعيد\",\n                        \"name_en\": \"PSDW\",\n                        \"code\": \"PSDW\",\n                        \"lng\": \"32.30062007904053\",\n                        \"lat\": \"31.25925639543162\",\n                        \"address\": \"مصطفى كامل، بور فؤاد، بور سعيد، مصر\",\n                        \"gate_type\": \"sea_port\",\n                        \"contact_name\": \"mohammed abdelhady\",\n                        \"contact_phone\": \"01206475733\"\n                    },\n                    \"location_type\": {\n                        \"id\": 3,\n                        \"name_en\": \"gatein\",\n                        \"name_ar\": \"ميناء تعتيق الحاويات\"\n                    },\n                    \"time\": \"2025-05-14 22:03:42\",\n                    \"contact_number\": \"1008292985\",\n                    \"contact_name\": \"Mohamed Fathy\"\n                }\n            ],\n            \"commodities\": [\n                {\n                    \"id\": 1,\n                    \"name_en\": \"Textiles\",\n                    \"name_ar\": \"منسوجات\"\n                },\n                {\n                    \"id\": 2,\n                    \"name_en\": \"Stone\",\n                    \"name_ar\": \"أحجار\"\n                }\n            ],\n            \"truck_types\": [\n                {\n                    \"id\": 1,\n                    \"name_en\": \"Farsh\",\n                    \"name_ar\": \"فرش\"\n                },\n                {\n                    \"id\": 2,\n                    \"name_en\": \"Sides\",\n                    \"name_ar\": \"جوانب\"\n                }\n            ]\n        }\n    ],\n    \"count\": 1\n}"
+								}
+							]
+						},
+						{
+							"name": "show-job",
+							"id": "03ced76b-03fc-458f-939a-dea87a9789b7",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": {
+										"token": "{{Token}}"
+									}
+								},
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"page\": 1\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{Host}}/api/admin/jobs/4"
+							},
+							"response": [
+								{
+									"id": "7aa936af-e3c3-4cb0-a9d7-3dfde8d3a6ee",
+									"name": "success-response",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"page\": 1\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{Host}}/api/admin/jobs/29"
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Host",
+											"value": "localhost:3000"
+										},
+										{
+											"key": "Date",
+											"value": "Fri, 12 May 2023 14:01:54 GMT"
+										},
+										{
+											"key": "Date",
+											"value": "Fri, 12 May 2023 14:01:54 GMT"
+										},
+										{
+											"key": "Connection",
+											"value": "close"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/8.1.18"
+										},
+										{
+											"key": "X-Xdebug-Profile-Filename",
+											"value": "/tmp/cachegrind.out.88324"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "59"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"id\": 29,\n    \"order_id\": 11,\n    \"client\": {\n        \"id\": 1,\n        \"name_en\": \"Elsewedy Electric\",\n        \"name_ar\": \"السويدي اليكتريك\",\n        \"client_type\": \"corporate\",\n        \"corporate_type\": \"direct_client\",\n        \"contact\": \"1008292984\",\n        \"logo\": \"https://fra1.digitaloceanspaces.com/vtwodevelopment/direct_clients/1675183991.jpg\",\n        \"address_ar\": \"الحي الاول , التجمع الخامس\",\n        \"address_en\": \"1st District, 5th Settlement\",\n        \"status\": 1,\n        \"fcm_token\": null,\n        \"created_by_model\": null,\n        \"created_by_id\": 0,\n        \"parent_id\": null,\n        \"account_owner_id\": null,\n        \"industry\": \"\",\n        \"mobile_1\": null,\n        \"mobile_2\": null,\n        \"website\": null,\n        \"email\": null,\n        \"governorate_id\": null,\n        \"credit_term_days\": 7,\n        \"credit_limit\": 100000,\n        \"tax_card_number\": null,\n        \"tax_card_image\": null,\n        \"tax_card_expiration_date\": null,\n        \"commercial_register_image\": null,\n        \"commercial_register_number\": null,\n        \"commercial_register_issue_date\": null,\n        \"created_at\": \"2023-05-09T13:05:10.000000Z\",\n        \"updated_at\": \"2023-05-09T13:05:10.000000Z\"\n    },\n    \"load_type\": {\n        \"id\": 2,\n        \"name_ar\": \"مبرد\",\n        \"name_en\": \"chilled\",\n        \"image\": \"https://fra1.digitaloceanspaces.com/vtwodevelopment/load-types/1675183991.jpg\",\n        \"status\": 1\n    },\n    \"unit_quantity\": null,\n    \"reference\": \"sssss\",\n    \"special_cases\": \"sfsdf\",\n    \"ops_expanses\": \"100.33\",\n    \"price_per\": \"naqla\",\n    \"load_weight_unit\": \"ton\",\n    \"load_weight\": \"100\",\n    \"job_status_id\": {\n        \"id\": 11,\n        \"name_en\": \"Pending Pricing\",\n        \"name_ar\": \"بانتظار التسعير من الادارة\",\n        \"is_action\": 0,\n        \"can_assign_when\": \"at_start\",\n        \"cannot_assign_when\": \"\",\n        \"job_status_group\": \"not_released\",\n        \"show_in_quick_links\": \"0\",\n        \"namespace\": \"pending_pricing\"\n    },\n    \"driver\": null,\n    \"truck\": null,\n    \"tail\": null,\n    \"shipper\": null,\n    \"job_type\": {\n        \"id\": 3,\n        \"name_en\": \"Distribution\",\n        \"name_ar\": \"توزيع\",\n        \"vertical_id\": 2,\n        \"status\": 1\n    },\n    \"customs_procedure\": null,\n    \"customs_broker_name\": null,\n    \"customs_broker_phone\": null,\n    \"customs_clearance_gate\": null,\n    \"locations\": [],\n    \"commodities\": [\n        {\n            \"id\": 1,\n            \"name_en\": \"Textiles\",\n            \"name_ar\": \"منسوجات\"\n        }\n    ],\n    \"truck_types\": [\n        {\n            \"id\": 2,\n            \"name_en\": \"Sides\",\n            \"name_ar\": \"جوانب\"\n        }\n    ]\n}"
+								}
+							]
+						},
+						{
+							"name": "update-job",
+							"id": "b57581a9-fabf-4459-833a-923d1a1b0372",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": {
+										"token": "{{Token}}"
+									}
+								},
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    // \"client_id\": 2,\n    // \"load_type_id\": 2\n    // \"unit_quantity\": 1,\n    // \"reference\": \"reference\",\n    // \"special_cases\": \"special_cases\"\n    // \"ops_expanses\": 11,\n    // \"cost\": 60,\n    // \"price\": 70\n    // \"pretty_cache\":10,\n    // \"price_per\": \"ton\"\n    // \"load_weight_unit\": \"kg\",\n    // \"load_weight\": 10,\n    // \"ops_expanses\": 11\n    // \"bill_of_lading\": \"tts\"\n    // \"job_status_id\":2\n    // \"contractor_id\": 1\n    // \"driver_id\": 1\n    // \"price\":30,\n    // \"cost\":50\n    // \"truck_id\": 1,\n    // \"tail_id\": 1\n    // \"vendor_id\": 1,\n    // \"shipper_id\": 1,\n    // \"customs_procedure\": \"shahada\",\n    // \"customs_broker_name\": \"Mohamed fathy\",\n    // \"customs_broker_phone\": \"1008292856\",\n    // \"customs_clearance_gate\": 1,\n    // \"job_commodities\": [\n    //     1,\n    //     2\n    // ]\n    // \"job_truck_types\": [\n    //     1,\n    //     2\n    // ]\n    \"job_locations\": [\n        {\n            \"id\": 7,\n            \"ordering\": 1,\n            \"lng\": 44.22,\n            \"lat\": 55.22,\n            \"address\": \"ssfsdfsdfsdf\",\n            \"job_location_status\": \"readys\",\n            \"gate_id\": null,\n            \"description\": \"test descriptionss\",\n            \"location_type_id\": 1,\n            \"time\": \"2023-05-14 22:03:42\",\n            \"contact_number\": \"1008292984\",\n            \"contact_name\": \"Mohamed Fathys\"\n        },\n        {\n            \"id\": 8,\n            \"ordering\": 2,\n            \"lng\": 44.22,\n            \"lat\": 55.22,\n            \"address\": \"addressss\",\n            \"job_location_status\": \"readys\",\n            \"gate_id\": null,\n            \"description\": \"test descriptionss\",\n            \"location_type_id\": 2,\n            \"time\": \"2023-05-14 22:03:42\",\n            \"contact_number\": \"1008292984\",\n            \"contact_name\": \"Mohamed Fathys\"\n        }\n    ]\n    // \"deleted_job_locations\": [51,52]\n//    \"job_prices\": [\n//         {\n//             \"model_type\": \"OpsExpanse\",\n//             \"model_id\": 1,\n//             \"cost\": 400,\n//             \"price\": 500,\n//             \"vendor_id\": null,\n//             \"quantity\": 4,\n//             \"currency\": \"EGP\",\n//             \"rate\": 1\n//         },\n//         {\n//             \"model_type\": \"Delay\",\n//             \"model_id\": 0,\n//             \"cost\": 250,\n//             \"price\": 500,\n//             \"vendor_id\": null,\n//             \"quantity\": 4,\n//             \"currency\": \"EGP\",\n//             \"rate\": 1,\n//             \"job_delay\": {\n//                 \"reason\": \"43434fdsgdfg\",\n//                 \"number_of_minutes\": 160,\n//                 \"type\": \"delay_type\"\n//             }\n//         }\n//     ]\n    // \"deleted_job_prices\": [\n    //     41,42,43\n    // ]\n    // \"job_containers\": [\n    //     {\n    //         \"id\":16,\n    //         \"shipping_line_id\": 1,\n    //         \"booking_code\": \"mh234341yy\",\n    //         \"container_number\": \"msd215st1yy\",\n    //         \"container_port_code\": \"ADCAN\"\n    //     },\n    //     {\n    //         \"id\":17,\n    //         \"shipping_line_id\": 2,\n    //         \"booking_code\": \"mh234342xx\",\n    //         \"container_number\": \"msd215st2xx\",\n    //         \"container_port_code\": \"ADALV\"\n    //     }\n    // ],\n    // \"deleted_job_containers\": [\n    //     17\n    // ]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{Host}}/api/admin/jobs/6"
+							},
+							"response": []
+						},
+						{
+							"name": "delete-job",
+							"id": "98d18bd6-41c9-4586-a5d2-56d546de0e30",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": {
+										"token": "{{Token}}"
+									}
+								},
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Auth",
+										"value": "",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{Host}}/api/admin/jobs/1"
+							},
+							"response": [
+								{
+									"id": "605bd5aa-98e2-44dd-a11f-74ca3ed35044",
+									"name": "success-response",
+									"originalRequest": {
+										"method": "DELETE",
+										"header": [
+											{
+												"key": "Auth",
+												"value": "",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{Host}}/api/admin/jobs/1"
+									},
+									"status": "No Content",
+									"code": 204,
+									"_postman_previewlanguage": "plain",
+									"header": [
+										{
+											"key": "Host",
+											"value": "localhost:3000"
+										},
+										{
+											"key": "Date",
+											"value": "Mon, 13 Mar 2023 19:47:24 GMT"
+										},
+										{
+											"key": "Date",
+											"value": "Mon, 13 Mar 2023 19:47:24 GMT"
+										},
+										{
+											"key": "Connection",
+											"value": "close"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/8.1.13"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "59"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": null
+								},
+								{
+									"id": "ad266d64-cd71-4b7a-bc15-9e35f487951a",
+									"name": "validation-error",
+									"originalRequest": {
+										"method": "DELETE",
+										"header": [
+											{
+												"key": "Auth",
+												"value": "",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{Host}}/api/admin/jobs/1000"
+									},
+									"status": "Bad Request",
+									"code": 400,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Host",
+											"value": "localhost:3000"
+										},
+										{
+											"key": "Date",
+											"value": "Mon, 13 Mar 2023 19:47:54 GMT"
+										},
+										{
+											"key": "Date",
+											"value": "Mon, 13 Mar 2023 19:47:54 GMT"
+										},
+										{
+											"key": "Connection",
+											"value": "close"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/8.1.13"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "58"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"code\": \"validation-error\",\n    \"message\": {\n        \"id\": [\n            \"The selected id is invalid.\"\n        ]\n    }\n}"
+								}
+							]
+						},
+						{
+							"name": "expected-job-statuses",
+							"id": "f41fb52e-3f62-448f-bedb-4ff592562a3e",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": {
+										"token": "{{Token}}"
+									}
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Auth",
+										"value": "",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{Host}}/api/admin/jobs/expected-job-statuses/1"
+							},
+							"response": [
+								{
+									"id": "a973efdb-412a-4ba6-b51b-ce12e314ff65",
+									"name": "success-response",
+									"originalRequest": {
+										"method": "DELETE",
+										"header": [
+											{
+												"key": "Auth",
+												"value": "",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{Host}}/api/admin/jobs/1"
+									},
+									"status": "No Content",
+									"code": 204,
+									"_postman_previewlanguage": "plain",
+									"header": [
+										{
+											"key": "Host",
+											"value": "localhost:3000"
+										},
+										{
+											"key": "Date",
+											"value": "Mon, 13 Mar 2023 19:47:24 GMT"
+										},
+										{
+											"key": "Date",
+											"value": "Mon, 13 Mar 2023 19:47:24 GMT"
+										},
+										{
+											"key": "Connection",
+											"value": "close"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/8.1.13"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "59"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": null
+								},
+								{
+									"id": "9bcf3c52-c90d-458e-a405-55dc285a0978",
+									"name": "validation-error",
+									"originalRequest": {
+										"method": "DELETE",
+										"header": [
+											{
+												"key": "Auth",
+												"value": "",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{Host}}/api/admin/jobs/1000"
+									},
+									"status": "Bad Request",
+									"code": 400,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Host",
+											"value": "localhost:3000"
+										},
+										{
+											"key": "Date",
+											"value": "Mon, 13 Mar 2023 19:47:54 GMT"
+										},
+										{
+											"key": "Date",
+											"value": "Mon, 13 Mar 2023 19:47:54 GMT"
+										},
+										{
+											"key": "Connection",
+											"value": "close"
+										},
+										{
+											"key": "X-Powered-By",
+											"value": "PHP/8.1.13"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, private"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "X-RateLimit-Limit",
+											"value": "60"
+										},
+										{
+											"key": "X-RateLimit-Remaining",
+											"value": "58"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"code\": \"validation-error\",\n    \"message\": {\n        \"id\": [\n            \"The selected id is invalid.\"\n        ]\n    }\n}"
+								}
+							]
+						}
+					],
+					"id": "f7946620-cbcf-4469-be55-6b74a7f88da3"
+				},
+				{
 					"name": "OrderStatuses",
 					"item": [
 						{
@@ -43018,7 +43731,7 @@
 	],
 	"variable": [
 		{
-			"id": "d7c2dc6b-249c-4a4d-82c2-c2ee22dc13ce",
+			"id": "e5b2f4e5-b012-4ac3-8ecf-fc57bf4e66af",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
