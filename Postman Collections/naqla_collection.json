@@ -20080,105 +20080,6 @@
 					"name": "ChangeStatuses",
 					"item": [
 						{
-							"name": "show-job",
-							"id": "03ced76b-03fc-458f-939a-dea87a9789b7",
-							"protocolProfileBehavior": {
-								"disableBodyPruning": true
-							},
-							"request": {
-								"auth": {
-									"type": "bearer",
-									"bearer": {
-										"token": "{{Token}}"
-									}
-								},
-								"method": "GET",
-								"header": [],
-								"body": {
-									"mode": "raw",
-									"raw": "{\n    \"page\": 1\n}",
-									"options": {
-										"raw": {
-											"language": "json"
-										}
-									}
-								},
-								"url": "{{Host}}/api/admin/jobs/4"
-							},
-							"response": [
-								{
-									"id": "7aa936af-e3c3-4cb0-a9d7-3dfde8d3a6ee",
-									"name": "success-response",
-									"originalRequest": {
-										"method": "GET",
-										"header": [],
-										"body": {
-											"mode": "raw",
-											"raw": "{\n    \"page\": 1\n}",
-											"options": {
-												"raw": {
-													"language": "json"
-												}
-											}
-										},
-										"url": "{{Host}}/api/admin/jobs/29"
-									},
-									"status": "OK",
-									"code": 200,
-									"_postman_previewlanguage": "json",
-									"header": [
-										{
-											"key": "Host",
-											"value": "localhost:3000"
-										},
-										{
-											"key": "Date",
-											"value": "Fri, 12 May 2023 14:01:54 GMT"
-										},
-										{
-											"key": "Date",
-											"value": "Fri, 12 May 2023 14:01:54 GMT"
-										},
-										{
-											"key": "Connection",
-											"value": "close"
-										},
-										{
-											"key": "X-Powered-By",
-											"value": "PHP/8.1.18"
-										},
-										{
-											"key": "X-Xdebug-Profile-Filename",
-											"value": "/tmp/cachegrind.out.88324"
-										},
-										{
-											"key": "Cache-Control",
-											"value": "no-cache, private"
-										},
-										{
-											"key": "Content-Type",
-											"value": "application/json"
-										},
-										{
-											"key": "X-RateLimit-Limit",
-											"value": "60"
-										},
-										{
-											"key": "X-RateLimit-Remaining",
-											"value": "59"
-										},
-										{
-											"key": "Access-Control-Allow-Origin",
-											"value": "*"
-										}
-									],
-									"cookie": [],
-									"responseTime": null,
-									"body": "{\n    \"id\": 29,\n    \"order_id\": 11,\n    \"client\": {\n        \"id\": 1,\n        \"name_en\": \"Elsewedy Electric\",\n        \"name_ar\": \"السويدي اليكتريك\",\n        \"client_type\": \"corporate\",\n        \"corporate_type\": \"direct_client\",\n        \"contact\": \"1008292984\",\n        \"logo\": \"https://fra1.digitaloceanspaces.com/vtwodevelopment/direct_clients/1675183991.jpg\",\n        \"address_ar\": \"الحي الاول , التجمع الخامس\",\n        \"address_en\": \"1st District, 5th Settlement\",\n        \"status\": 1,\n        \"fcm_token\": null,\n        \"created_by_model\": null,\n        \"created_by_id\": 0,\n        \"parent_id\": null,\n        \"account_owner_id\": null,\n        \"industry\": \"\",\n        \"mobile_1\": null,\n        \"mobile_2\": null,\n        \"website\": null,\n        \"email\": null,\n        \"governorate_id\": null,\n        \"credit_term_days\": 7,\n        \"credit_limit\": 100000,\n        \"tax_card_number\": null,\n        \"tax_card_image\": null,\n        \"tax_card_expiration_date\": null,\n        \"commercial_register_image\": null,\n        \"commercial_register_number\": null,\n        \"commercial_register_issue_date\": null,\n        \"created_at\": \"2023-05-09T13:05:10.000000Z\",\n        \"updated_at\": \"2023-05-09T13:05:10.000000Z\"\n    },\n    \"load_type\": {\n        \"id\": 2,\n        \"name_ar\": \"مبرد\",\n        \"name_en\": \"chilled\",\n        \"image\": \"https://fra1.digitaloceanspaces.com/vtwodevelopment/load-types/1675183991.jpg\",\n        \"status\": 1\n    },\n    \"unit_quantity\": null,\n    \"reference\": \"sssss\",\n    \"special_cases\": \"sfsdf\",\n    \"ops_expanses\": \"100.33\",\n    \"price_per\": \"naqla\",\n    \"load_weight_unit\": \"ton\",\n    \"load_weight\": \"100\",\n    \"job_status_id\": {\n        \"id\": 11,\n        \"name_en\": \"Pending Pricing\",\n        \"name_ar\": \"بانتظار التسعير من الادارة\",\n        \"is_action\": 0,\n        \"can_assign_when\": \"at_start\",\n        \"cannot_assign_when\": \"\",\n        \"job_status_group\": \"not_released\",\n        \"show_in_quick_links\": \"0\",\n        \"namespace\": \"pending_pricing\"\n    },\n    \"driver\": null,\n    \"truck\": null,\n    \"tail\": null,\n    \"shipper\": null,\n    \"job_type\": {\n        \"id\": 3,\n        \"name_en\": \"Distribution\",\n        \"name_ar\": \"توزيع\",\n        \"vertical_id\": 2,\n        \"status\": 1\n    },\n    \"customs_procedure\": null,\n    \"customs_broker_name\": null,\n    \"customs_broker_phone\": null,\n    \"customs_clearance_gate\": null,\n    \"locations\": [],\n    \"commodities\": [\n        {\n            \"id\": 1,\n            \"name_en\": \"Textiles\",\n            \"name_ar\": \"منسوجات\"\n        }\n    ],\n    \"truck_types\": [\n        {\n            \"id\": 2,\n            \"name_en\": \"Sides\",\n            \"name_ar\": \"جوانب\"\n        }\n    ]\n}"
-								}
-							]
-						},
-						{
 							"name": "update-job",
 							"id": "b57581a9-fabf-4459-833a-923d1a1b0372",
 							"protocolProfileBehavior": {
@@ -43501,7 +43402,7 @@
 	],
 	"variable": [
 		{
-			"id": "f023a1e0-2693-40e4-a166-64099dcc87df",
+			"id": "c7c81d98-aaf6-4636-a8fd-6e7763e6b6a2",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
