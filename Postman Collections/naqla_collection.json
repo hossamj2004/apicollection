@@ -20096,7 +20096,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n    \"order_status_id\":2,\n}",
+									"raw": "{\n    \"order_status_id\":2,\n        \"price\": 100,\n    \"cost\": 150\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -43123,7 +43123,7 @@
 	],
 	"variable": [
 		{
-			"id": "1db31107-6a97-4fd6-a2c6-bb1b1e67ba52",
+			"id": "5eb04403-b667-4360-909e-1bb725abebd6",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
