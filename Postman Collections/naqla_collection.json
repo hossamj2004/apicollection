@@ -20092,7 +20092,7 @@
 										"token": "{{Token}}"
 									}
 								},
-								"method": "PUT",
+								"method": "GET",
 								"header": [],
 								"body": {
 									"mode": "raw",
@@ -20103,7 +20103,7 @@
 										}
 									}
 								},
-								"url": "{{Host}}/api/admin/orders/6"
+								"url": "{{Host}}/api/admin/orders/3"
 							},
 							"response": [
 								{
@@ -20179,7 +20179,7 @@
 							]
 						},
 						{
-							"name": "pending-payment Copy",
+							"name": "pending-payment",
 							"id": "210286f2-c8b1-4f84-8f14-84f35a72366b",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
@@ -43222,7 +43222,7 @@
 	],
 	"variable": [
 		{
-			"id": "35b51519-db15-43c0-92a9-5e939d71b3f7",
+			"id": "d6dfba78-be8d-46ed-ae9d-1f4865965121",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
