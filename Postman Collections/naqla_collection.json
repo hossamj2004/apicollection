@@ -20377,7 +20377,7 @@
 							]
 						},
 						{
-							"name": "change-job-to-assigned",
+							"name": "set-job-assigned",
 							"id": "9cd68547-0c20-4699-b133-ba188b4ebf29",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
@@ -43420,7 +43420,7 @@
 	],
 	"variable": [
 		{
-			"id": "722385dd-e760-47d1-b10f-07b3298d0bc5",
+			"id": "08890b2d-f4de-44ce-a62f-cba8ccf3fd57",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
