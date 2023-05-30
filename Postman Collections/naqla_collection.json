@@ -20179,7 +20179,7 @@
 							]
 						},
 						{
-							"name": "pending-payment Copy",
+							"name": "pending-payment",
 							"id": "210286f2-c8b1-4f84-8f14-84f35a72366b",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
@@ -20195,14 +20195,14 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n    \"order_status_id\": 2,\n    \"price\": 100,\n    \"cost\": 150\n}",
+									"raw": "{\n    \"job_status_id\": 2,\n    \"price\": 100,\n    \"cost\": 150\n}",
 									"options": {
 										"raw": {
 											"language": "json"
 										}
 									}
 								},
-								"url": "{{Host}}/api/admin/orders/6"
+								"url": "{{Host}}/api/admin/orders/3"
 							},
 							"response": [
 								{
@@ -43222,7 +43222,7 @@
 	],
 	"variable": [
 		{
-			"id": "3cf07e22-29c8-4229-aa70-c411fe607a6a",
+			"id": "90dbae27-4c33-4577-8c7d-4d7badcfe310",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
