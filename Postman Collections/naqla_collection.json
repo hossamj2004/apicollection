@@ -1382,7 +1382,7 @@
 										"header": [],
 										"body": {
 											"mode": "raw",
-											"raw": "{\n    \"email\": \"mohamed.fathy@naqla.xyz\",\n    \"password\":\"123456\",\n    \"fcm_token\":\"\"\n}",
+											"raw": "{\n    \"email\": \"mohamed.fathy@naqla.xyz\",\n    \"password\":\"123456\"\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -43519,7 +43519,7 @@
 	],
 	"variable": [
 		{
-			"id": "20f3f6b3-58cd-4e2a-a70a-872f40313dcb",
+			"id": "2195fcb2-64d7-4dec-80e8-32841e6ac5f0",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
