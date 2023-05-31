@@ -34608,34 +34608,13 @@
 								"method": "POST",
 								"header": [],
 								"body": {
-									"mode": "formdata",
-									"formdata": [
-										{
-											"key": "title_ar",
-											"value": "et",
-											"type": "text"
-										},
-										{
-											"key": "content_ar",
-											"value": "iste",
-											"type": "text"
-										},
-										{
-											"key": "title_en",
-											"value": "ut",
-											"type": "text"
-										},
-										{
-											"key": "content_en",
-											"value": "provident",
-											"type": "text"
-										},
-										{
-											"key": "slug",
-											"value": "voluptates",
-											"type": "text"
+									"mode": "raw",
+									"raw": "{\n    \"status\": \"1\",\n    \"promo_code\": \"aaaaaaaaaaaaaaaaaaaa\",\n    \"start_date\": \"2023-06-01T16:17\",\n    \"end_date\": \"2023-06-08T16:17\",\n    \"type\": \"fixed_amount\",\n    \"value\": \"50\",\n    \"max_value\": \"100\",\n    \"when\": null\n}",
+									"options": {
+										"raw": {
+											"language": "json"
 										}
-									]
+									}
 								},
 								"url": "{{Host}}/api/admin/pages"
 							},
@@ -44402,7 +44381,7 @@
 	],
 	"variable": [
 		{
-			"id": "cca6b107-a2fc-42ad-a0f4-cf98c35ea680",
+			"id": "2c0221e9-7d2e-42b2-be74-33c602da5a54",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
