@@ -34402,7 +34402,7 @@
 										}
 									}
 								},
-								"url": "{{Host}}/api/admin/pages"
+								"url": "{{Host}}/api/admin/promotions"
 							},
 							"response": [
 								{
@@ -44402,7 +44402,7 @@
 	],
 	"variable": [
 		{
-			"id": "89560f38-f60b-4476-8930-6e135f09eb69",
+			"id": "fc453609-43c7-49b2-9894-9b80fada946d",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
