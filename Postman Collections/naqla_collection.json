@@ -20587,8 +20587,9 @@
 								"disableBodyPruning": true
 							},
 							"request": {
-								"method": "GET",
-								"header": []
+								"method": "POST",
+								"header": [],
+								"url": "{{Host}}/api/admin/orders/3"
 							},
 							"response": []
 						}
@@ -43537,7 +43538,7 @@
 	],
 	"variable": [
 		{
-			"id": "61067166-0524-469f-82b3-c3cc83f8d2db",
+			"id": "17236b36-5cb3-42e6-90d3-973c13bc7652",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
