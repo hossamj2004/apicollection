@@ -3556,16 +3556,11 @@
 										"token": "{{Token}}"
 									}
 								},
-								"method": "POST",
+								"method": "PUT",
 								"header": [],
 								"body": {
 									"mode": "formdata",
 									"formdata": [
-										{
-											"key": "_method",
-											"value": "put",
-											"type": "text"
-										},
 										{
 											"key": "name_en",
 											"value": "chemicalsd",
@@ -3588,6 +3583,11 @@
 											"value": "ch-2030",
 											"type": "text",
 											"disabled": true
+										},
+										{
+											"key": "_method",
+											"value": "put",
+											"type": "text"
 										},
 										{
 											"key": "frequent",
@@ -44384,7 +44384,7 @@
 	],
 	"variable": [
 		{
-			"id": "88b3ea7c-0fec-4d9c-9211-8e008f97c04d",
+			"id": "64de578c-c246-49f1-a35f-c2a0bb68c0a3",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
