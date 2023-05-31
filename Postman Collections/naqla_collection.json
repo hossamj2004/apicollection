@@ -20581,7 +20581,7 @@
 					"name": "OrderStatusesEvents",
 					"item": [
 						{
-							"name": "New Request",
+							"name": "set-order-priced",
 							"id": "7601a1d9-2142-4258-a429-394f33f555b9",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
@@ -43538,7 +43538,7 @@
 	],
 	"variable": [
 		{
-			"id": "e3336752-a0a6-4f50-95e1-f940dc48e51b",
+			"id": "ce03b5f5-0db9-40c6-be59-bbd35cdf9b81",
 			"key": "client_app_token",
 			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnQiOnsiaWQiOjd9LCJpc3MiOiJuYXFsYS1hcHAiLCJpYXQiOjE2NzgzNjA5NjksImV4cCI6MTY4MDk1Mjk2OX0.4tQczXJhgFMrosLKSo8GXpGBJg86L_YWzpTBcF5_FeA"
 		}
